@@ -87,6 +87,14 @@ select {
   margin-top: 5px;
 }
 
+.copyright {
+  margin: 0 0 12px;
+  color: var(--cyan);
+  font-size: .7rem;
+  font-weight: 900;
+  letter-spacing: .04em;
+}
+
 .app {
   width: min(1160px, calc(100vw - 12px));
   margin: 0 auto;
