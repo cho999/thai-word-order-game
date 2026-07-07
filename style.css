@@ -473,6 +473,31 @@ select {
   padding-right: 4px;
 }
 
+.nari-result {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: center;
+  margin: 0 0 12px;
+  padding: 10px;
+  border: 1px solid rgba(25, 167, 168, .24);
+  border-radius: 8px;
+  background: var(--teal-soft);
+}
+
+.nari-result img {
+  width: 86px;
+  height: auto;
+  filter: drop-shadow(0 10px 14px rgba(86, 64, 35, .14));
+}
+
+.nari-result p {
+  color: var(--ink);
+  font-size: .86rem;
+  font-weight: 900;
+  line-height: 1.55;
+}
+
 .review-card {
   position: relative;
   overflow: hidden;
@@ -598,5 +623,13 @@ select {
   select {
     min-height: 30px;
     font-size: .72rem;
+  }
+
+  .nari-result {
+    grid-template-columns: 64px 1fr;
+  }
+
+  .nari-result img {
+    width: 64px;
   }
 }

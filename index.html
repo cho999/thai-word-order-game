@@ -3,103 +3,339 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ごじゅんフリップカード</title>
-  <link rel="stylesheet" href="style.css">
+  <title>ナーリーのタイ語冒険ノート</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #fff8e7;
+      --surface: rgba(255, 255, 255, .92);
+      --surface-warm: #fffdf5;
+      --ink: #3b352b;
+      --muted: #766d5f;
+      --line: #eadfca;
+      --orange: #f47c3c;
+      --orange-dark: #d95f25;
+      --teal: #19a7a8;
+      --teal-soft: #dff7f4;
+      --green: #68b45b;
+      --gold: #ffd45a;
+      --shadow: 0 18px 42px rgba(86, 64, 35, .14);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      background:
+        linear-gradient(115deg, transparent 0 18%, rgba(25, 167, 168, .12) 18% 19%, transparent 19% 68%, rgba(104, 180, 91, .12) 68% 69%, transparent 69%),
+        linear-gradient(25deg, transparent 0 34%, rgba(255, 212, 90, .22) 34% 35%, transparent 35%),
+        linear-gradient(135deg, rgba(244, 124, 60, .07) 25%, transparent 25%) 0 0 / 42px 42px,
+        linear-gradient(180deg, #fffdf5 0%, var(--bg) 100%);
+      color: var(--ink);
+      font-family: "Yu Gothic", "Hiragino Sans", "Noto Sans Thai", "Noto Sans JP", system-ui, sans-serif;
+    }
+
+    body::before {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      content: "";
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, transparent 0 22px, rgba(25, 167, 168, .06) 23px, transparent 24px),
+        linear-gradient(transparent 0 22px, rgba(244, 124, 60, .05) 23px, transparent 24px);
+      background-size: 48px 48px;
+      mask-image: linear-gradient(180deg, rgba(0, 0, 0, .55), transparent 78%);
+    }
+
+    .portal {
+      width: min(1180px, calc(100vw - 24px));
+      min-height: 100vh;
+      margin: 0 auto;
+      padding: 28px 0;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 20px;
+      align-items: end;
+      margin-bottom: 18px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--teal);
+      font-size: .78rem;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(2.1rem, 7vw, 5.4rem);
+      line-height: 1;
+    }
+
+    .lead {
+      max-width: 720px;
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: clamp(.98rem, 2vw, 1.16rem);
+      line-height: 1.75;
+    }
+
+    .hero-nari {
+      display: grid;
+      justify-items: center;
+      gap: 6px;
+      min-width: 160px;
+    }
+
+    .hero-nari img {
+      width: min(150px, 28vw);
+      height: auto;
+      filter: drop-shadow(0 14px 20px rgba(86, 64, 35, .16));
+    }
+
+    .bubble {
+      position: relative;
+      max-width: 230px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface-warm);
+      box-shadow: var(--shadow);
+      color: var(--ink);
+      font-size: .9rem;
+      font-weight: 800;
+      line-height: 1.45;
+      text-align: left;
+    }
+
+    .bubble::after {
+      position: absolute;
+      right: 38px;
+      bottom: -9px;
+      width: 16px;
+      height: 16px;
+      content: "";
+      background: inherit;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      transform: rotate(45deg);
+    }
+
+    .game-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .game-card {
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      min-height: 520px;
+      color: var(--ink);
+      text-decoration: none;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .game-card::before {
+      position: absolute;
+      inset: 0 0 auto;
+      height: 5px;
+      content: "";
+      background: linear-gradient(90deg, var(--orange), var(--gold), var(--teal), var(--green));
+    }
+
+    .shot {
+      position: relative;
+      min-height: 210px;
+      background: var(--teal-soft);
+    }
+
+    .shot img {
+      width: 100%;
+      height: 100%;
+      min-height: 210px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-nari {
+      position: absolute;
+      right: 12px;
+      bottom: -18px;
+      width: 92px;
+      filter: drop-shadow(0 12px 16px rgba(86, 64, 35, .18));
+    }
+
+    .card-body {
+      padding: 22px 16px 14px;
+    }
+
+    .game-card h2 {
+      font-size: 1.35rem;
+      line-height: 1.2;
+    }
+
+    .game-card p {
+      margin-top: 10px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 14px;
+    }
+
+    .tag {
+      padding: 5px 8px;
+      border: 1px solid rgba(25, 167, 168, .24);
+      border-radius: 8px;
+      background: var(--teal-soft);
+      color: var(--teal);
+      font-size: .76rem;
+      font-weight: 900;
+    }
+
+    .launch {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin: 0 16px 16px;
+      padding: 12px 14px;
+      border-radius: 8px;
+      background: var(--orange);
+      border-bottom: 4px solid var(--orange-dark);
+      color: #fff;
+      font-weight: 900;
+    }
+
+    .launch span {
+      font-size: 1.2rem;
+    }
+
+    .game-card:hover .launch {
+      filter: brightness(1.04);
+    }
+
+    @media (max-width: 920px) {
+      .hero,
+      .game-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        align-items: start;
+      }
+
+      .hero-nari {
+        grid-template-columns: auto 1fr;
+        justify-items: start;
+        align-items: center;
+      }
+
+      .bubble::after {
+        left: -9px;
+        right: auto;
+        bottom: 18px;
+        border: 0;
+        border-left: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+      }
+
+      .game-card {
+        min-height: 0;
+      }
+    }
+  </style>
 </head>
 <body>
-  <section id="titleScreen" class="screen title-screen">
-    <div class="title-panel">
-      <p class="eyebrow">Thai Japanese Word Order Flip</p>
-      <h1>ごじゅんフリップカード</h1>
-      <div class="home-note">
-        <p>このゲームは基礎文法における修飾関係の違いを体感し、語彙を復習するゲームです。実際の言語運用では必ずしもこの順序ではない場合もありますし、修飾関係ではない述語文にはこの法則は当てはまりません。</p>
-        <p>เกมนี้เป็นเกมสำหรับสัมผัสความแตกต่างของความสัมพันธ์การขยายความในไวยากรณ์พื้นฐาน และทบทวนคำศัพท์ ในการใช้ภาษาจริง ลำดับคำอาจไม่เป็นแบบนี้เสมอไป และกฎนี้ใช้ไม่ได้กับประโยคภาคแสดงที่ไม่ใช่ความสัมพันธ์การขยายความ</p>
+  <main class="portal">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Nari's Thai Adventure</p>
+        <h1>ナーリーのタイ語冒険ノート</h1>
+        <p class="lead">語順、文字、音をめぐる3つの練習ゲームです。ナーリーと一緒に、今日のタイ語クエストを選びましょう。</p>
       </div>
-      <p class="copyright">© Aj.CHO</p>
-      <div class="control-panel" aria-label="ゲームせってい">
-        <div class="segmented" role="group" aria-label="がくしゅうモード">
-          <button class="mode-button active" type="button" data-mode="thaiToJapanese">タイご → にほんご</button>
-          <button class="mode-button" type="button" data-mode="japaneseToThai">にほんご → タイご</button>
-        </div>
-
-        <label class="field">
-          <span>レベル</span>
-          <select id="levelSelect">
-            <option value="1">Level 1</option>
-            <option value="2">Level 2</option>
-            <option value="3">Level 3</option>
-            <option value="4">Level 4</option>
-            <option value="5">Level 5</option>
-            <option value="6">Level 6</option>
-          </select>
-        </label>
-
-        <button id="startButton" class="primary-button" type="button">スタート</button>
-      </div>
-    </div>
-  </section>
-
-  <main id="gameScreen" class="app hidden">
-    <header class="topbar">
-      <div class="scoreboard">
-        <div>
-          <span>レベル</span>
-          <strong id="streak">Lv1 0/3</strong>
-        </div>
-        <div>
-          <span>せいかい</span>
-          <strong id="score">0</strong>
-        </div>
-        <div>
-          <span>ミス</span>
-          <strong id="misses">0/4</strong>
-        </div>
-      </div>
-    </header>
-
-    <section class="challenge" aria-label="おだい">
-      <div class="challenge-meta compact-meta">
-        <span id="roundLabel"></span>
-        <span id="motto"></span>
-      </div>
-      <div class="prompt-card">
-        <p id="promptMain" class="prompt-main">スタートをおしてください</p>
-        <p id="promptReading" class="prompt-reading">カードをならべかえて、ごじゅんをたいかんしましょう</p>
-      </div>
-      <div class="timer-row">
-        <span id="timerText">0.0</span>
-        <div class="timer-track" aria-hidden="true">
-          <div id="timerBar"></div>
-        </div>
+      <div class="hero-nari">
+        <div class="bubble">サワディー！今日はどの島から探検する？</div>
+        <img src="thai-letter-memory/assets/chibi/chibi-cheer.png" alt="ナーリー">
       </div>
     </section>
 
-    <section class="play-area" aria-label="カードば">
-      <div class="area-heading">
-        <h2></h2>
-        <button id="clearButton" class="ghost-button" type="button">てふだをもどす</button>
-      </div>
-      <div id="pool" class="card-grid" aria-label="シャッフルされたカード"></div>
-    </section>
+    <section class="game-grid" aria-label="ゲームを選ぶ">
+      <a class="game-card" href="word-order.html">
+        <div class="shot">
+          <img src="assets/screens/word-order.png" alt="ごじゅんフリップカードのスクリーンショット">
+          <img class="card-nari" src="thai-letter-memory/assets/chibi/chibi-wink.png" alt="">
+        </div>
+        <div class="card-body">
+          <h2>ごじゅんフリップカード</h2>
+          <p>タイ語と日本語の語順をカードで並べ替える練習です。短い文をテンポよく組み立てます。</p>
+          <div class="tag-row">
+            <span class="tag">語順</span>
+            <span class="tag">文づくり</span>
+            <span class="tag">タイ語読解</span>
+          </div>
+        </div>
+        <div class="launch">このゲームで遊ぶ <span>→</span></div>
+      </a>
 
-    <section class="hand-area" aria-label="てふだ">
-      <div class="area-heading">
-        <h2></h2>
-      </div>
-      <div id="hand" class="hand-zone" aria-label="かいとうらん"></div>
-      <p id="message" class="message">カードはドラッグ、またはクリックでいどうできます。</p>
+      <a class="game-card" href="thai-letter-memory/">
+        <div class="shot">
+          <img src="assets/screens/letter-memory.png" alt="タイ文字神経衰弱のスクリーンショット">
+          <img class="card-nari" src="thai-letter-memory/assets/chibi/chibi-thinking.png" alt="">
+        </div>
+        <div class="card-body">
+          <h2>タイ文字神経衰弱</h2>
+          <p>子音・母音の文字と読みをペアで覚えるゲームです。レベルごとに少しずつ文字を増やします。</p>
+          <div class="tag-row">
+            <span class="tag">文字</span>
+            <span class="tag">記憶</span>
+            <span class="tag">レベル制</span>
+          </div>
+        </div>
+        <div class="launch">このゲームで遊ぶ <span>→</span></div>
+      </a>
+
+      <a class="game-card" href="https://cho999.github.io/Thai-script-game/">
+        <div class="shot">
+          <img src="assets/screens/thai-script.png" alt="Thai Matchのスクリーンショット">
+          <img class="card-nari" src="thai-letter-memory/assets/chibi/chibi-surprised.png" alt="">
+        </div>
+        <div class="card-body">
+          <h2>Thai Match + Learning</h2>
+          <p>タイ文字のマッチゲームと学習モードです。音声チェックとクイズで、文字の形と音をつなげます。</p>
+          <div class="tag-row">
+            <span class="tag">音</span>
+            <span class="tag">文字</span>
+            <span class="tag">クイズ</span>
+          </div>
+        </div>
+        <div class="launch">このゲームで遊ぶ <span>→</span></div>
+      </a>
     </section>
   </main>
-
-  <section id="reviewScreen" class="screen review-screen hidden">
-    <div class="title-panel">
-      <p class="eyebrow">Review Log</p>
-      <h1>ふくしゅう</h1>
-      <div id="reviewList" class="review-list"></div>
-      <button id="backToTitleButton" class="primary-button" type="button">タイトルへ</button>
-    </div>
-  </section>
-
-  <script src="script.js"></script>
 </body>
 </html>
