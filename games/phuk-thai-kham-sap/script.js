@@ -6,37 +6,37 @@ const fallbackLessons = [
     words: [
       { id: "l1-dog", thai: "หมา", roman: "maa", english: "dog" },
       { id: "l1-cat", thai: "แมว", roman: "maaeo", english: "cat" },
-      { id: "l1-bread", thai: "ขนมปัง", roman: "khanom pang", english: "bread" },
+      { id: "l1-bread", thai: "ขนมปัง", roman: "khanom bpang", english: "bread" },
       { id: "l1-milk", thai: "นม", roman: "nom", english: "milk" },
       { id: "l1-movie", thai: "หนัง", roman: "nang", english: "movie" },
       { id: "l1-book", thai: "หนังสือ", roman: "nang sue", english: "book" },
       { id: "l1-song", thai: "เพลง", roman: "phleeng", english: "song" },
-      { id: "l1-question", thai: "คำถาม", roman: "kham thaam", english: "question" },
+      { id: "l1-question", thai: "คำถาม", roman: "kam taam", english: "question" },
       { id: "l1-alcohol", thai: "เหล้า", roman: "lao", english: "alcohol" },
       { id: "l1-travel", thai: "ไปเที่ยว", roman: "bpai thiao", english: "travel" },
-      { id: "l1-shopping", thai: "ซื้อของ", roman: "sue khong", english: "shopping" },
-      { id: "l1-like", thai: "ชอบ", roman: "choop", english: "like" },
-      { id: "l1-you", thai: "คุณ", roman: "khun", english: "you" },
-      { id: "l1-i", thai: "ผม/ฉัน", roman: "phom / chan", english: "I" },
-      { id: "l1-he-she", thai: "เขา", roman: "khao", english: "he / she" },
-      { id: "l1-they", thai: "พวกเขา", roman: "phuak khao", english: "they" },
+      { id: "l1-shopping", thai: "ซื้อของ", roman: "seu khaawng", english: "shopping" },
+      { id: "l1-like", thai: "ชอบ", roman: "chaawp", english: "like" },
+      { id: "l1-you", thai: "คุณ", roman: "kun", english: "you" },
+      { id: "l1-i", thai: "ผม/ฉัน", roman: "pom / chan", english: "I" },
+      { id: "l1-he-she", thai: "เขา", roman: "kao", english: "he / she" },
+      { id: "l1-they", thai: "พวกเขา", roman: "puak kao", english: "they" },
       { id: "l1-we", thai: "เรา", roman: "rao", english: "we" },
       { id: "l1-this", thai: "นี่", roman: "nii", english: "this" },
       { id: "l1-what", thai: "อะไร", roman: "arai", english: "what" },
-      { id: "l1-speak", thai: "พูด", roman: "phuut", english: "speak" },
+      { id: "l1-speak", thai: "พูด", roman: "poot", english: "speak" },
       { id: "l1-again", thai: "อีกครั้ง", roman: "iik khrang", english: "again" },
       { id: "l1-slowly", thai: "ช้าๆ", roman: "chaa chaa", english: "slowly" },
-      { id: "l1-sleep", thai: "นอน", roman: "noon", english: "sleep" },
+      { id: "l1-sleep", thai: "นอน", roman: "naawn", english: "sleep" },
       { id: "l1-eat", thai: "กิน", roman: "gin", english: "eat" },
-      { id: "l1-drink", thai: "ดื่ม", roman: "duem", english: "drink" },
+      { id: "l1-drink", thai: "ดื่ม", roman: "deum", english: "drink" },
       { id: "l1-watch", thai: "ดู", roman: "duu", english: "watch" },
       { id: "l1-play", thai: "เล่น", roman: "len", english: "play" },
-      { id: "l1-do", thai: "ทำ", roman: "tham", english: "do" },
+      { id: "l1-do", thai: "ทำ", roman: "tam", english: "do" },
       { id: "l1-read", thai: "อ่าน", roman: "aan", english: "read" },
       { id: "l1-go", thai: "ไป", roman: "bpai", english: "go" },
-      { id: "l1-ask", thai: "ถาม", roman: "thaam", english: "ask" },
-      { id: "l1-work", thai: "ทำงาน", roman: "tham ngaan", english: "work" },
-      { id: "l1-sing", thai: "ร้อง", roman: "roong", english: "sing" },
+      { id: "l1-ask", thai: "ถาม", roman: "taam", english: "ask" },
+      { id: "l1-work", thai: "ทำงาน", roman: "tam ngaan", english: "work" },
+      { id: "l1-sing", thai: "ร้อง", roman: "raawng", english: "sing" },
       { id: "l1-listen", thai: "ฟัง", roman: "fang", english: "listen" },
       { id: "l1-have", thai: "มี", roman: "mii", english: "have" },
       { id: "l1-want", thai: "อยาก", roman: "yaak", english: "want" }
@@ -45,6 +45,7 @@ const fallbackLessons = [
 ];
 
 const storageKey = "nariThaiVocabTrainer.v1";
+const bookmarkStorageKey = "nariThaiVocabBookmarks.v1";
 const lessonsUrl = "../../data/vocab-lessons.json";
 let lessons = fallbackLessons;
 const $ = (selector) => document.querySelector(selector);
@@ -76,6 +77,11 @@ const scoreMessage = $("#scoreMessage");
 const wrongWordList = $("#wrongWordList");
 const reviewMistakesButton = $("#reviewMistakesButton");
 const againLessonButton = $("#againLessonButton");
+const vocabSearchInput = $("#vocabSearchInput");
+const vocabListStatus = $("#vocabListStatus");
+const vocabList = $("#vocabList");
+const showAllWordsButton = $("#showAllWordsButton");
+const showBookmarksButton = $("#showBookmarksButton");
 
 const state = {
   lessonId: lessons[0].id,
@@ -90,7 +96,9 @@ const state = {
   sessionWrongIds: new Set(),
   sessionWrongCounts: {},
   locked: true,
-  progress: loadProgress()
+  progress: loadProgress(),
+  bookmarks: loadBookmarks(),
+  vocabFilter: "all"
 };
 
 init();
@@ -106,6 +114,7 @@ async function init() {
     state.current = null;
     state.locked = true;
     updateStatus();
+    renderVocabularyList();
     showIdlePrompt();
   });
 
@@ -132,7 +141,11 @@ async function init() {
   });
   againLessonButton.addEventListener("click", () => startPractice("normal"));
   $("#parseButton").addEventListener("click", renderOcrPreview);
+  vocabSearchInput.addEventListener("input", renderVocabularyList);
+  showAllWordsButton.addEventListener("click", () => setVocabFilter("all"));
+  showBookmarksButton.addEventListener("click", () => setVocabFilter("bookmarks"));
   updateStatus();
+  renderVocabularyList();
   showIdlePrompt();
 }
 
@@ -301,6 +314,58 @@ function showScoreScreen() {
   updateStatus();
 }
 
+function setVocabFilter(filter) {
+  state.vocabFilter = filter;
+  showAllWordsButton.classList.toggle("active", filter === "all");
+  showBookmarksButton.classList.toggle("active", filter === "bookmarks");
+  renderVocabularyList();
+}
+
+function renderVocabularyList() {
+  const query = vocabSearchInput.value.trim().toLowerCase();
+  const words = getLessonWords().filter((word) => {
+    const bookmarked = state.bookmarks.has(word.id);
+    if (state.vocabFilter === "bookmarks" && !bookmarked) return false;
+    if (!query) return true;
+    return [word.thai, word.roman, word.english].some((value) => value.toLowerCase().includes(query));
+  });
+  const bookmarkCount = getLessonWords().filter((word) => state.bookmarks.has(word.id)).length;
+  const scopeLabel = state.vocabFilter === "bookmarks" ? "ブックマーク" : "全部";
+  vocabListStatus.textContent = `${scopeLabel}: ${words.length}件 / ブックマーク ${bookmarkCount}件`;
+  vocabList.innerHTML = words.length
+    ? words.map(renderVocabularyCard).join("")
+    : '<div class="empty-vocab">該当する語彙はありません。</div>';
+  vocabList.querySelectorAll(".bookmark-button").forEach((button) => {
+    button.addEventListener("click", () => toggleBookmark(button.dataset.id));
+  });
+}
+
+function renderVocabularyCard(word) {
+  const bookmarked = state.bookmarks.has(word.id);
+  return `
+    <article class="vocab-card${bookmarked ? " bookmarked" : ""}">
+      <button class="bookmark-button" type="button" data-id="${escapeHtml(word.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "ブックマーク解除" : "ブックマーク追加"}">
+        ${bookmarked ? "★" : "☆"}
+      </button>
+      <div>
+        <strong>${escapeHtml(word.thai)}</strong>
+        <span>${escapeHtml(word.roman)}</span>
+        <em>${escapeHtml(word.english)}</em>
+      </div>
+    </article>
+  `;
+}
+
+function toggleBookmark(id) {
+  if (state.bookmarks.has(id)) {
+    state.bookmarks.delete(id);
+  } else {
+    state.bookmarks.add(id);
+  }
+  saveBookmarks();
+  renderVocabularyList();
+}
+
 function handleWrong(word) {
   const progress = getWordProgress(word.id);
   progress.wrong += 1;
@@ -418,6 +483,28 @@ function loadProgress() {
 
 function saveProgress() {
   localStorage.setItem(storageKey, JSON.stringify(state.progress));
+}
+
+function loadBookmarks() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(bookmarkStorageKey)) || []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveBookmarks() {
+  localStorage.setItem(bookmarkStorageKey, JSON.stringify([...state.bookmarks]));
+}
+
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[char]);
 }
 
 function shuffle(items) {

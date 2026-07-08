@@ -108,6 +108,24 @@
       </div>
     </section>
 
+    <section class="vocab-panel" aria-label="既習語彙リスト">
+      <div class="vocab-head">
+        <div>
+          <p class="eyebrow">Vocabulary</p>
+          <h2>既習語彙リスト</h2>
+        </div>
+        <div class="vocab-tools">
+          <input id="vocabSearchInput" type="search" placeholder="タイ語・Paiboon・英語で検索">
+          <div class="segmented vocab-filter" role="group" aria-label="語彙リスト表示">
+            <button id="showAllWordsButton" class="vocab-filter-button active" type="button">全部</button>
+            <button id="showBookmarksButton" class="vocab-filter-button" type="button">ブックマーク</button>
+          </div>
+        </div>
+      </div>
+      <p id="vocabListStatus" class="vocab-status"></p>
+      <div id="vocabList" class="vocab-list"></div>
+    </section>
+
     <section class="import-panel">
       <details>
         <summary>OCRテキスト取り込みメモ</summary>

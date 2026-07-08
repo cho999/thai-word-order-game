@@ -19,7 +19,7 @@
       {
         "id": "l1-bread",
         "thai": "ขนมปัง",
-        "roman": "khanom pang",
+        "roman": "khanom bpang",
         "english": "bread"
       },
       {
@@ -49,7 +49,7 @@
       {
         "id": "l1-question",
         "thai": "คำถาม",
-        "roman": "kham thaam",
+        "roman": "kam taam",
         "english": "question"
       },
       {
@@ -67,37 +67,37 @@
       {
         "id": "l1-shopping",
         "thai": "ซื้อของ",
-        "roman": "sue khong",
+        "roman": "seu khaawng",
         "english": "shopping"
       },
       {
         "id": "l1-like",
         "thai": "ชอบ",
-        "roman": "choop",
+        "roman": "chaawp",
         "english": "like"
       },
       {
         "id": "l1-you",
         "thai": "คุณ",
-        "roman": "khun",
+        "roman": "kun",
         "english": "you"
       },
       {
         "id": "l1-i",
         "thai": "ผม/ฉัน",
-        "roman": "phom / chan",
+        "roman": "pom / chan",
         "english": "I"
       },
       {
         "id": "l1-he-she",
         "thai": "เขา",
-        "roman": "khao",
+        "roman": "kao",
         "english": "he / she"
       },
       {
         "id": "l1-they",
         "thai": "พวกเขา",
-        "roman": "phuak khao",
+        "roman": "puak kao",
         "english": "they"
       },
       {
@@ -121,7 +121,7 @@
       {
         "id": "l1-speak",
         "thai": "พูด",
-        "roman": "phuut",
+        "roman": "poot",
         "english": "speak"
       },
       {
@@ -139,7 +139,7 @@
       {
         "id": "l1-sleep",
         "thai": "นอน",
-        "roman": "noon",
+        "roman": "naawn",
         "english": "sleep"
       },
       {
@@ -151,7 +151,7 @@
       {
         "id": "l1-drink",
         "thai": "ดื่ม",
-        "roman": "duem",
+        "roman": "deum",
         "english": "drink"
       },
       {
@@ -169,7 +169,7 @@
       {
         "id": "l1-do",
         "thai": "ทำ",
-        "roman": "tham",
+        "roman": "tam",
         "english": "do"
       },
       {
@@ -187,19 +187,19 @@
       {
         "id": "l1-ask",
         "thai": "ถาม",
-        "roman": "thaam",
+        "roman": "taam",
         "english": "ask"
       },
       {
         "id": "l1-work",
         "thai": "ทำงาน",
-        "roman": "tham ngaan",
+        "roman": "tam ngaan",
         "english": "work"
       },
       {
         "id": "l1-sing",
         "thai": "ร้อง",
-        "roman": "roong",
+        "roman": "raawng",
         "english": "sing"
       },
       {
