@@ -68,7 +68,7 @@ async function loadWords() {
       .map((word, index) => ({ ...word, gameId: `${word.id || "word"}-${index}` }));
     return words.length >= targetCorrect ? words : [...words, ...fallbackWords];
   } catch (error) {
-    console.warn("Using fallback Tok Thai words.", error);
+    console.warn("Using fallback Lon Kham Sap words.", error);
     return fallbackWords;
   }
 }

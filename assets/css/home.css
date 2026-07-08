@@ -207,55 +207,6 @@
       font-size: .92rem;
     }
 
-    .drop-shot {
-      display: grid;
-      grid-template-rows: 1fr auto;
-      gap: 6px;
-      padding: 8px 10px;
-      background:
-        linear-gradient(rgba(25, 167, 168, .1) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(25, 167, 168, .1) 1px, transparent 1px),
-        #fffdf5;
-      background-size: 18px 18px;
-    }
-
-    .mini-drop {
-      justify-self: center;
-      align-self: start;
-      min-width: 78px;
-      padding: 6px 10px;
-      border: 1px solid rgba(25, 167, 168, .28);
-      border-radius: 8px;
-      background: #fff;
-      box-shadow: 0 8px 18px rgba(86, 64, 35, .1);
-      color: var(--teal);
-      font-family: "Noto Sans Thai", "Sarabun", sans-serif;
-      font-size: 1.7rem;
-      font-weight: 900;
-      line-height: 1;
-      text-align: center;
-    }
-
-    .mini-options {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 4px;
-      padding-right: 72px;
-    }
-
-    .mini-options b {
-      min-width: 0;
-      padding: 4px 3px;
-      border: 1px solid rgba(25, 167, 168, .24);
-      border-radius: 8px;
-      background: #fff;
-      color: var(--ink);
-      font-size: .68rem;
-      text-align: center;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
     .card-nari {
       position: absolute;
       right: 10px;
