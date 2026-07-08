@@ -1,4 +1,4 @@
-const lessons = [
+const fallbackLessons = [
   {
     id: "lesson1",
     title: "Lesson 1",
@@ -45,6 +45,8 @@ const lessons = [
 ];
 
 const storageKey = "nariThaiVocabTrainer.v1";
+const lessonsUrl = "../../data/vocab-lessons.json";
+let lessons = fallbackLessons;
 const $ = (selector) => document.querySelector(selector);
 
 const lessonSelect = $("#lessonSelect");
@@ -91,11 +93,11 @@ const state = {
   progress: loadProgress()
 };
 
-const wordById = new Map(lessons.flatMap((lesson) => lesson.words).map((word) => [word.id, word]));
-
 init();
 
-function init() {
+async function init() {
+  lessons = await loadLessons();
+  state.lessonId = lessons[0]?.id || state.lessonId;
   lessonSelect.innerHTML = lessons.map((lesson) => `<option value="${lesson.id}">${lesson.title}</option>`).join("");
   lessonSelect.value = state.lessonId;
   lessonSelect.addEventListener("change", () => {
@@ -132,6 +134,31 @@ function init() {
   $("#parseButton").addEventListener("click", renderOcrPreview);
   updateStatus();
   showIdlePrompt();
+}
+
+async function loadLessons() {
+  try {
+    const response = await fetch(lessonsUrl, { cache: "no-store" });
+    if (!response.ok) throw new Error(`Lesson data request failed: ${response.status}`);
+    const data = await response.json();
+    if (!Array.isArray(data) || !data.length) throw new Error("Lesson data is empty");
+    data.forEach(validateLesson);
+    return data;
+  } catch (error) {
+    console.warn("Using embedded fallback lessons.", error);
+    return fallbackLessons;
+  }
+}
+
+function validateLesson(lesson) {
+  if (!lesson?.id || !lesson?.title || !Array.isArray(lesson.words)) {
+    throw new Error("Invalid lesson shape");
+  }
+  lesson.words.forEach((word) => {
+    if (!word?.id || !word?.thai || !word?.roman || !word?.english) {
+      throw new Error(`Invalid word shape in ${lesson.id}`);
+    }
+  });
 }
 
 function startPractice(activeMode, sourceIds = null) {

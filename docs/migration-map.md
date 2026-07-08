@@ -89,6 +89,9 @@ shared/storage.js
 shared/nari-feedback.js
 ```
 
+`games/phuk-thai-kham-sap/` は `data/vocab-lessons.json` を読み込む形へ移行済み。
+読み込みに失敗した場合は、埋め込みのフォールバックLessonで動作する。
+
 ## Stage 5c のコード整理
 
 挙動を変えない低リスクな整理として、インライン資産を外部ファイルへ分離済み。
