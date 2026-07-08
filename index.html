@@ -82,8 +82,10 @@
     }
 
     h1 {
-      font-size: clamp(2.1rem, 7vw, 5.4rem);
-      line-height: 1;
+      max-width: 920px;
+      font-size: clamp(2rem, 5.4vw, 4.2rem);
+      line-height: 1.08;
+      overflow-wrap: anywhere;
     }
 
     .lead {
@@ -98,13 +100,13 @@
       display: grid;
       justify-items: center;
       gap: 6px;
-      min-width: 160px;
+      min-width: 118px;
     }
 
     .hero-nari img {
-      width: min(150px, 28vw);
+      width: min(92px, 22vw);
       height: auto;
-      filter: drop-shadow(0 14px 20px rgba(86, 64, 35, .16));
+      filter: drop-shadow(0 10px 14px rgba(86, 64, 35, .14));
     }
 
     .bubble {
@@ -146,7 +148,7 @@
       overflow: hidden;
       display: grid;
       grid-template-rows: auto 1fr auto;
-      min-height: 520px;
+      min-height: 430px;
       color: var(--ink);
       text-decoration: none;
       background: var(--surface);
@@ -165,24 +167,25 @@
 
     .shot {
       position: relative;
-      min-height: 210px;
+      min-height: 106px;
+      height: 112px;
       background: var(--teal-soft);
     }
 
-    .shot img {
+    .shot > img:not(.card-nari) {
       width: 100%;
       height: 100%;
-      min-height: 210px;
+      min-height: 112px;
       object-fit: cover;
       display: block;
     }
 
     .card-nari {
       position: absolute;
-      right: 12px;
-      bottom: -18px;
-      width: 92px;
-      filter: drop-shadow(0 12px 16px rgba(86, 64, 35, .18));
+      right: 10px;
+      bottom: -10px;
+      width: 54px;
+      filter: drop-shadow(0 8px 12px rgba(86, 64, 35, .16));
     }
 
     .card-body {
@@ -253,6 +256,10 @@
         grid-template-columns: auto 1fr;
         justify-items: start;
         align-items: center;
+      }
+
+      .hero-nari img {
+        width: 72px;
       }
 
       .bubble::after {
