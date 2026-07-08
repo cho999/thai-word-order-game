@@ -93,6 +93,21 @@ select {
   background: #ecfbf8;
 }
 
+.portal-banner-link {
+  display: block;
+  width: min(320px, 100%);
+  margin: 0 0 12px;
+  line-height: 0;
+}
+
+.portal-banner-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 18px rgba(86, 64, 35, .1);
+}
+
 .title-screen h1,
 .review-screen h1 {
   margin-bottom: 14px;
@@ -532,7 +547,7 @@ select {
 }
 
 .nari-result img {
-  width: 52px;
+  width: 68px;
   height: auto;
   filter: drop-shadow(0 7px 10px rgba(86, 64, 35, .14));
 }
@@ -672,10 +687,10 @@ select {
   }
 
   .nari-result {
-    grid-template-columns: 42px 1fr;
+    grid-template-columns: 55px 1fr;
   }
 
   .nari-result img {
-    width: 42px;
+    width: 55px;
   }
 }
