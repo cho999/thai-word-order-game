@@ -65,6 +65,15 @@ const reviewProgressText = $("#reviewProgressText");
 const reviewProgressBar = $("#reviewProgressBar");
 const ocrText = $("#ocrText");
 const parsePreview = $("#parsePreview");
+const scorePanel = $("#scorePanel");
+const scoreTitle = $("#scoreTitle");
+const scoreCorrect = $("#scoreCorrect");
+const scoreAnswered = $("#scoreAnswered");
+const scoreWrong = $("#scoreWrong");
+const scoreMessage = $("#scoreMessage");
+const wrongWordList = $("#wrongWordList");
+const reviewMistakesButton = $("#reviewMistakesButton");
+const againLessonButton = $("#againLessonButton");
 
 const state = {
   lessonId: lessons[0].id,
@@ -76,6 +85,8 @@ const state = {
   correct: 0,
   answered: 0,
   sessionTotal: 0,
+  sessionWrongIds: new Set(),
+  sessionWrongCounts: {},
   locked: true,
   progress: loadProgress()
 };
@@ -114,21 +125,28 @@ function init() {
 
   normalButton.addEventListener("click", () => startPractice("normal"));
   reviewButton.addEventListener("click", () => startPractice("review"));
+  reviewMistakesButton.addEventListener("click", () => {
+    startPractice("mistakeReview", [...state.sessionWrongIds]);
+  });
+  againLessonButton.addEventListener("click", () => startPractice("normal"));
   $("#parseButton").addEventListener("click", renderOcrPreview);
   updateStatus();
   showIdlePrompt();
 }
 
-function startPractice(activeMode) {
+function startPractice(activeMode, sourceIds = null) {
   state.activeMode = activeMode;
   state.correct = 0;
   state.answered = 0;
-  state.queue = buildQueue(activeMode);
+  state.sessionWrongIds = new Set();
+  state.sessionWrongCounts = {};
+  scorePanel.classList.add("hidden");
+  state.queue = buildQueue(activeMode, sourceIds);
   state.sessionTotal = state.queue.length;
   if (!state.queue.length) {
     state.current = null;
     choiceGrid.innerHTML = "";
-    const emptyText = activeMode === "review"
+    const emptyText = activeMode !== "normal"
       ? "復習モードの単語はありません。2回以上間違えた単語がここに入ります。"
       : "この Lesson にはまだ単語がありません。";
     promptText.textContent = emptyText;
@@ -140,8 +158,12 @@ function startPractice(activeMode) {
   nextQuestion();
 }
 
-function buildQueue(activeMode) {
+function buildQueue(activeMode, sourceIds = null) {
   const lessonWords = getLessonWords();
+  if (activeMode === "mistakeReview" && sourceIds) {
+    const sourceSet = new Set(sourceIds);
+    return shuffle(lessonWords.filter((word) => sourceSet.has(word.id)));
+  }
   if (activeMode === "review") {
     return shuffle(lessonWords.filter((word) => getWordProgress(word.id).inReview));
   }
@@ -150,11 +172,8 @@ function buildQueue(activeMode) {
 
 function nextQuestion() {
   if (!state.queue.length) {
-    state.queue = buildQueue(state.activeMode);
-    if (!state.queue.length) {
-      showIdlePrompt();
-      return;
-    }
+    showScoreScreen();
+    return;
   }
   state.current = state.queue.shift();
   state.locked = false;
@@ -175,6 +194,7 @@ function renderQuestion() {
   progressLabel.textContent = currentLesson().title;
   feedback.textContent = "";
   feedback.className = "feedback";
+  scorePanel.classList.add("hidden");
   choiceGrid.innerHTML = choices.map((choice) => `
     <button class="choice-button" type="button" data-id="${choice.id}">
       ${choiceText(choice)}
@@ -201,12 +221,15 @@ function answer(chosenId) {
     state.correct += 1;
     state.answered += 1;
     handleCorrect(state.current);
-    feedback.textContent = state.activeMode === "review"
+    feedback.textContent = state.activeMode !== "normal"
       ? "正解です。復習モードでは3回正解で卒業です。"
       : "正解です。";
     feedback.className = "feedback good";
     window.setTimeout(nextQuestion, 850);
   } else {
+    state.answered += 1;
+    state.sessionWrongIds.add(state.current.id);
+    state.sessionWrongCounts[state.current.id] = (state.sessionWrongCounts[state.current.id] || 0) + 1;
     handleWrong(state.current);
     state.sessionTotal += 1;
     state.queue.splice(Math.min(2, state.queue.length), 0, state.current);
@@ -215,6 +238,39 @@ function answer(chosenId) {
     window.setTimeout(nextQuestion, 1350);
   }
   saveProgress();
+  updateStatus();
+}
+
+function showScoreScreen() {
+  state.current = null;
+  state.locked = true;
+  choiceGrid.innerHTML = "";
+  feedback.textContent = "";
+  promptText.textContent = "おつかれさまでした";
+  promptSub.textContent = `${currentLesson().title} の練習結果を確認しましょう。`;
+  modeLabel.textContent = "結果";
+  progressLabel.textContent = currentLesson().title;
+
+  const wrongWords = getLessonWords().filter((word) => state.sessionWrongIds.has(word.id));
+  scoreTitle.textContent = state.activeMode === "normal" ? "通常練習の結果" : "復習結果";
+  scoreCorrect.textContent = state.correct;
+  scoreAnswered.textContent = state.answered;
+  scoreWrong.textContent = wrongWords.length;
+  reviewMistakesButton.hidden = !wrongWords.length;
+  scoreMessage.textContent = wrongWords.length
+    ? "間違えた単語だけをもう一度復習できます。"
+    : "今回の練習で間違えた単語はありません。よくできました。";
+  wrongWordList.innerHTML = wrongWords.length
+    ? wrongWords.map((word) => `
+      <article class="wrong-word">
+        <strong>${word.thai}</strong>
+        <span>${word.roman}</span>
+        <em>${word.english}</em>
+        <small>${state.sessionWrongCounts[word.id] || 0}回ミス</small>
+      </article>
+    `).join("")
+    : '<div class="empty-wrong">復習候補はありません。</div>';
+  scorePanel.classList.remove("hidden");
   updateStatus();
 }
 
@@ -282,6 +338,7 @@ function showIdlePrompt() {
   promptSub.textContent = `${currentLesson().title} / ${currentLesson().source}`;
   choiceGrid.innerHTML = "";
   feedback.textContent = "";
+  scorePanel.classList.add("hidden");
   modeLabel.textContent = "待機中";
   progressLabel.textContent = currentLesson().title;
   state.sessionTotal = state.queue.length;
@@ -290,7 +347,7 @@ function showIdlePrompt() {
 
 function updateProgressBars() {
   const normalTotal = state.activeMode === "normal" ? state.sessionTotal || getLessonWords().length : getLessonWords().length;
-  const normalDone = state.activeMode === "normal" ? state.answered : 0;
+  const normalDone = state.activeMode === "normal" ? Math.min(state.answered, normalTotal) : 0;
   const normalPercent = normalTotal ? Math.min(100, Math.round((normalDone / normalTotal) * 100)) : 0;
   normalProgressText.textContent = `${normalDone} / ${normalTotal}`;
   normalProgressBar.style.width = `${normalPercent}%`;

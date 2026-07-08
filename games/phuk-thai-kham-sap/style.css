@@ -404,6 +404,127 @@ select {
   padding: 14px 10px 10px;
 }
 
+.score-panel {
+  position: relative;
+  overflow: hidden;
+  margin-top: 8px;
+  padding: 16px 14px 14px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.score-panel::before {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 5px;
+  content: "";
+  background: linear-gradient(90deg, var(--orange), var(--gold), var(--teal), var(--green));
+  pointer-events: none;
+}
+
+.score-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.score-head h2 {
+  margin: 0;
+  font-size: clamp(1.5rem, 4vw, 2.6rem);
+}
+
+.score-head img {
+  width: min(76px, 18vw);
+  filter: drop-shadow(0 8px 12px rgba(86, 64, 35, .14));
+}
+
+.score-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.score-grid div {
+  padding: 10px;
+  border: 1px solid rgba(25, 167, 168, .24);
+  border-radius: 8px;
+  background: #fffdf5;
+  text-align: center;
+}
+
+.score-grid span {
+  display: block;
+  color: var(--muted);
+  font-size: .68rem;
+  font-weight: 900;
+}
+
+.score-grid strong {
+  color: var(--teal);
+  font-size: 1.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.score-message {
+  margin-top: 10px;
+  color: var(--muted);
+  font-weight: 900;
+  line-height: 1.55;
+}
+
+.wrong-word-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.wrong-word,
+.empty-wrong {
+  padding: 10px;
+  border: 1px solid rgba(25, 167, 168, .24);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.wrong-word {
+  display: grid;
+  gap: 3px;
+}
+
+.wrong-word strong {
+  color: var(--ink);
+  font-size: 1.4rem;
+  line-height: 1.15;
+}
+
+.wrong-word span,
+.wrong-word em,
+.wrong-word small,
+.empty-wrong {
+  color: var(--muted);
+}
+
+.wrong-word em {
+  font-style: normal;
+  font-weight: 900;
+}
+
+.wrong-word small {
+  font-weight: 900;
+}
+
+.score-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
 summary {
   cursor: pointer;
   color: var(--teal);
@@ -466,6 +587,10 @@ textarea {
 
   .choice-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .score-grid {
+    grid-template-columns: 1fr;
   }
 
   .scoreboard div {

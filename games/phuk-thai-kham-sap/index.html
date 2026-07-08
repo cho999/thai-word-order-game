@@ -87,6 +87,27 @@
       <p id="feedback" class="feedback"></p>
     </section>
 
+    <section id="scorePanel" class="score-panel hidden" aria-live="polite">
+      <div class="score-head">
+        <div>
+          <p class="eyebrow">Result</p>
+          <h2 id="scoreTitle">練習結果</h2>
+        </div>
+        <img src="../../assets/images/nari/chibi/chibi-cheer.png" alt="ナーリー">
+      </div>
+      <div class="score-grid" aria-label="スコア">
+        <div><span>正解</span><strong id="scoreCorrect">0</strong></div>
+        <div><span>回答</span><strong id="scoreAnswered">0</strong></div>
+        <div><span>復習候補</span><strong id="scoreWrong">0</strong></div>
+      </div>
+      <p id="scoreMessage" class="score-message"></p>
+      <div id="wrongWordList" class="wrong-word-list"></div>
+      <div class="score-actions">
+        <button id="reviewMistakesButton" class="primary-button" type="button">間違えた単語を復習</button>
+        <button id="againLessonButton" class="ghost-button" type="button">同じLessonをもう一周</button>
+      </div>
+    </section>
+
     <section class="import-panel">
       <details>
         <summary>OCRテキスト取り込みメモ</summary>
