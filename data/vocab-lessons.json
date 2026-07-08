@@ -1,0 +1,225 @@
+[
+  {
+    "id": "lesson1",
+    "title": "Lesson 1",
+    "source": "オンライン授業ノート",
+    "words": [
+      {
+        "id": "l1-dog",
+        "thai": "หมา",
+        "roman": "maa",
+        "english": "dog"
+      },
+      {
+        "id": "l1-cat",
+        "thai": "แมว",
+        "roman": "maaeo",
+        "english": "cat"
+      },
+      {
+        "id": "l1-bread",
+        "thai": "ขนมปัง",
+        "roman": "khanom pang",
+        "english": "bread"
+      },
+      {
+        "id": "l1-milk",
+        "thai": "นม",
+        "roman": "nom",
+        "english": "milk"
+      },
+      {
+        "id": "l1-movie",
+        "thai": "หนัง",
+        "roman": "nang",
+        "english": "movie"
+      },
+      {
+        "id": "l1-book",
+        "thai": "หนังสือ",
+        "roman": "nang sue",
+        "english": "book"
+      },
+      {
+        "id": "l1-song",
+        "thai": "เพลง",
+        "roman": "phleeng",
+        "english": "song"
+      },
+      {
+        "id": "l1-question",
+        "thai": "คำถาม",
+        "roman": "kham thaam",
+        "english": "question"
+      },
+      {
+        "id": "l1-alcohol",
+        "thai": "เหล้า",
+        "roman": "lao",
+        "english": "alcohol"
+      },
+      {
+        "id": "l1-travel",
+        "thai": "ไปเที่ยว",
+        "roman": "bpai thiao",
+        "english": "travel"
+      },
+      {
+        "id": "l1-shopping",
+        "thai": "ซื้อของ",
+        "roman": "sue khong",
+        "english": "shopping"
+      },
+      {
+        "id": "l1-like",
+        "thai": "ชอบ",
+        "roman": "choop",
+        "english": "like"
+      },
+      {
+        "id": "l1-you",
+        "thai": "คุณ",
+        "roman": "khun",
+        "english": "you"
+      },
+      {
+        "id": "l1-i",
+        "thai": "ผม/ฉัน",
+        "roman": "phom / chan",
+        "english": "I"
+      },
+      {
+        "id": "l1-he-she",
+        "thai": "เขา",
+        "roman": "khao",
+        "english": "he / she"
+      },
+      {
+        "id": "l1-they",
+        "thai": "พวกเขา",
+        "roman": "phuak khao",
+        "english": "they"
+      },
+      {
+        "id": "l1-we",
+        "thai": "เรา",
+        "roman": "rao",
+        "english": "we"
+      },
+      {
+        "id": "l1-this",
+        "thai": "นี่",
+        "roman": "nii",
+        "english": "this"
+      },
+      {
+        "id": "l1-what",
+        "thai": "อะไร",
+        "roman": "arai",
+        "english": "what"
+      },
+      {
+        "id": "l1-speak",
+        "thai": "พูด",
+        "roman": "phuut",
+        "english": "speak"
+      },
+      {
+        "id": "l1-again",
+        "thai": "อีกครั้ง",
+        "roman": "iik khrang",
+        "english": "again"
+      },
+      {
+        "id": "l1-slowly",
+        "thai": "ช้าๆ",
+        "roman": "chaa chaa",
+        "english": "slowly"
+      },
+      {
+        "id": "l1-sleep",
+        "thai": "นอน",
+        "roman": "noon",
+        "english": "sleep"
+      },
+      {
+        "id": "l1-eat",
+        "thai": "กิน",
+        "roman": "gin",
+        "english": "eat"
+      },
+      {
+        "id": "l1-drink",
+        "thai": "ดื่ม",
+        "roman": "duem",
+        "english": "drink"
+      },
+      {
+        "id": "l1-watch",
+        "thai": "ดู",
+        "roman": "duu",
+        "english": "watch"
+      },
+      {
+        "id": "l1-play",
+        "thai": "เล่น",
+        "roman": "len",
+        "english": "play"
+      },
+      {
+        "id": "l1-do",
+        "thai": "ทำ",
+        "roman": "tham",
+        "english": "do"
+      },
+      {
+        "id": "l1-read",
+        "thai": "อ่าน",
+        "roman": "aan",
+        "english": "read"
+      },
+      {
+        "id": "l1-go",
+        "thai": "ไป",
+        "roman": "bpai",
+        "english": "go"
+      },
+      {
+        "id": "l1-ask",
+        "thai": "ถาม",
+        "roman": "thaam",
+        "english": "ask"
+      },
+      {
+        "id": "l1-work",
+        "thai": "ทำงาน",
+        "roman": "tham ngaan",
+        "english": "work"
+      },
+      {
+        "id": "l1-sing",
+        "thai": "ร้อง",
+        "roman": "roong",
+        "english": "sing"
+      },
+      {
+        "id": "l1-listen",
+        "thai": "ฟัง",
+        "roman": "fang",
+        "english": "listen"
+      },
+      {
+        "id": "l1-have",
+        "thai": "มี",
+        "roman": "mii",
+        "english": "have"
+      },
+      {
+        "id": "l1-want",
+        "thai": "อยาก",
+        "roman": "yaak",
+        "english": "want"
+      }
+    ]
+  }
+]

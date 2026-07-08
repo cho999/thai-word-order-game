@@ -1,0 +1,740 @@
+[
+  {
+    "no": 1,
+    "ids": [
+      10,
+      8
+    ],
+    "th": "เรือญี่ปุ่น",
+    "reading": "ruea yipun"
+  },
+  {
+    "no": 2,
+    "ids": [
+      15,
+      11,
+      18,
+      9,
+      1
+    ],
+    "th": "ขนมไทยรสเผ็ดมาก",
+    "reading": "khanom thai rot phet maak"
+  },
+  {
+    "no": 3,
+    "ids": [
+      19,
+      16,
+      2
+    ],
+    "th": "รถสีแดง",
+    "reading": "rot sii daeng"
+  },
+  {
+    "no": 4,
+    "ids": [
+      15,
+      13,
+      17,
+      5
+    ],
+    "th": "ราเมนราคาถูกมาก",
+    "reading": "ramen raakhaa thuuk maak"
+  },
+  {
+    "no": 5,
+    "ids": [
+      15,
+      13,
+      17,
+      10,
+      6,
+      5
+    ],
+    "th": "ราเมนโชยุญี่ปุ่นราคาถูกมาก",
+    "reading": "ramen shoyu yipun raakhaa thuuk maak"
+  },
+  {
+    "no": 6,
+    "ids": [
+      20,
+      16,
+      10,
+      2
+    ],
+    "th": "รถญี่ปุ่นสีดำ",
+    "reading": "rot yipun sii dam"
+  },
+  {
+    "no": 7,
+    "ids": [
+      10,
+      6,
+      5
+    ],
+    "th": "ราเมนโชยุญี่ปุ่น",
+    "reading": "ramen shoyu yipun"
+  },
+  {
+    "no": 8,
+    "ids": [
+      15,
+      14,
+      17,
+      10,
+      8
+    ],
+    "th": "เรือญี่ปุ่นราคาแพงมาก",
+    "reading": "ruea yipun raakhaa phaeng maak"
+  },
+  {
+    "no": 9,
+    "ids": [
+      15,
+      12,
+      18,
+      7
+    ],
+    "th": "ชารสหวานมาก",
+    "reading": "chaa rot waan maak"
+  },
+  {
+    "no": 10,
+    "ids": [
+      9,
+      7
+    ],
+    "th": "ชาไทย",
+    "reading": "chaa thai"
+  },
+  {
+    "no": 11,
+    "ids": [
+      15,
+      13,
+      17,
+      9,
+      7
+    ],
+    "th": "ชาไทยราคาถูกมาก",
+    "reading": "chaa thai raakhaa thuuk maak"
+  },
+  {
+    "no": 12,
+    "ids": [
+      11,
+      18,
+      4,
+      3
+    ],
+    "th": "กะเพราทะเลรสเผ็ด",
+    "reading": "kaprao thale rot phet"
+  },
+  {
+    "no": 13,
+    "ids": [
+      20,
+      16,
+      8
+    ],
+    "th": "เรือสีดำ",
+    "reading": "ruea sii dam"
+  },
+  {
+    "no": 14,
+    "ids": [
+      15,
+      11,
+      18,
+      9,
+      4,
+      3
+    ],
+    "th": "กะเพราทะเลไทยรสเผ็ดมาก",
+    "reading": "kaprao thale thai rot phet maak"
+  },
+  {
+    "no": 15,
+    "ids": [
+      15,
+      14,
+      17,
+      2
+    ],
+    "th": "รถราคาแพงมาก",
+    "reading": "rot raakhaa phaeng maak"
+  },
+  {
+    "no": 16,
+    "ids": [
+      15,
+      12,
+      18,
+      9,
+      7
+    ],
+    "th": "ชาไทยรสหวานมาก",
+    "reading": "chaa thai rot waan maak"
+  },
+  {
+    "no": 17,
+    "ids": [
+      13,
+      17,
+      1
+    ],
+    "th": "ขนมราคาถูก",
+    "reading": "khanom raakhaa thuuk"
+  },
+  {
+    "no": 18,
+    "ids": [
+      19,
+      16,
+      9,
+      8
+    ],
+    "th": "เรือไทยสีแดง",
+    "reading": "ruea thai sii daeng"
+  },
+  {
+    "no": 19,
+    "ids": [
+      14,
+      17,
+      20,
+      16,
+      2
+    ],
+    "th": "รถสีดำราคาแพง",
+    "reading": "rot sii dam raakhaa phaeng"
+  },
+  {
+    "no": 20,
+    "ids": [
+      12,
+      18,
+      9,
+      1
+    ],
+    "th": "ขนมไทยรสหวาน",
+    "reading": "khanom thai rot waan"
+  },
+  {
+    "no": 21,
+    "ids": [
+      14,
+      17,
+      19,
+      16,
+      8
+    ],
+    "th": "เรือสีแดงราคาแพง",
+    "reading": "ruea sii daeng raakhaa phaeng"
+  },
+  {
+    "no": 22,
+    "ids": [
+      15,
+      11,
+      18,
+      3
+    ],
+    "th": "กะเพรารสเผ็ดมาก",
+    "reading": "kaprao rot phet maak"
+  },
+  {
+    "no": 23,
+    "ids": [
+      19,
+      16,
+      22
+    ],
+    "th": "กระดาษสีแดง",
+    "reading": "kradaat sii daeng"
+  },
+  {
+    "no": 24,
+    "ids": [
+      20,
+      16,
+      21
+    ],
+    "th": "ปากกาสีดำ",
+    "reading": "paakkaa sii dam"
+  },
+  {
+    "no": 25,
+    "ids": [
+      25,
+      16,
+      22
+    ],
+    "th": "กระดาษสีน้ำเงิน",
+    "reading": "kradaat sii nam ngoen"
+  },
+  {
+    "no": 26,
+    "ids": [
+      27,
+      24
+    ],
+    "th": "มอเตอร์ไซค์เร็ว",
+    "reading": "motosai reo"
+  },
+  {
+    "no": 27,
+    "ids": [
+      28,
+      24
+    ],
+    "th": "มอเตอร์ไซค์ช้า",
+    "reading": "motosai chaa"
+  },
+  {
+    "no": 28,
+    "ids": [
+      26,
+      2
+    ],
+    "th": "รถดัง",
+    "reading": "rot dang"
+  },
+  {
+    "no": 29,
+    "ids": [
+      26,
+      23
+    ],
+    "th": "ซุปดัง",
+    "reading": "sup dang"
+  },
+  {
+    "no": 30,
+    "ids": [
+      14,
+      17,
+      21
+    ],
+    "th": "ปากการาคาแพง",
+    "reading": "paakkaa raakhaa phaeng"
+  },
+  {
+    "no": 31,
+    "ids": [
+      13,
+      17,
+      22
+    ],
+    "th": "กระดาษราคาถูก",
+    "reading": "kradaat raakhaa thuuk"
+  },
+  {
+    "no": 32,
+    "ids": [
+      25,
+      16,
+      26,
+      2
+    ],
+    "th": "รถดังสีน้ำเงิน",
+    "reading": "rot dang sii nam ngoen"
+  },
+  {
+    "no": 33,
+    "ids": [
+      27,
+      26,
+      24
+    ],
+    "th": "มอเตอร์ไซค์ดังเร็ว",
+    "reading": "motosai dang reo"
+  },
+  {
+    "no": 34,
+    "ids": [
+      15,
+      14,
+      17,
+      24
+    ],
+    "th": "มอเตอร์ไซค์ราคาแพงมาก",
+    "reading": "motosai raakhaa phaeng maak"
+  },
+  {
+    "no": 35,
+    "ids": [
+      12,
+      18,
+      23
+    ],
+    "th": "ซุปรสหวาน",
+    "reading": "sup rot waan"
+  },
+  {
+    "no": 36,
+    "ids": [
+      11,
+      18,
+      23
+    ],
+    "th": "ซุปรสเผ็ด",
+    "reading": "sup rot phet"
+  },
+  {
+    "no": 37,
+    "ids": [
+      14,
+      17,
+      20,
+      16,
+      21
+    ],
+    "th": "ปากกาสีดำราคาแพง",
+    "reading": "paakkaa sii dam raakhaa phaeng"
+  },
+  {
+    "no": 38,
+    "ids": [
+      15,
+      14,
+      17,
+      20,
+      16,
+      21
+    ],
+    "th": "ปากกาสีดำราคาแพงมาก",
+    "reading": "paakkaa sii dam raakhaa phaeng maak"
+  },
+  {
+    "no": 39,
+    "ids": [
+      15,
+      13,
+      17,
+      25,
+      16,
+      22
+    ],
+    "th": "กระดาษสีน้ำเงินราคาถูกมาก",
+    "reading": "kradaat sii nam ngoen raakhaa thuuk maak"
+  },
+  {
+    "no": 40,
+    "ids": [
+      27,
+      25,
+      16,
+      26,
+      2
+    ],
+    "th": "รถดังสีน้ำเงินเร็ว",
+    "reading": "rot dang sii nam ngoen reo"
+  },
+  {
+    "no": 41,
+    "ids": [
+      28,
+      20,
+      16,
+      24
+    ],
+    "th": "มอเตอร์ไซค์สีดำช้า",
+    "reading": "motosai sii dam chaa"
+  },
+  {
+    "no": 42,
+    "ids": [
+      15,
+      11,
+      18,
+      26,
+      23
+    ],
+    "th": "ซุปดังรสเผ็ดมาก",
+    "reading": "sup dang rot phet maak"
+  },
+  {
+    "no": 43,
+    "ids": [
+      25,
+      26,
+      2
+    ],
+    "th": "รถดังสีน้ำเงิน",
+    "reading": "rot dang sii nam ngoen"
+  },
+  {
+    "no": 101,
+    "deck": "lessonNote",
+    "ids": [
+      29,
+      30,
+      31
+    ],
+    "thaiIds": [
+      29,
+      31,
+      30
+    ],
+    "th": "ผมชอบคุณ",
+    "reading": "phom choop khun"
+  },
+  {
+    "no": 102,
+    "deck": "lessonNote",
+    "ids": [
+      32,
+      34
+    ],
+    "thaiIds": [
+      32,
+      33,
+      34
+    ],
+    "th": "นี่คืออะไร",
+    "reading": "nii khue arai"
+  },
+  {
+    "no": 103,
+    "deck": "lessonNote",
+    "ids": [
+      34,
+      35
+    ],
+    "thaiIds": [
+      35,
+      34
+    ],
+    "th": "แปลว่าอะไร",
+    "reading": "bplaae waa arai"
+  },
+  {
+    "no": 104,
+    "deck": "lessonNote",
+    "ids": [
+      36,
+      37,
+      34
+    ],
+    "thaiIds": [
+      36,
+      37,
+      34
+    ],
+    "th": "ภาษาไทยพูดว่าอะไร",
+    "reading": "phasa thai phuut waa arai"
+  },
+  {
+    "no": 105,
+    "deck": "lessonNote",
+    "ids": [
+      30,
+      38,
+      37,
+      39
+    ],
+    "thaiIds": [
+      30,
+      37,
+      38,
+      39
+    ],
+    "th": "คุณพูดอีกครั้งได้ไหม",
+    "reading": "khun phuut iik khrang dai mai"
+  },
+  {
+    "no": 106,
+    "deck": "lessonNote",
+    "ids": [
+      30,
+      40,
+      37,
+      39
+    ],
+    "thaiIds": [
+      30,
+      37,
+      40,
+      39
+    ],
+    "th": "คุณพูดช้าๆได้ไหม",
+    "reading": "khun phuut chaa chaa dai mai"
+  },
+  {
+    "no": 107,
+    "deck": "lessonNote",
+    "ids": [
+      32,
+      33,
+      46
+    ],
+    "thaiIds": [
+      32,
+      33,
+      46
+    ],
+    "th": "นี่คือหนังสือ",
+    "reading": "nii khue nang sue"
+  },
+  {
+    "no": 108,
+    "deck": "lessonNote",
+    "ids": [
+      29,
+      45,
+      55
+    ],
+    "thaiIds": [
+      29,
+      55,
+      45
+    ],
+    "th": "ผมดูหนัง",
+    "reading": "phom duu nang"
+  },
+  {
+    "no": 109,
+    "deck": "lessonNote",
+    "ids": [
+      29,
+      46,
+      57
+    ],
+    "thaiIds": [
+      29,
+      57,
+      46
+    ],
+    "th": "ผมอ่านหนังสือ",
+    "reading": "phom aan nang sue"
+  },
+  {
+    "no": 110,
+    "deck": "lessonNote",
+    "ids": [
+      29,
+      47,
+      59
+    ],
+    "thaiIds": [
+      29,
+      59,
+      47
+    ],
+    "th": "ผมฟังเพลง",
+    "reading": "phom fang phleeng"
+  },
+  {
+    "no": 111,
+    "deck": "lessonNote",
+    "ids": [
+      29,
+      43,
+      53
+    ],
+    "thaiIds": [
+      29,
+      53,
+      43
+    ],
+    "th": "ผมกินขนมปัง",
+    "reading": "phom gin khanom pang"
+  },
+  {
+    "no": 112,
+    "deck": "lessonNote",
+    "ids": [
+      29,
+      44,
+      54
+    ],
+    "thaiIds": [
+      29,
+      54,
+      44
+    ],
+    "th": "ผมดื่มนม",
+    "reading": "phom duem nom"
+  },
+  {
+    "no": 113,
+    "deck": "lessonNote",
+    "ids": [
+      29,
+      50,
+      61
+    ],
+    "thaiIds": [
+      29,
+      61,
+      50
+    ],
+    "th": "ผมอยากไปเที่ยว",
+    "reading": "phom yaak bpai thiao"
+  },
+  {
+    "no": 114,
+    "deck": "lessonNote",
+    "ids": [
+      29,
+      51,
+      61
+    ],
+    "thaiIds": [
+      29,
+      61,
+      51
+    ],
+    "th": "ผมอยากซื้อของ",
+    "reading": "phom yaak sue khong"
+  },
+  {
+    "no": 115,
+    "deck": "lessonNote",
+    "ids": [
+      29,
+      49,
+      60
+    ],
+    "thaiIds": [
+      29,
+      60,
+      49
+    ],
+    "th": "ผมมีเหล้า",
+    "reading": "phom mii lao"
+  },
+  {
+    "no": 116,
+    "deck": "lessonNote",
+    "ids": [
+      29,
+      62,
+      58
+    ],
+    "thaiIds": [
+      29,
+      58,
+      62
+    ],
+    "th": "ผมไปทำงาน",
+    "reading": "phom bpai tham ngaan"
+  },
+  {
+    "no": 117,
+    "deck": "lessonNote",
+    "ids": [
+      29,
+      47,
+      63
+    ],
+    "thaiIds": [
+      29,
+      63,
+      47
+    ],
+    "th": "ผมร้องเพลง",
+    "reading": "phom roong phleeng"
+  }
+]

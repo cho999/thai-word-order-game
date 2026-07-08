@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thai Letter Memory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700;800&family=Sarabun:wght@400;700;800&family=Noto+Sans+JP:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/theme.css">
+  <link rel="stylesheet" href="../../assets/css/components.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="nari-theme">
+  <main class="app">
+    <section id="titleScreen" class="screen title-screen">
+      <div class="hero">
+        <a class="portal-banner-link" href="../../index.html" aria-label="ナーリーのタイ語冒険ノートへ">
+          <img src="../../assets/images/banners/nari-adventure-link-banner.png" alt="ナーリーのタイ語冒険ノート">
+        </a>
+        <p class="eyebrow">Thai Letter Memory</p>
+        <h1>アクソーン　タイ</h1>
+        <p class="lead">頻度の低すぎる文字を外し、よく出る順にLv1-4へ分けた練習ゲームです。</p>
+        <p class="related-link">
+          前の学習ゲーム:
+          <a href="../jam-akson-thai/">ジャム　アクソーン　タイ</a>
+        </p>
+      </div>
+
+      <section class="mode-grid" aria-label="練習する文字タイプ">
+        <button class="mode-card active" type="button" data-kind="consonant">
+          <span class="mode-title">子音字</span>
+          <span class="mode-sample thai-text">ก น ม ร อ</span>
+        </button>
+        <button class="mode-card" type="button" data-kind="vowel">
+          <span class="mode-title">母音字</span>
+          <span class="mode-sample thai-text">กะ กา กิ กี</span>
+        </button>
+      </section>
+
+      <section class="controls" aria-label="ゲーム設定">
+        <label class="field">
+          <span>レベル</span>
+          <select id="levelSelect">
+            <option value="1">Lv1 最頻出</option>
+            <option value="2">Lv2 よく使う</option>
+            <option value="3">Lv3 標準</option>
+            <option value="4">Lv4 追加</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>範囲</span>
+          <select id="rangeSelect">
+            <option value="single">選んだLvだけ</option>
+            <option value="cumulative">Lv1から選んだLvまで</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>ペア数</span>
+          <select id="pairCountSelect">
+            <option value="6">6ペア</option>
+            <option value="8" selected>8ペア</option>
+            <option value="10">10ペア</option>
+            <option value="all">全部</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>フォント</span>
+          <select id="fontSelect">
+            <option value="'Noto Sans Thai', 'Noto Sans JP', sans-serif">Noto Sans Thai</option>
+            <option value="'Sarabun', 'Noto Sans JP', sans-serif" selected>Sarabun</option>
+            <option value="Tahoma, 'Noto Sans Thai', sans-serif">Tahoma</option>
+            <option value="Arial, 'Noto Sans Thai', sans-serif">Arial</option>
+            <option value="serif">Serif</option>
+          </select>
+        </label>
+
+        <button id="startButton" class="primary-button" type="button">Start</button>
+      </section>
+
+      <section class="level-preview" aria-label="レベル別文字">
+        <div id="levelPreview"></div>
+      </section>
+    </section>
+
+    <section id="gameScreen" class="screen game-screen hidden">
+      <header class="topbar">
+        <a class="secondary-button portal-button" href="../../index.html">ホーム</a>
+        <button id="homeButton" class="secondary-button" type="button">Home</button>
+        <div class="stat"><span>Type</span><strong id="kindLabel">子音字</strong></div>
+        <div class="stat"><span>Level</span><strong id="levelLabel">Lv1</strong></div>
+        <div class="stat"><span>Time</span><strong id="timer">0s</strong></div>
+        <div class="stat"><span>Turns</span><strong id="turns">0</strong></div>
+        <div class="stat"><span>Pairs</span><strong id="pairs">0/0</strong></div>
+      </header>
+
+      <div id="board" class="board" aria-label="カード"></div>
+
+      <footer class="game-footer">
+        <p id="message">カードをめくってペアを見つけてください。</p>
+        <button id="restartButton" class="secondary-button" type="button">同じ設定でもう一度</button>
+      </footer>
+    </section>
+
+    <section id="resultScreen" class="screen result-screen hidden">
+      <div class="result-card">
+        <p class="portal-return"><a href="../../index.html">← ホームへ</a></p>
+        <p class="eyebrow">Clear</p>
+        <h2>よくできました</h2>
+        <div class="nari-result">
+          <img src="../../assets/images/nari/chibi/chibi-wink.png" alt="ナーリー">
+          <p>やったね！文字の精霊たち、ちゃんと仲間になってきてるよ。</p>
+        </div>
+        <p id="resultText"></p>
+        <div id="resultLetters" class="result-letters thai-text"></div>
+        <div class="result-actions">
+          <button id="againButton" class="primary-button" type="button">もう一度</button>
+          <button id="titleButton" class="secondary-button" type="button">タイトルへ</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

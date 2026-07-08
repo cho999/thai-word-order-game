@@ -1,0 +1,439 @@
+:root{
+      --thai-font: 'Noto Sans Thai', system-ui, sans-serif;
+      --bg: #fff8e7;
+      --surface: #ffffff;
+      --surface-warm: #fffdf5;
+      --soft: #dff7f4;
+      --line: #eadfca;
+      --primary: #f47c3c;
+      --primary2: #d95f25;
+      --accent: #19a7a8;
+      --accent2: #0f8588;
+      --card-back: #19a7a8;
+      --rare: #ffd45a;
+      --rare-bg: #fff8d8;
+      --good: #68b45b;
+      --bad: #d94f5c;
+      --text: #3b352b;
+      --muted: #766d5f;
+      --shadow: 0 18px 42px rgba(86, 64, 35, .14);
+    }
+
+    body{
+      font-family: var(--thai-font);
+      background:
+        linear-gradient(115deg, transparent 0 18%, rgba(25, 167, 168, .12) 18% 19%, transparent 19% 68%, rgba(104, 180, 91, .12) 68% 69%, transparent 69%),
+        linear-gradient(25deg, transparent 0 34%, rgba(255, 212, 90, .22) 34% 35%, transparent 35%),
+        linear-gradient(135deg, rgba(244, 124, 60, .07) 25%, transparent 25%) 0 0 / 42px 42px,
+        linear-gradient(180deg, #fffdf5 0%, var(--bg) 100%);
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      color: var(--text);
+    }
+
+    body::before{
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      content: "";
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, transparent 0 22px, rgba(25, 167, 168, .06) 23px, transparent 24px),
+        linear-gradient(transparent 0 22px, rgba(244, 124, 60, .05) 23px, transparent 24px);
+      background-size: 48px 48px;
+      mask-image: linear-gradient(180deg, rgba(0, 0, 0, .55), transparent 78%);
+    }
+
+    h1{ font-size: 32px; margin: 16px 0 6px; color: var(--text); }
+    h2{ margin: 10px 0; }
+    .hidden{ display:none; }
+
+    .panel{
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 12px 16px;
+    }
+
+    .sub{
+      font-size: 14px;
+      color: var(--muted);
+      margin: 4px 0 14px;
+    }
+
+    .button{
+      background: var(--primary);
+      color: #fff;
+      padding: 12px 20px;
+      margin: 8px;
+      border: none;
+      border-bottom: 4px solid var(--primary2);
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      user-select: none;
+      font-weight: 700;
+    }
+    .button:hover{ filter: brightness(1.04); }
+    .button.secondary{
+      background: var(--surface-warm);
+      border: 1px solid var(--line);
+      border-bottom: 4px solid var(--line);
+      color: var(--text);
+    }
+    .button.secondary:hover{ background: var(--soft); }
+
+    .row{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 10px 0 8px;
+    }
+
+    .note{
+      font-size: 13px;
+      color: var(--muted);
+      margin: 8px auto 0;
+      max-width: 980px;
+      line-height: 1.4;
+    }
+
+    /* ===== Match game board ===== */
+    #gameBoard{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      margin: 14px auto 8px;
+      max-width: 1100px;
+    }
+
+    .card{
+      width: 132px;
+      height: 70px;
+      margin: 10px;
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:
+        linear-gradient(135deg, rgba(255, 212, 90, .22), transparent 52%),
+        linear-gradient(135deg, var(--primary), var(--accent));
+      transition: transform .06s, background-color .2s;
+      user-select: none;
+      border: 2px solid transparent;
+      box-sizing: border-box;
+      padding: 6px;
+      line-height: 1.05;
+      text-align: center;
+      word-break: break-word;
+    }
+    .card:active{ transform: scale(.98); }
+    .card.flipped{
+      background: var(--surface);
+      color: var(--text);
+      border-color: rgba(25, 167, 168, .36);
+      box-shadow: 0 8px 22px rgba(86, 64, 35, .1);
+    }
+    .card.rare{ border-color: var(--rare); }
+
+    .card[data-is-thai="1"].flipped{ font-size: 44px; }
+    .card[data-is-thai="0"].flipped{ font-size: 18px; }
+
+    #timer, #attempts{
+      font-size: 18px;
+      margin: 8px 0;
+      color: var(--accent2);
+      font-weight: 700;
+    }
+
+    /* ===== Setting grid ===== */
+    #pairGrid{
+      display:grid;
+      grid-template-columns: repeat(5, minmax(150px, 1fr));
+      gap: 10px;
+      justify-content:center;
+      margin: 14px auto;
+      max-width: 980px;
+    }
+
+    .pair{
+      padding: 10px 10px;
+      border: 1px solid rgba(25, 167, 168, .28);
+      border-radius: 8px;
+      cursor: pointer;
+      background: var(--surface-warm);
+      font-size: 18px;
+      line-height: 1.2;
+      user-select: none;
+      box-sizing: border-box;
+      min-height: 66px;
+    }
+    .pair .small{
+      display:block;
+      font-size: 12px;
+      opacity: .75;
+      margin-top: 4px;
+      word-break: break-word;
+    }
+    .pair.selected{
+      background: var(--soft);
+      border-color: rgba(25, 167, 168, .6);
+      color: var(--text);
+    }
+
+    .pair.rare{
+      border-color: var(--rare);
+      background: var(--rare-bg);
+    }
+    .pair.rare.selected{
+      background: var(--rare);
+      border-color: var(--rare);
+      color: var(--text);
+    }
+
+    .pair.disabled{
+      opacity:.35;
+      cursor:not-allowed;
+      filter: grayscale(1);
+    }
+
+    /* ===== Learning ===== */
+    .learnBox{
+      background: rgba(255,255,255,.92);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      max-width: 980px;
+      margin: 14px auto;
+      padding: 14px 12px;
+      box-shadow: var(--shadow);
+    }
+
+    .nariResult{
+      display:grid;
+      grid-template-columns:auto 1fr;
+      gap:10px;
+      align-items:center;
+      max-width:720px;
+      margin:14px auto;
+      padding:12px;
+      border:1px solid rgba(25, 167, 168, .24);
+      border-radius:8px;
+      background:var(--soft);
+      text-align:left;
+    }
+    .nariResult img{
+      width:68px;
+      height:auto;
+      filter:drop-shadow(0 7px 10px rgba(86, 64, 35, .14));
+    }
+    .nariResult .talk{
+      color:var(--text);
+      font-weight:800;
+      line-height:1.55;
+    }
+    .resultSummary{
+      max-width:720px;
+      margin:10px auto 0;
+      color:var(--muted);
+      line-height:1.65;
+    }
+
+    .learnChar{
+      font-size: 104px;
+      font-weight: 700;
+      margin: 6px 0 0;
+      line-height: 1;
+    }
+    .learnChar.rare{ color: var(--rare); }
+
+    .learnMeta{
+      margin-top: 8px;
+      font-size: 16px;
+      opacity: .9;
+    }
+
+    .learnWord{
+      margin-top: 10px;
+      font-size: 22px;
+      font-weight: 700;
+    }
+    .learnWord span{
+      font-weight: 400;
+      opacity: .9;
+      margin-left: 8px;
+      font-size: 16px;
+    }
+    .learnMeaning{
+      margin-top: 6px;
+      font-size: 16px;
+      opacity: .9;
+    }
+    .tapHint{
+      margin-top: 14px;
+      font-size: 14px;
+      opacity: .75;
+    }
+
+    .quizChoices{
+      display:flex;
+      justify-content:center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .choiceBtn{
+      min-width: 140px;
+      padding: 12px 14px;
+      border-radius: 8px;
+      border: 1px solid rgba(25, 167, 168, .32);
+      background: var(--surface);
+      cursor:pointer;
+      font-size: 18px;
+      user-select:none;
+    }
+    .choiceBtn:hover{ background: var(--soft); }
+    .choiceBtn.rare{ border-color: var(--rare); background: var(--rare-bg); }
+
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap: 8px;
+      background: var(--surface-warm);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+
+    .portalLink{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:6px;
+      min-height:36px;
+      margin:0 0 10px;
+      padding:0 10px;
+      border:1px solid rgba(25, 167, 168, .24);
+      border-radius:8px;
+      background:var(--soft);
+      color:var(--accent2);
+      font-size:14px;
+      font-weight:700;
+      text-decoration:none;
+    }
+
+    .portalBannerLink{
+      display:block;
+      width:min(320px, 100%);
+      margin:0 auto 12px;
+      line-height:0;
+    }
+    .portalBannerLink img{
+      display:block;
+      width:100%;
+      height:auto;
+      border-radius:8px;
+      box-shadow:0 8px 18px rgba(86, 64, 35, .1);
+    }
+
+    select{
+      font-family: var(--thai-font);
+      font-size: 14px;
+      padding: 6px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    .unitGrid{
+      display:grid;
+      grid-template-columns: repeat(3, minmax(240px, 1fr));
+      gap: 12px;
+      max-width: 980px;
+      margin: 12px auto;
+    }
+
+    .unitCard{
+      background: rgba(255, 255, 255, .92);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      text-align:left;
+      box-shadow: 0 8px 22px rgba(86, 64, 35, .08);
+    }
+    .unitCard h4{
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+    .unitChars{
+      color: var(--accent2);
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: .5px;
+      line-height: 1.25;
+    }
+    .unitChars .rareChar{ color: var(--rare); }
+    .unitCard .mini{
+      margin-top: 6px;
+      font-size: 13px;
+      opacity: .8;
+      line-height: 1.35;
+    }
+
+    .copyright{
+      margin-top: 14px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* Vowel-pair show */
+    .vowelPairBig{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap: 18px;
+      margin-top: 6px;
+      flex-wrap: wrap;
+    }
+    .vowelBox{
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 14px;
+      min-width: 180px;
+      background: var(--surface);
+    }
+    .vowelBox .big{
+      font-size: 72px;
+      font-weight: 800;
+      line-height: 1;
+    }
+    .vowelBox .ipa{
+      margin-top: 6px;
+      font-size: 14px;
+      opacity: .85;
+    }
+    .vowelBox .tag{
+      display:inline-block;
+      margin-top: 8px;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 8px;
+      background: var(--soft);
+      border: 1px solid rgba(25, 167, 168, .24);
+    }
+
+    @media (max-width: 760px){
+      .nariResult{
+        grid-template-columns:55px 1fr;
+      }
+      .nariResult img{
+        width:55px;
+      }
+    }

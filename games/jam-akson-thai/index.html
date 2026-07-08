@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>ジャム　アクソーン　タイ</title>
+
+  <!-- Thai fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/theme.css">
+  <link rel="stylesheet" href="../../assets/css/components.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nari-theme">
+  <div class="panel">
+    <a class="portalBannerLink" href="../../index.html" aria-label="ナーリーのタイ語冒険ノートへ">
+      <img src="../../assets/images/banners/nari-adventure-link-banner.png" alt="ナーリーのタイ語冒険ノート">
+    </a>
+    <h1>ジャム　アクソーン　タイ</h1>
+    <div class="sub">Match game + Learning mode (units, sound check, tap-to-quiz)</div>
+
+    <!-- ===== Title / Home ===== -->
+    <div id="homeScreen">
+      <h2>Choose</h2>
+      <div class="row">
+        <button class="button" onclick="goTo(modeMenu)">Match Game</button>
+        <button class="button" onclick="goTo(learningMenu)">Learning Mode</button>
+      </div>
+
+      <div class="row">
+        <span class="pill">
+          Font:
+          <select id="fontSelectHome"></select>
+        </span>
+
+        <label class="pill" title="Rare consonants will be highlighted and can be excluded in settings and learning.">
+          <input type="checkbox" id="includeRareGlobal" checked />
+          Include rare consonants
+        </label>
+      </div>
+
+      <div class="note">
+        Rare consonants are highlighted in amber. You can exclude them globally here (applies to both Match and Learning).
+      </div>
+
+      <div class="copyright">© Aj.Cho. All rights reserved.</div>
+    </div>
+
+    <!-- ===== Match Game: Mode select ===== -->
+    <div id="modeMenu" class="hidden">
+      <h2>Match Game Mode</h2>
+      <div class="row">
+        <button class="button" onclick="selectMode('consonant')">Consonants (Thai ↔ Latin+IPA)</button>
+        <button class="button" onclick="selectMode('vowel')">Vowels (carrier)</button>
+        <button class="button" onclick="selectMode('syllable')">Syllables</button>
+      </div>
+      <div class="row">
+        <button class="button secondary" onclick="goTo(homeScreen)">Back</button>
+      </div>
+      <div class="note">
+        Consonant mode is Thai letter ↔ Latin consonant name + IPA (NOT Thai↔Thai).
+      </div>
+    </div>
+
+    <!-- ===== Match Game: Main menu ===== -->
+    <div id="mainMenu" class="hidden">
+      <div style="font-size:16px;margin-top:6px;">
+        Mode: <b id="modeLabel"></b>
+      </div>
+
+      <div class="row">
+        <span class="pill">
+          Font:
+          <select id="fontSelectMatch"></select>
+        </span>
+
+        <label class="pill">
+          <input type="checkbox" id="includeRareMatch" checked />
+          Include rare consonants
+        </label>
+      </div>
+
+      <div class="row">
+        <button class="button" onclick="startRandomGame()">Random</button>
+        <button class="button" onclick="showSetting()">Setting</button>
+        <button class="button secondary" onclick="backToMode()">Back</button>
+      </div>
+    </div>
+
+    <!-- ===== Match Game: Setting ===== -->
+    <div id="settingScreen" class="hidden">
+      <h2>Select up to 15 pairs</h2>
+
+      <div class="row">
+        <span class="pill">
+          Font:
+          <select id="fontSelectSetting"></select>
+        </span>
+
+        <label class="pill">
+          <input type="checkbox" id="includeRareSetting" checked />
+          Include rare consonants
+        </label>
+      </div>
+
+      <div id="pairGrid"></div>
+
+      <div class="row">
+        <button class="button" onclick="startGame()">Start</button>
+        <button class="button secondary" onclick="goTo(mainMenu)">Back</button>
+      </div>
+
+      <div class="note">
+        When rare consonants are excluded, rare pairs become unselectable and Random mode will not use them.
+      </div>
+    </div>
+
+    <!-- ===== Match Game: Game ===== -->
+    <div id="gameArea" class="hidden">
+      <div id="timer">Time: 0s</div>
+      <div id="attempts">Attempts: 0</div>
+      <div id="gameBoard"></div>
+
+      <div class="row">
+        <button class="button secondary" onclick="goTo(mainMenu)">Back to Menu</button>
+        <button class="button secondary" onclick="goTo(homeScreen)">Home</button>
+      </div>
+    </div>
+
+    <!-- ===== Result ===== -->
+    <div id="resultScreen" class="hidden">
+      <h2 id="resultTitle">Clear!</h2>
+      <div class="nariResult">
+        <img id="resultNari" src="../../assets/images/nari/chibi/chibi-cheer.png" alt="Nari">
+        <div class="talk" id="resultTalk">Nice work! Keep going.</div>
+      </div>
+      <div class="resultSummary" id="resultSummary"></div>
+      <div class="row">
+        <button class="button" onclick="goTo(homeScreen)">Home</button>
+        <button class="button secondary" onclick="goTo(modeMenu)">Match Menu</button>
+        <button class="button secondary" onclick="goTo(learningMenu)">Learning Menu</button>
+      </div>
+    </div>
+
+    <!-- ===== Learning Mode: Menu ===== -->
+    <div id="learningMenu" class="hidden">
+      <h2>Learning Mode</h2>
+
+      <div class="row">
+        <span class="pill">
+          Font:
+          <select id="fontSelectLearn"></select>
+        </span>
+
+        <label class="pill" id="rareToggleWrap">
+          <input type="checkbox" id="includeRareLearn" checked />
+          Include rare consonants
+        </label>
+      </div>
+
+      <div class="row">
+        <span class="pill">
+          Content:
+          <select id="learnContentSelect">
+            <option value="consonant">Consonants</option>
+            <option value="vowel">Vowels (short/long pairs)</option>
+          </select>
+        </span>
+      </div>
+
+      <div class="unitGrid" id="unitGrid"></div>
+
+      <div class="row">
+        <button class="button secondary" onclick="goTo(homeScreen)">Back</button>
+      </div>
+
+      <div class="note" id="learnMenuNote"></div>
+    </div>
+
+    <!-- ===== Learning Mode: Show ===== -->
+    <div id="learningShow" class="hidden">
+      <h2>Learning</h2>
+
+      <div class="row">
+        <span class="pill"><span id="learnContentLabel"></span> · Unit <b id="learnUnitLabel"></b> · <span id="learnProgress"></span></span>
+
+        <span class="pill">
+          Font:
+          <select id="fontSelectLearn2"></select>
+        </span>
+
+        <label class="pill" id="rareToggleWrap2">
+          <input type="checkbox" id="includeRareLearn2" checked />
+          Include rare consonants
+        </label>
+      </div>
+
+      <div class="learnBox" id="learnBox" onclick="toQuiz()">
+        <!-- consonant view -->
+        <div id="learnChar" class="learnChar"></div>
+        <div class="learnMeta" id="learnMetaLine">
+          <span id="learnName"></span> · <span id="learnIPA"></span>
+        </div>
+        <div class="learnWord" id="learnWord"></div>
+        <div class="learnMeaning" id="learnMeaning"></div>
+
+        <!-- vowel view -->
+        <div id="vowelView" class="hidden">
+          <div class="vowelPairBig">
+            <div class="vowelBox">
+              <div class="big" id="vowelShortText"></div>
+              <div class="ipa" id="vowelShortIPA"></div>
+              <div class="tag">Short</div>
+            </div>
+            <div class="vowelBox">
+              <div class="big" id="vowelLongText"></div>
+              <div class="ipa" id="vowelLongIPA"></div>
+              <div class="tag">Long</div>
+            </div>
+          </div>
+          <div class="learnWord" id="vowelWordLine"></div>
+          <div class="learnMeaning" id="vowelMeaningLine"></div>
+        </div>
+
+        <div class="row" style="margin-top:10px;">
+          <button class="button" id="soundBtn1" onclick="event.stopPropagation(); playPrimarySound()">🔊 Sound</button>
+          <button class="button secondary" onclick="event.stopPropagation(); toQuiz()">Tap → Quiz</button>
+        </div>
+
+        <div class="tapHint">Tip: tap the big box to go to the quiz.</div>
+      </div>
+
+      <div class="row">
+        <button class="button secondary" onclick="goTo(learningMenu)">Unit Select</button>
+        <button class="button secondary" onclick="goTo(homeScreen)">Home</button>
+      </div>
+    </div>
+
+    <!-- ===== Learning Mode: Quiz ===== -->
+    <div id="learningQuiz" class="hidden">
+      <h2>Quiz</h2>
+
+      <div class="row">
+        <span class="pill"><span id="quizContentLabel"></span> · Unit <b id="quizUnitLabel"></b> · <span id="quizProgress"></span></span>
+        <button class="button" onclick="playPrimarySound()">🔊 Play target sound</button>
+      </div>
+
+      <div class="learnBox">
+        <div style="font-size:16px;opacity:.9;" id="quizPrompt">Which matches the sound?</div>
+        <div class="quizChoices" id="quizChoices"></div>
+        <div class="tapHint" id="quizHint"></div>
+      </div>
+
+      <div class="row">
+        <button class="button secondary" onclick="backToShow()">Back</button>
+        <button class="button secondary" onclick="goTo(learningMenu)">Unit Select</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

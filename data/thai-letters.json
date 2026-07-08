@@ -1,0 +1,422 @@
+{
+  "levelLimitSeconds": 60,
+  "removedConsonants": [
+    "ฃ",
+    "ฅ",
+    "ฆ",
+    "ฌ",
+    "ฎ",
+    "ฏ",
+    "ฐ",
+    "ฑ",
+    "ฒ",
+    "ณ",
+    "ศ",
+    "ษ",
+    "ฬ"
+  ],
+  "data": {
+    "consonant": [
+      {
+        "id": 1,
+        "title": "Lv1 最頻出",
+        "note": "最初に何度も見る子音字",
+        "items": [
+          {
+            "symbol": "ก",
+            "label": "ko kai",
+            "ipa": "/k/",
+            "hint": "chicken"
+          },
+          {
+            "symbol": "น",
+            "label": "no nu",
+            "ipa": "/n/",
+            "hint": "mouse"
+          },
+          {
+            "symbol": "ม",
+            "label": "mo ma",
+            "ipa": "/m/",
+            "hint": "horse"
+          },
+          {
+            "symbol": "ร",
+            "label": "ro ruea",
+            "ipa": "/r/",
+            "hint": "boat"
+          },
+          {
+            "symbol": "อ",
+            "label": "o ang",
+            "ipa": "/ʔ/",
+            "hint": "basin"
+          },
+          {
+            "symbol": "ส",
+            "label": "so suea",
+            "ipa": "/s/",
+            "hint": "tiger"
+          },
+          {
+            "symbol": "ต",
+            "label": "to tao",
+            "ipa": "/t/",
+            "hint": "turtle"
+          },
+          {
+            "symbol": "ป",
+            "label": "po pla",
+            "ipa": "/p/",
+            "hint": "fish"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Lv2 よく使う",
+        "note": "初級語彙でよく出る子音字",
+        "items": [
+          {
+            "symbol": "บ",
+            "label": "bo baimai",
+            "ipa": "/b/",
+            "hint": "leaf"
+          },
+          {
+            "symbol": "ล",
+            "label": "lo ling",
+            "ipa": "/l/",
+            "hint": "monkey"
+          },
+          {
+            "symbol": "ด",
+            "label": "do dek",
+            "ipa": "/d/",
+            "hint": "child"
+          },
+          {
+            "symbol": "ช",
+            "label": "cho chang",
+            "ipa": "/ch/",
+            "hint": "elephant"
+          },
+          {
+            "symbol": "ค",
+            "label": "kho khwai",
+            "ipa": "/kh/",
+            "hint": "buffalo"
+          },
+          {
+            "symbol": "ท",
+            "label": "tho thahan",
+            "ipa": "/th/",
+            "hint": "soldier"
+          },
+          {
+            "symbol": "ย",
+            "label": "yo yak",
+            "ipa": "/y/",
+            "hint": "giant"
+          },
+          {
+            "symbol": "ห",
+            "label": "ho hip",
+            "ipa": "/h/",
+            "hint": "chest"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Lv3 標準",
+        "note": "読み書きで押さえたい子音字",
+        "items": [
+          {
+            "symbol": "ว",
+            "label": "wo waen",
+            "ipa": "/w/",
+            "hint": "ring"
+          },
+          {
+            "symbol": "พ",
+            "label": "pho phan",
+            "ipa": "/ph/",
+            "hint": "tray"
+          },
+          {
+            "symbol": "ฟ",
+            "label": "fo fan",
+            "ipa": "/f/",
+            "hint": "teeth"
+          },
+          {
+            "symbol": "ง",
+            "label": "ngo ngu",
+            "ipa": "/ng/",
+            "hint": "snake"
+          },
+          {
+            "symbol": "จ",
+            "label": "cho chan",
+            "ipa": "/ch/",
+            "hint": "plate"
+          },
+          {
+            "symbol": "ข",
+            "label": "kho khai",
+            "ipa": "/kh/",
+            "hint": "egg"
+          },
+          {
+            "symbol": "ภ",
+            "label": "pho samphao",
+            "ipa": "/ph/",
+            "hint": "sailboat"
+          },
+          {
+            "symbol": "ธ",
+            "label": "tho thong",
+            "ipa": "/th/",
+            "hint": "flag"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Lv4 追加",
+        "note": "頻度は下がるが残す子音字",
+        "items": [
+          {
+            "symbol": "ญ",
+            "label": "yo ying",
+            "ipa": "/y/",
+            "hint": "woman"
+          },
+          {
+            "symbol": "ถ",
+            "label": "tho thung",
+            "ipa": "/th/",
+            "hint": "bag"
+          },
+          {
+            "symbol": "ผ",
+            "label": "pho phueng",
+            "ipa": "/ph/",
+            "hint": "bee"
+          },
+          {
+            "symbol": "ฝ",
+            "label": "fo fa",
+            "ipa": "/f/",
+            "hint": "lid"
+          },
+          {
+            "symbol": "ซ",
+            "label": "so so",
+            "ipa": "/s/",
+            "hint": "chain"
+          },
+          {
+            "symbol": "ฉ",
+            "label": "cho ching",
+            "ipa": "/ch/",
+            "hint": "cymbals"
+          },
+          {
+            "symbol": "ฮ",
+            "label": "ho nok huk",
+            "ipa": "/h/",
+            "hint": "owl"
+          }
+        ]
+      }
+    ],
+    "vowel": [
+      {
+        "id": 1,
+        "title": "Lv1 最頻出",
+        "note": "基本の短母音・長母音",
+        "items": [
+          {
+            "symbol": "กะ",
+            "label": "a short",
+            "ipa": "/a/",
+            "hint": "ก + ◌ะ"
+          },
+          {
+            "symbol": "กา",
+            "label": "aa long",
+            "ipa": "/aː/",
+            "hint": "ก + า"
+          },
+          {
+            "symbol": "กิ",
+            "label": "i short",
+            "ipa": "/i/",
+            "hint": "ก + ◌ิ"
+          },
+          {
+            "symbol": "กี",
+            "label": "ii long",
+            "ipa": "/iː/",
+            "hint": "ก + ◌ี"
+          },
+          {
+            "symbol": "กุ",
+            "label": "u short",
+            "ipa": "/u/",
+            "hint": "ก + ◌ุ"
+          },
+          {
+            "symbol": "กู",
+            "label": "uu long",
+            "ipa": "/uː/",
+            "hint": "ก + ◌ู"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Lv2 よく使う",
+        "note": "中舌母音とe/o系",
+        "items": [
+          {
+            "symbol": "กึ",
+            "label": "ue short",
+            "ipa": "/ɯ/",
+            "hint": "ก + ◌ึ"
+          },
+          {
+            "symbol": "กื",
+            "label": "uee long",
+            "ipa": "/ɯː/",
+            "hint": "ก + ◌ื"
+          },
+          {
+            "symbol": "เกะ",
+            "label": "e short",
+            "ipa": "/e/",
+            "hint": "เ + ก + ะ"
+          },
+          {
+            "symbol": "เก",
+            "label": "ee long",
+            "ipa": "/eː/",
+            "hint": "เ + ก"
+          },
+          {
+            "symbol": "โกะ",
+            "label": "o short",
+            "ipa": "/o/",
+            "hint": "โ + ก + ะ"
+          },
+          {
+            "symbol": "โก",
+            "label": "oo long",
+            "ipa": "/oː/",
+            "hint": "โ + ก"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Lv3 標準",
+        "note": "ae/o/oe 系",
+        "items": [
+          {
+            "symbol": "แกะ",
+            "label": "ae short",
+            "ipa": "/ɛ/",
+            "hint": "แ + ก + ะ"
+          },
+          {
+            "symbol": "แก",
+            "label": "aae long",
+            "ipa": "/ɛː/",
+            "hint": "แ + ก"
+          },
+          {
+            "symbol": "เกาะ",
+            "label": "aw short",
+            "ipa": "/ɔ/",
+            "hint": "เ + ก + าะ"
+          },
+          {
+            "symbol": "กอ",
+            "label": "aw long",
+            "ipa": "/ɔː/",
+            "hint": "ก + อ"
+          },
+          {
+            "symbol": "เกอะ",
+            "label": "oe short",
+            "ipa": "/ɤ/",
+            "hint": "เ + ก + อะ"
+          },
+          {
+            "symbol": "เกอ",
+            "label": "oe long",
+            "ipa": "/ɤː/",
+            "hint": "เ + ก + อ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Lv4 追加",
+        "note": "複合母音・よく見る形",
+        "items": [
+          {
+            "symbol": "เกียะ",
+            "label": "ia short",
+            "ipa": "/ia/",
+            "hint": "เ + ก + ียะ"
+          },
+          {
+            "symbol": "เกีย",
+            "label": "ia long",
+            "ipa": "/iaː/",
+            "hint": "เ + ก + ีย"
+          },
+          {
+            "symbol": "เกือะ",
+            "label": "uea short",
+            "ipa": "/ɯa/",
+            "hint": "เ + ก + ือะ"
+          },
+          {
+            "symbol": "เกือ",
+            "label": "uea long",
+            "ipa": "/ɯaː/",
+            "hint": "เ + ก + ือ"
+          },
+          {
+            "symbol": "กัวะ",
+            "label": "ua short",
+            "ipa": "/ua/",
+            "hint": "ก + ัวะ"
+          },
+          {
+            "symbol": "กัว",
+            "label": "ua long",
+            "ipa": "/uaː/",
+            "hint": "ก + ัว"
+          },
+          {
+            "symbol": "ไก",
+            "label": "ai",
+            "ipa": "/ai/",
+            "hint": "ไ + ก"
+          },
+          {
+            "symbol": "เกา",
+            "label": "ao",
+            "ipa": "/ao/",
+            "hint": "เ + ก + า"
+          }
+        ]
+      }
+    ]
+  }
+}
