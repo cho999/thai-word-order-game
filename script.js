@@ -26,7 +26,42 @@ const vocabulary = [
   { id: 25, ja: "あおい", romaji: "aoi", th: "น้ำเงิน", thaiReading: "nam ngoen" },
   { id: 26, ja: "ゆうめいな", romaji: "yuumei na", th: "ดัง", thaiReading: "dang" },
   { id: 27, ja: "はやい", romaji: "hayai", th: "เร็ว", thaiReading: "reo" },
-  { id: 28, ja: "おそい", romaji: "osoi", th: "ช้า", thaiReading: "chaa" }
+  { id: 28, ja: "おそい", romaji: "osoi", th: "ช้า", thaiReading: "chaa" },
+  { id: 29, ja: "わたしは", romaji: "watashi wa", th: "ผม/ฉัน", thaiReading: "phom / chan" },
+  { id: 30, ja: "あなた", romaji: "anata", th: "คุณ", thaiReading: "khun" },
+  { id: 31, ja: "好き", romaji: "suki", th: "ชอบ", thaiReading: "choop" },
+  { id: 32, ja: "これは", romaji: "kore wa", th: "นี่", thaiReading: "nii" },
+  { id: 33, ja: "です", romaji: "desu", th: "คือ", thaiReading: "khue" },
+  { id: 34, ja: "何ですか", romaji: "nan desu ka", th: "อะไร", thaiReading: "arai" },
+  { id: 35, ja: "意味は", romaji: "imi wa", th: "แปลว่า", thaiReading: "bplaae waa" },
+  { id: 36, ja: "タイ語で", romaji: "taigo de", th: "ภาษาไทย", thaiReading: "phasa thai" },
+  { id: 37, ja: "話す", romaji: "hanasu", th: "พูด", thaiReading: "phuut" },
+  { id: 38, ja: "もう一度", romaji: "mou ichido", th: "อีกครั้ง", thaiReading: "iik khrang" },
+  { id: 39, ja: "できますか", romaji: "dekimasu ka", th: "ได้ไหม", thaiReading: "dai mai" },
+  { id: 40, ja: "ゆっくり", romaji: "yukkuri", th: "ช้าๆ", thaiReading: "chaa chaa" },
+  { id: 41, ja: "犬", romaji: "inu", th: "หมา", thaiReading: "maa" },
+  { id: 42, ja: "猫", romaji: "neko", th: "แมว", thaiReading: "maaeo" },
+  { id: 43, ja: "パン", romaji: "pan", th: "ขนมปัง", thaiReading: "khanom pang" },
+  { id: 44, ja: "牛乳", romaji: "gyuunyuu", th: "นม", thaiReading: "nom" },
+  { id: 45, ja: "映画", romaji: "eiga", th: "หนัง", thaiReading: "nang" },
+  { id: 46, ja: "本", romaji: "hon", th: "หนังสือ", thaiReading: "nang sue" },
+  { id: 47, ja: "歌", romaji: "uta", th: "เพลง", thaiReading: "phleeng" },
+  { id: 48, ja: "質問", romaji: "shitsumon", th: "คำถาม", thaiReading: "kham thaam" },
+  { id: 49, ja: "お酒", romaji: "osake", th: "เหล้า", thaiReading: "lao" },
+  { id: 50, ja: "旅行", romaji: "ryokou", th: "ไปเที่ยว", thaiReading: "bpai thiao" },
+  { id: 51, ja: "買い物", romaji: "kaimono", th: "ซื้อของ", thaiReading: "sue khong" },
+  { id: 52, ja: "寝る", romaji: "neru", th: "นอน", thaiReading: "noon" },
+  { id: 53, ja: "食べる", romaji: "taberu", th: "กิน", thaiReading: "gin" },
+  { id: 54, ja: "飲む", romaji: "nomu", th: "ดื่ม", thaiReading: "duem" },
+  { id: 55, ja: "見る", romaji: "miru", th: "ดู", thaiReading: "duu" },
+  { id: 56, ja: "遊ぶ", romaji: "asobu", th: "เล่น", thaiReading: "len" },
+  { id: 57, ja: "読む", romaji: "yomu", th: "อ่าน", thaiReading: "aan" },
+  { id: 58, ja: "行く", romaji: "iku", th: "ไป", thaiReading: "bpai" },
+  { id: 59, ja: "聞く", romaji: "kiku", th: "ฟัง", thaiReading: "fang" },
+  { id: 60, ja: "持っている", romaji: "motte iru", th: "มี", thaiReading: "mii" },
+  { id: 61, ja: "したい", romaji: "shitai", th: "อยาก", thaiReading: "yaak" },
+  { id: 62, ja: "働く", romaji: "hataraku", th: "ทำงาน", thaiReading: "tham ngaan" },
+  { id: 63, ja: "歌う", romaji: "utau", th: "ร้อง", thaiReading: "roong" }
 ];
 
 const challenges = [
@@ -78,6 +113,28 @@ challenges.push(
   { no: 43, ids: [25, 26, 2], th: "รถดังสีน้ำเงิน", reading: "rot dang sii nam ngoen" }
 );
 
+const lessonNoteChallenges = [
+  { no: 101, deck: "lessonNote", ids: [29, 30, 31], thaiIds: [29, 31, 30], th: "ผมชอบคุณ", reading: "phom choop khun" },
+  { no: 102, deck: "lessonNote", ids: [32, 34], thaiIds: [32, 33, 34], th: "นี่คืออะไร", reading: "nii khue arai" },
+  { no: 103, deck: "lessonNote", ids: [34, 35], thaiIds: [35, 34], th: "แปลว่าอะไร", reading: "bplaae waa arai" },
+  { no: 104, deck: "lessonNote", ids: [36, 37, 34], thaiIds: [36, 37, 34], th: "ภาษาไทยพูดว่าอะไร", reading: "phasa thai phuut waa arai" },
+  { no: 105, deck: "lessonNote", ids: [30, 38, 37, 39], thaiIds: [30, 37, 38, 39], th: "คุณพูดอีกครั้งได้ไหม", reading: "khun phuut iik khrang dai mai" },
+  { no: 106, deck: "lessonNote", ids: [30, 40, 37, 39], thaiIds: [30, 37, 40, 39], th: "คุณพูดช้าๆได้ไหม", reading: "khun phuut chaa chaa dai mai" },
+  { no: 107, deck: "lessonNote", ids: [32, 33, 46], thaiIds: [32, 33, 46], th: "นี่คือหนังสือ", reading: "nii khue nang sue" },
+  { no: 108, deck: "lessonNote", ids: [29, 45, 55], thaiIds: [29, 55, 45], th: "ผมดูหนัง", reading: "phom duu nang" },
+  { no: 109, deck: "lessonNote", ids: [29, 46, 57], thaiIds: [29, 57, 46], th: "ผมอ่านหนังสือ", reading: "phom aan nang sue" },
+  { no: 110, deck: "lessonNote", ids: [29, 47, 59], thaiIds: [29, 59, 47], th: "ผมฟังเพลง", reading: "phom fang phleeng" },
+  { no: 111, deck: "lessonNote", ids: [29, 43, 53], thaiIds: [29, 53, 43], th: "ผมกินขนมปัง", reading: "phom gin khanom pang" },
+  { no: 112, deck: "lessonNote", ids: [29, 44, 54], thaiIds: [29, 54, 44], th: "ผมดื่มนม", reading: "phom duem nom" },
+  { no: 113, deck: "lessonNote", ids: [29, 50, 61], thaiIds: [29, 61, 50], th: "ผมอยากไปเที่ยว", reading: "phom yaak bpai thiao" },
+  { no: 114, deck: "lessonNote", ids: [29, 51, 61], thaiIds: [29, 61, 51], th: "ผมอยากซื้อของ", reading: "phom yaak sue khong" },
+  { no: 115, deck: "lessonNote", ids: [29, 49, 60], thaiIds: [29, 60, 49], th: "ผมมีเหล้า", reading: "phom mii lao" },
+  { no: 116, deck: "lessonNote", ids: [29, 62, 58], thaiIds: [29, 58, 62], th: "ผมไปทำงาน", reading: "phom bpai tham ngaan" },
+  { no: 117, deck: "lessonNote", ids: [29, 47, 63], thaiIds: [29, 63, 47], th: "ผมร้องเพลง", reading: "phom roong phleeng" }
+];
+
+challenges.push(...lessonNoteChallenges);
+
 const levels = {
   1: { min: 2, max: 3, seconds: 13, rows: 1 },
   2: { min: 2, max: 3, seconds: 13, rows: 2 },
@@ -94,6 +151,7 @@ const vocabById = new Map(vocabulary.map((word) => [word.id, word]));
 
 const state = {
   mode: "thaiToJapanese",
+  deck: "all",
   level: 1,
   score: 0,
   streak: 0,
@@ -146,6 +204,12 @@ $("#levelSelect").addEventListener("change", (event) => {
   updateStatus();
 });
 
+$("#deckSelect").addEventListener("change", (event) => {
+  state.deck = event.target.value;
+  state.levelCorrect = 0;
+  updateStatus();
+});
+
 $("#startButton").addEventListener("click", () => {
   startAudio();
   resetGame();
@@ -176,9 +240,13 @@ function startRound() {
   }
   if (state.gameOver) return;
   const config = levels[state.level];
-  const candidates = challenges.filter((item) => item.ids.length >= config.min && item.ids.length <= config.max);
+  const candidates = challenges.filter((item) => {
+    const deck = item.deck || "wordOrder";
+    const inDeck = state.deck === "all" || state.deck === deck;
+    return inDeck && item.ids.length >= config.min && item.ids.length <= config.max;
+  });
   state.current = candidates[Math.floor(Math.random() * candidates.length)];
-  state.poolIds = makeChoices(state.current.ids, config.rows);
+  state.poolIds = makeChoices(getRequiredIds(state.current), config.rows);
   state.handIds = [];
   state.duration = config.seconds * 1000;
   state.startedAt = performance.now();
@@ -193,7 +261,7 @@ function startRound() {
 function renderChallenge() {
   const challenge = state.current;
   const words = challenge.ids.map((id) => vocabById.get(id));
-  roundLabel.textContent = `No.${challenge.no} / ${challenge.ids.length}ご`;
+  roundLabel.textContent = `No.${challenge.no} / ${getAnswerIds().length}ご`;
   if (state.mode === "thaiToJapanese") {
     promptMain.textContent = challenge.th;
     promptReading.textContent = challenge.reading;
@@ -351,7 +419,13 @@ function markCards() {
 }
 
 function getAnswerIds() {
-  return state.mode === "thaiToJapanese" ? [...state.current.ids] : [...state.current.ids].reverse();
+  if (state.mode === "thaiToJapanese") return [...state.current.ids];
+  if (state.current.thaiIds) return [...state.current.thaiIds];
+  return [...state.current.ids].reverse();
+}
+
+function getRequiredIds(challenge) {
+  return [...new Set([...(challenge.ids || []), ...(challenge.thaiIds || [])])];
 }
 
 function answerText() {
@@ -396,6 +470,7 @@ function resetGame() {
     state.nextTimerId = null;
   }
   state.level = Number($("#levelSelect").value);
+  state.deck = $("#deckSelect").value;
   state.score = 0;
   state.streak = 0;
   state.levelCorrect = 0;

@@ -236,7 +236,7 @@ h2:empty {
 
 .control-panel {
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) 230px auto;
+  grid-template-columns: minmax(220px, 1fr) 150px 170px auto;
   gap: 8px;
   align-items: end;
   margin-top: 6px;
@@ -617,7 +617,7 @@ select {
   }
 
   .control-panel {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 1fr;
   }
 
   .title-panel {
@@ -630,6 +630,10 @@ select {
   }
 
   .segmented {
+    grid-column: 1 / -1;
+  }
+
+  .primary-button {
     grid-column: 1 / -1;
   }
 

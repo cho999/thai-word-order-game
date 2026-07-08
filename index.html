@@ -139,7 +139,7 @@
 
     .game-grid {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 14px;
     }
 
@@ -178,6 +178,40 @@
       min-height: 112px;
       object-fit: cover;
       display: block;
+    }
+
+    .vocab-shot {
+      display: grid;
+      place-items: center;
+      background:
+        linear-gradient(rgba(25, 167, 168, .08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(25, 167, 168, .08) 1px, transparent 1px),
+        var(--teal-soft);
+      background-size: 18px 18px;
+    }
+
+    .mini-quiz {
+      display: grid;
+      gap: 4px;
+      min-width: 142px;
+      padding: 10px 12px;
+      border: 1px solid rgba(25, 167, 168, .28);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 8px 18px rgba(86, 64, 35, .1);
+      text-align: center;
+    }
+
+    .mini-quiz span {
+      color: var(--ink);
+      font-size: 1.45rem;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .mini-quiz strong {
+      color: var(--teal);
+      font-size: .92rem;
     }
 
     .card-nari {
@@ -321,6 +355,26 @@
             <span class="tag">文字</span>
             <span class="tag">記憶</span>
             <span class="tag">レベル制</span>
+          </div>
+        </div>
+        <div class="launch">このゲームで遊ぶ <span>→</span></div>
+      </a>
+
+      <a class="game-card" href="vocab-practice.html">
+        <div class="shot vocab-shot">
+          <div class="mini-quiz">
+            <span>หมา</span>
+            <strong>dog</strong>
+          </div>
+          <img class="card-nari" src="thai-letter-memory/assets/chibi/chibi-idea.png" alt="">
+        </div>
+        <div class="card-body">
+          <h2>フックタイカムサップ</h2>
+          <p>授業ノートの語彙を Lesson ごとに練習します。タイ文字・ローマ字表示を切り替え、苦手な単語は復習モードに残します。</p>
+          <div class="tag-row">
+            <span class="tag">単語</span>
+            <span class="tag">6択</span>
+            <span class="tag">復習</span>
           </div>
         </div>
         <div class="launch">このゲームで遊ぶ <span>→</span></div>
