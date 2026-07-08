@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tok Thai</title>
+  <link rel="stylesheet" href="../../assets/css/theme.css">
+  <link rel="stylesheet" href="../../assets/css/components.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="nari-theme">
+  <main class="game-shell">
+    <header class="topbar">
+      <a class="portal-link" href="../../index.html">Home</a>
+      <div class="score-strip" aria-label="score">
+        <div><span>Correct</span><strong id="correctCount">0</strong></div>
+        <div><span>Speed</span><strong id="speedLabel">1.0x</strong></div>
+        <div><span>Goal</span><strong>15</strong></div>
+      </div>
+    </header>
+
+    <section class="intro">
+      <div>
+        <p class="eyebrow">Tok Thai</p>
+        <h1>タイ文字フォール</h1>
+        <p class="lead">落ちてくる短いタイ語を見て、下の四択から発音を選びます。正解なら消え、間違いと時間切れは石化して下にたまります。</p>
+      </div>
+      <button id="startButton" class="primary-button" type="button">Start</button>
+    </section>
+
+    <section class="play-layout" aria-label="game">
+      <div class="well-wrap">
+        <div id="well" class="well" aria-live="polite">
+          <div class="well-grid" aria-hidden="true"></div>
+          <div id="fallingWord" class="falling-word hidden"></div>
+          <div id="stoneStack" class="stone-stack" aria-hidden="true"></div>
+          <div id="wellMessage" class="well-message">
+            <strong>Ready?</strong>
+            <span>Start を押して練習開始</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="side-panel">
+        <div class="mini-card">
+          <span>Now</span>
+          <strong id="roundLabel">0 / 15</strong>
+        </div>
+        <div class="mini-card">
+          <span>Word pool</span>
+          <strong id="poolLabel">0</strong>
+        </div>
+        <div class="legend" aria-label="letter colors">
+          <div><i class="legend-consonant"></i>子音</div>
+          <div><i class="legend-vowel"></i>母音・声調</div>
+        </div>
+        <p id="feedback" class="feedback">短い語だけが出ます。</p>
+      </aside>
+    </section>
+
+    <section class="choice-panel" aria-label="choices">
+      <div id="choiceGrid" class="choice-grid"></div>
+    </section>
+
+    <section id="resultPanel" class="result-panel hidden" aria-live="polite">
+      <div class="result-head">
+        <div>
+          <p class="eyebrow">Clear</p>
+          <h2>15問クリア</h2>
+        </div>
+        <img src="../../assets/images/nari/chibi/chibi-cheer.png" alt="Nari">
+      </div>
+      <p id="resultText" class="result-text"></p>
+      <div id="mistakeList" class="mistake-list"></div>
+      <button id="againButton" class="ghost-button" type="button">Play again</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
