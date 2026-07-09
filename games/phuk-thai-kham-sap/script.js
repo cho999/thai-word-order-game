@@ -2,44 +2,44 @@ const fallbackLessons = [
   {
     id: "lesson1",
     title: "Lesson 1",
-    source: "オンライン授業ノート",
+    source: "Online lesson notes",
     words: [
-      { id: "l1-dog", thai: "หมา", roman: "maa", english: "dog" },
+      { id: "l1-dog", thai: "หมา", roman: "mǎa", english: "dog" },
       { id: "l1-cat", thai: "แมว", roman: "maaeo", english: "cat" },
-      { id: "l1-bread", thai: "ขนมปัง", roman: "khanom bpang", english: "bread" },
+      { id: "l1-bread", thai: "ขนมปัง", roman: "khà-nǒm bpang", english: "bread" },
       { id: "l1-milk", thai: "นม", roman: "nom", english: "milk" },
-      { id: "l1-movie", thai: "หนัง", roman: "nang", english: "movie" },
-      { id: "l1-book", thai: "หนังสือ", roman: "nang sue", english: "book" },
+      { id: "l1-movie", thai: "หนัง", roman: "nǎng", english: "movie" },
+      { id: "l1-book", thai: "หนังสือ", roman: "nǎng sʉ̌ʉ", english: "book" },
       { id: "l1-song", thai: "เพลง", roman: "phleeng", english: "song" },
-      { id: "l1-question", thai: "คำถาม", roman: "kam taam", english: "question" },
-      { id: "l1-alcohol", thai: "เหล้า", roman: "lao", english: "alcohol" },
-      { id: "l1-travel", thai: "ไปเที่ยว", roman: "bpai thiao", english: "travel" },
-      { id: "l1-shopping", thai: "ซื้อของ", roman: "seu khaawng", english: "shopping" },
-      { id: "l1-like", thai: "ชอบ", roman: "chaawp", english: "like" },
-      { id: "l1-you", thai: "คุณ", roman: "kun", english: "you" },
-      { id: "l1-i", thai: "ผม/ฉัน", roman: "pom / chan", english: "I" },
-      { id: "l1-he-she", thai: "เขา", roman: "kao", english: "he / she" },
-      { id: "l1-they", thai: "พวกเขา", roman: "puak kao", english: "they" },
+      { id: "l1-question", thai: "คำถาม", roman: "kham tǎam", english: "question" },
+      { id: "l1-alcohol", thai: "เหล้า", roman: "lâo", english: "alcohol" },
+      { id: "l1-travel", thai: "ไปเที่ยว", roman: "bpai thîao", english: "travel" },
+      { id: "l1-shopping", thai: "ซื้อของ", roman: "sʉ́ʉ khǎawng", english: "shopping" },
+      { id: "l1-like", thai: "ชอบ", roman: "châawp", english: "like" },
+      { id: "l1-you", thai: "คุณ", roman: "khun", english: "you" },
+      { id: "l1-i", thai: "ผม/ฉัน", roman: "phǒm / chǎn", english: "I" },
+      { id: "l1-he-she", thai: "เขา", roman: "khǎo", english: "he / she" },
+      { id: "l1-they", thai: "พวกเขา", roman: "phûuak khǎo", english: "they" },
       { id: "l1-we", thai: "เรา", roman: "rao", english: "we" },
-      { id: "l1-this", thai: "นี่", roman: "nii", english: "this" },
-      { id: "l1-what", thai: "อะไร", roman: "arai", english: "what" },
-      { id: "l1-speak", thai: "พูด", roman: "poot", english: "speak" },
-      { id: "l1-again", thai: "อีกครั้ง", roman: "iik khrang", english: "again" },
-      { id: "l1-slowly", thai: "ช้าๆ", roman: "chaa chaa", english: "slowly" },
+      { id: "l1-this", thai: "นี่", roman: "nîi", english: "this" },
+      { id: "l1-what", thai: "อะไร", roman: "à-rai", english: "what" },
+      { id: "l1-speak", thai: "พูด", roman: "phûut", english: "speak" },
+      { id: "l1-again", thai: "อีกครั้ง", roman: "ìik khráng", english: "again" },
+      { id: "l1-slowly", thai: "ช้าๆ", roman: "cháa cháa", english: "slowly" },
       { id: "l1-sleep", thai: "นอน", roman: "naawn", english: "sleep" },
       { id: "l1-eat", thai: "กิน", roman: "gin", english: "eat" },
-      { id: "l1-drink", thai: "ดื่ม", roman: "deum", english: "drink" },
+      { id: "l1-drink", thai: "ดื่ม", roman: "dèum", english: "drink" },
       { id: "l1-watch", thai: "ดู", roman: "duu", english: "watch" },
-      { id: "l1-play", thai: "เล่น", roman: "len", english: "play" },
+      { id: "l1-play", thai: "เล่น", roman: "lên", english: "play" },
       { id: "l1-do", thai: "ทำ", roman: "tam", english: "do" },
-      { id: "l1-read", thai: "อ่าน", roman: "aan", english: "read" },
+      { id: "l1-read", thai: "อ่าน", roman: "àan", english: "read" },
       { id: "l1-go", thai: "ไป", roman: "bpai", english: "go" },
-      { id: "l1-ask", thai: "ถาม", roman: "taam", english: "ask" },
+      { id: "l1-ask", thai: "ถาม", roman: "tǎam", english: "ask" },
       { id: "l1-work", thai: "ทำงาน", roman: "tam ngaan", english: "work" },
-      { id: "l1-sing", thai: "ร้อง", roman: "raawng", english: "sing" },
+      { id: "l1-sing", thai: "ร้อง", roman: "ráawng", english: "sing" },
       { id: "l1-listen", thai: "ฟัง", roman: "fang", english: "listen" },
       { id: "l1-have", thai: "มี", roman: "mii", english: "have" },
-      { id: "l1-want", thai: "อยาก", roman: "yaak", english: "want" }
+      { id: "l1-want", thai: "อยาก", roman: "yàak", english: "want" }
     ]
   }
 ];
@@ -187,10 +187,10 @@ function startPractice(activeMode, sourceIds = null) {
     state.current = null;
     choiceGrid.innerHTML = "";
     const emptyText = activeMode !== "normal"
-      ? "復習モードの単語はありません。2回以上間違えた単語がここに入ります。"
-      : "この Lesson にはまだ単語がありません。";
+      ? "There are no review words yet. Words missed two or more times will appear here."
+      : "This lesson has no words yet.";
     promptText.textContent = emptyText;
-    promptSub.textContent = "授業ノートを追加すると、ここに Lesson が増えていきます。";
+    promptSub.textContent = "Add lesson notes to grow this lesson list.";
     feedback.textContent = "";
     updateStatus();
     return;
@@ -230,7 +230,7 @@ function renderQuestion() {
 
   promptText.textContent = prompt;
   promptSub.textContent = sub;
-  modeLabel.textContent = state.activeMode === "review" ? "復習モード" : "通常練習";
+  modeLabel.textContent = state.activeMode === "review" ? "Review mode" : "Practice";
   progressLabel.textContent = currentLesson().title;
   feedback.textContent = "";
   feedback.className = "feedback";
@@ -262,8 +262,8 @@ function answer(chosenId) {
     state.answered += 1;
     handleCorrect(state.current);
     feedback.textContent = state.activeMode !== "normal"
-      ? "正解です。復習モードでは3回正解で卒業です。"
-      : "正解です。";
+      ? "Correct. In review mode, three correct answers graduate the word."
+      : "Correct.";
     feedback.className = "feedback good";
     window.setTimeout(nextQuestion, 850);
   } else {
@@ -273,7 +273,7 @@ function answer(chosenId) {
     handleWrong(state.current);
     state.sessionTotal += 1;
     state.queue.splice(Math.min(2, state.queue.length), 0, state.current);
-    feedback.textContent = `違います。正解は ${answerLabel(state.current)}。もう一度あとで出ます。`;
+    feedback.textContent = `Not quite. The answer is ${answerLabel(state.current)}. It will come back later.`;
     feedback.className = "feedback bad";
     window.setTimeout(nextQuestion, 1350);
   }
@@ -286,30 +286,30 @@ function showScoreScreen() {
   state.locked = true;
   choiceGrid.innerHTML = "";
   feedback.textContent = "";
-  promptText.textContent = "おつかれさまでした";
-  promptSub.textContent = `${currentLesson().title} の練習結果を確認しましょう。`;
-  modeLabel.textContent = "結果";
+  promptText.textContent = "Nice work!";
+  promptSub.textContent = `Check your practice result for ${currentLesson().title}.`;
+  modeLabel.textContent = "Result";
   progressLabel.textContent = currentLesson().title;
 
   const wrongWords = getLessonWords().filter((word) => state.sessionWrongIds.has(word.id));
-  scoreTitle.textContent = state.activeMode === "normal" ? "通常練習の結果" : "復習結果";
+  scoreTitle.textContent = state.activeMode === "normal" ? "Practice Result" : "Review Result";
   scoreCorrect.textContent = state.correct;
   scoreAnswered.textContent = state.answered;
   scoreWrong.textContent = wrongWords.length;
   reviewMistakesButton.hidden = !wrongWords.length;
   scoreMessage.textContent = wrongWords.length
-    ? "間違えた単語だけをもう一度復習できます。"
-    : "今回の練習で間違えた単語はありません。よくできました。";
+    ? "You can review only the words you missed."
+    : "No missed words in this round. Great work.";
   wrongWordList.innerHTML = wrongWords.length
     ? wrongWords.map((word) => `
       <article class="wrong-word">
         <strong>${word.thai}</strong>
         <span>${word.roman}</span>
         <em>${word.english}</em>
-        <small>${state.sessionWrongCounts[word.id] || 0}回ミス</small>
+        <small>${state.sessionWrongCounts[word.id] || 0} misses</small>
       </article>
     `).join("")
-    : '<div class="empty-wrong">復習候補はありません。</div>';
+    : '<div class="empty-wrong">No review items.</div>';
   scorePanel.classList.remove("hidden");
   updateStatus();
 }
@@ -330,11 +330,11 @@ function renderVocabularyList() {
     return [word.thai, word.roman, word.english].some((value) => value.toLowerCase().includes(query));
   });
   const bookmarkCount = getLessonWords().filter((word) => state.bookmarks.has(word.id)).length;
-  const scopeLabel = state.vocabFilter === "bookmarks" ? "ブックマーク" : "全部";
-  vocabListStatus.textContent = `${scopeLabel}: ${words.length}件 / ブックマーク ${bookmarkCount}件`;
+  const scopeLabel = state.vocabFilter === "bookmarks" ? "Bookmarks" : "All";
+  vocabListStatus.textContent = `${scopeLabel}: ${words.length} items / Bookmarks ${bookmarkCount}`;
   vocabList.innerHTML = words.length
     ? words.map(renderVocabularyCard).join("")
-    : '<div class="empty-vocab">該当する語彙はありません。</div>';
+    : '<div class="empty-vocab">No matching vocabulary.</div>';
   vocabList.querySelectorAll(".bookmark-button").forEach((button) => {
     button.addEventListener("click", () => toggleBookmark(button.dataset.id));
   });
@@ -344,7 +344,7 @@ function renderVocabularyCard(word) {
   const bookmarked = state.bookmarks.has(word.id);
   return `
     <article class="vocab-card${bookmarked ? " bookmarked" : ""}">
-      <button class="bookmark-button" type="button" data-id="${escapeHtml(word.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "ブックマーク解除" : "ブックマーク追加"}">
+      <button class="bookmark-button" type="button" data-id="${escapeHtml(word.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "Remove bookmark" : "Add bookmark"}">
         ${bookmarked ? "★" : "☆"}
       </button>
       <div>
@@ -426,12 +426,12 @@ function updateStatus() {
 }
 
 function showIdlePrompt() {
-  promptText.textContent = "通常練習か復習モードを選んでください";
+  promptText.textContent = "Choose practice or review mode.";
   promptSub.textContent = `${currentLesson().title} / ${currentLesson().source}`;
   choiceGrid.innerHTML = "";
   feedback.textContent = "";
   scorePanel.classList.add("hidden");
-  modeLabel.textContent = "待機中";
+  modeLabel.textContent = "Ready";
   progressLabel.textContent = currentLesson().title;
   state.sessionTotal = state.queue.length;
   updateStatus();
@@ -455,7 +455,7 @@ function updateProgressBars() {
 function renderOcrPreview() {
   const rows = parseOcrText(ocrText.value);
   if (!rows.length) {
-    parsePreview.innerHTML = '<div class="preview-row">読み取れる行がありません。カンマ区切りで「タイ語, roman, English」と入力してください。</div>';
+    parsePreview.innerHTML = '<div class="preview-row">No readable rows. Enter comma-separated rows as "Thai, Paiboon, English".</div>';
     return;
   }
   parsePreview.innerHTML = rows.map((row) => `

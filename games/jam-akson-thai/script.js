@@ -118,17 +118,17 @@
   // Match Game: Consonant labels (Latin) + IPA
   // =========================
   const CONSONANT_LABEL_LATIN = {
-    'ก': 'ko kai', 'ข': 'kho khai', 'ฃ': 'kho khuat', 'ค': 'kho khwai', 'ฅ': 'kho khon', 'ฆ': 'kho rakhang',
-    'ง': 'ngo ngu',
-    'จ': 'cho chan', 'ฉ': 'cho ching', 'ช': 'cho chang', 'ซ': 'so so', 'ฌ': 'cho choe',
-    'ญ': 'yo ying',
-    'ฎ': 'do chada', 'ฏ': 'to patak',
-    'ฐ': 'tho than', 'ฑ': 'tho montho', 'ฒ': 'tho phuthao', 'ณ': 'no nen',
-    'ด': 'do dek', 'ต': 'to tao', 'ถ': 'tho thung', 'ท': 'tho thahan', 'ธ': 'tho thong', 'น': 'no nu',
-    'บ': 'bo baimai', 'ป': 'po pla', 'ผ': 'pho phueng', 'ฝ': 'fo fa', 'พ': 'pho phan', 'ฟ': 'fo fan', 'ภ': 'pho samphao', 'ม': 'mo ma',
-    'ย': 'yo yak', 'ร': 'ro ruea', 'ล': 'lo ling', 'ว': 'wo waen',
-    'ศ': 'so sala', 'ษ': 'so ruesi', 'ส': 'so suea',
-    'ห': 'ho hip', 'ฬ': 'lo chula', 'อ': 'o ang', 'ฮ': 'ho nokhuk'
+    'ก': 'gɔɔ gài', 'ข': 'kɔ̌ɔ kài', 'ฃ': 'kɔ̌ɔ khùuat', 'ค': 'kɔɔ khwaai', 'ฅ': 'kɔɔ khon', 'ฆ': 'kɔɔ rá-khang',
+    'ง': 'ngɔɔ nguu',
+    'จ': 'jɔɔ jaan', 'ฉ': 'chɔ̌ɔ chìng', 'ช': 'chɔɔ cháang', 'ซ': 'sɔɔ sôo', 'ฌ': 'chɔɔ chəə',
+    'ญ': 'yɔɔ yǐng',
+    'ฎ': 'dɔɔ chá-daa', 'ฏ': 'dtɔɔ bpà-dtàk',
+    'ฐ': 'tɔ̌ɔ tǎan', 'ฑ': 'tɔɔ mon-too', 'ฒ': 'tɔɔ phûu-tâo', 'ณ': 'nɔɔ neen',
+    'ด': 'dɔɔ dèk', 'ต': 'dtɔɔ dtào', 'ถ': 'tɔ̌ɔ tǔng', 'ท': 'tɔɔ tá-hǎan', 'ธ': 'tɔɔ thong', 'น': 'nɔɔ nǔu',
+    'บ': 'bɔɔ bai mái', 'ป': 'bpɔɔ bplaa', 'ผ': 'pɔ̌ɔ phʉ̂ng', 'ฝ': 'fɔ̌ɔ fǎa', 'พ': 'pɔɔ phaan', 'ฟ': 'fɔɔ fan', 'ภ': 'pɔɔ sǎm-phao', 'ม': 'mɔɔ máa',
+    'ย': 'yɔɔ yák', 'ร': 'rɔɔ rʉʉa', 'ล': 'lɔɔ ling', 'ว': 'wɔɔ wɛ̌ɛn',
+    'ศ': 'sɔ̌ɔ sǎa-laa', 'ษ': 'sɔ̌ɔ rʉʉ-sǐi', 'ส': 'sɔ̌ɔ sʉ̌ʉa',
+    'ห': 'hɔ̌ɔ hìip', 'ฬ': 'lɔɔ jù-laa', 'อ': 'ɔɔ àang', 'ฮ': 'hɔɔ nók-hûuk'
   };
 
   const CONSONANT_IPA = {
@@ -154,11 +154,11 @@
   });
 
   const VOWEL_PAIRS = [
-    ['อะ','a'],   ['อา','aa'],
-    ['อิ','i'],   ['อี','ii'],
-    ['อุ','u'],   ['อู','uu'],
-    ['เอ','e'],   ['แอ','ae'],
-    ['โอ','o'],
+    ['อะ','à'],   ['อา','aa'],
+    ['อิ','ì'],   ['อี','ii'],
+    ['อุ','ù'],   ['อู','uu'],
+    ['เอ','ee'],   ['แอ','ɛɛ'],
+    ['โอ','oo'],
     ['ไอ','ai'],  ['ใอ','ai'],
     ['เอา','ao'],
     ['อำ','am']
@@ -177,9 +177,9 @@
     {thai:'ี', latin:'ii', pattern:'above'},
     {thai:'ุ', latin:'u',  pattern:'below'},
     {thai:'ู', latin:'uu', pattern:'below'},
-    {thai:'เ', latin:'e',  pattern:'pre'},
-    {thai:'แ', latin:'ae', pattern:'pre'},
-    {thai:'โ', latin:'o',  pattern:'pre'},
+    {thai:'เ', latin:'ee',  pattern:'pre'},
+    {thai:'แ', latin:'ɛɛ', pattern:'pre'},
+    {thai:'โ', latin:'oo',  pattern:'pre'},
     {thai:'ไ', latin:'ai', pattern:'pre'},
     {thai:'ใ', latin:'ai', pattern:'pre'}
   ];
@@ -191,19 +191,50 @@
 
   function consonantToLatin(c){
     const map = {
-      'ก':'k','ข':'kh','ฃ':'kh','ค':'kh','ฅ':'kh','ฆ':'kh',
+      'ก':'g','ข':'k','ฃ':'k','ค':'k','ฅ':'k','ฆ':'k',
       'ง':'ng',
-      'จ':'ch','ฉ':'ch','ช':'ch','ซ':'s','ฌ':'ch',
+      'จ':'j','ฉ':'ch','ช':'ch','ซ':'s','ฌ':'ch',
       'ญ':'y',
-      'ฎ':'d','ฏ':'t',
-      'ฐ':'th','ฑ':'th','ฒ':'th','ณ':'n',
-      'ด':'d','ต':'t','ถ':'th','ท':'th','ธ':'th','น':'n',
-      'บ':'b','ป':'p','ผ':'ph','ฝ':'f','พ':'ph','ฟ':'f','ภ':'ph','ม':'m',
+      'ฎ':'d','ฏ':'dt',
+      'ฐ':'t','ฑ':'t','ฒ':'t','ณ':'n',
+      'ด':'d','ต':'dt','ถ':'t','ท':'t','ธ':'t','น':'n',
+      'บ':'b','ป':'bp','ผ':'p','ฝ':'f','พ':'p','ฟ':'f','ภ':'p','ม':'m',
       'ย':'y','ร':'r','ล':'l','ว':'w',
       'ศ':'s','ษ':'s','ส':'s',
       'ห':'h','ฬ':'l','อ':'', 'ฮ':'h'
     };
     return (map[c] ?? '?');
+  }
+
+  function consonantClass(c) {
+    if ('ขฃฉฐถผฝศษสห'.includes(c)) return 'high';
+    if ('กจฎฏดตบปอ'.includes(c)) return 'mid';
+    return 'low';
+  }
+
+  function applyTone(base, tone) {
+    if (tone === 'mid') return base;
+    const marks = {
+      low: { a: 'à', e: 'è', i: 'ì', o: 'ò', u: 'ù', ɔ: 'ɔ̀', ɛ: 'ɛ̀', ə: 'ə̀', ʉ: 'ʉ̀' },
+      falling: { a: 'â', e: 'ê', i: 'î', o: 'ô', u: 'û', ɔ: 'ɔ̂', ɛ: 'ɛ̂', ə: 'ə̂', ʉ: 'ʉ̂' },
+      high: { a: 'á', e: 'é', i: 'í', o: 'ó', u: 'ú', ɔ: 'ɔ́', ɛ: 'ɛ́', ə: 'ə́', ʉ: 'ʉ́' },
+      rising: { a: 'ǎ', e: 'ě', i: 'ǐ', o: 'ǒ', u: 'ǔ', ɔ: 'ɔ̌', ɛ: 'ɛ̌', ə: 'ə̌', ʉ: 'ʉ̌' }
+    };
+    const index = [...base].findIndex((char) => marks[tone][char]);
+    if (index < 0) return base;
+    const chars = [...base];
+    chars[index] = marks[tone][chars[index]];
+    return chars.join('');
+  }
+
+  function romanizeSyntheticSyllable(consonant, vowel) {
+    const base = consonantToLatin(consonant) + vowel.latin;
+    const liveVowels = new Set(['aa', 'ii', 'uu', 'ee', 'ɛɛ', 'oo', 'ai']);
+    const live = liveVowels.has(vowel.latin);
+    const klass = consonantClass(consonant);
+    if (live) return applyTone(base, klass === 'high' ? 'rising' : 'mid');
+    if (klass === 'low') return applyTone(base, 'high');
+    return applyTone(base, 'low');
   }
 
   // =========================
@@ -256,7 +287,7 @@
     for (const c of SYLLABLE_BASE_CONSONANTS_ALL){
       for (const v of SYLLABLE_VOWELS){
         const thai = composeSyllable(c, v);
-        const latin = consonantToLatin(c) + v.latin;
+        const latin = romanizeSyntheticSyllable(c, v);
         result.push([thai, latin]);
       }
     }
@@ -400,7 +431,7 @@
           timerInterval = null;
           setTimeout(() => showResult({
             title: 'Clear!',
-            talk: 'すごい！文字と音のペア、しっかり見つけられたね。',
+            talk: 'Great! You matched the letters and sounds clearly.',
             summary: `Time: ${timer}s / Attempts: ${attempts}`,
             nari: 'wink'
           }), 250);
@@ -812,7 +843,7 @@
             if (learnIndexInUnit >= chars.length){
               showResult({
                 title: `Unit ${CONSONANT_UNITS[learnUnitIndex].unit} complete`,
-                talk: 'よくできました！この調子で、次の文字の島へ進もう。',
+                talk: 'Great work! Keep this rhythm and move to the next letter island.',
                 summary: 'Consonant learning unit complete.',
                 nari: 'cheer'
               });
@@ -862,7 +893,7 @@
           if (learnIndexInUnit >= pairs.length){
             showResult({
               title: `Unit ${VOWEL_UNITS[learnUnitIndex].unit} complete`,
-              talk: '母音の聞き分け、いい感じ！耳がどんどん育ってるよ。',
+              talk: 'Nice vowel listening! Your ear is getting stronger.',
               summary: 'Vowel learning unit complete.',
               nari: 'cheer'
             });

@@ -15,50 +15,50 @@
     "ฬ"
   ],
   "consonantLabels": {
-    "ก": "ko kai",
-    "ข": "kho khai",
-    "ฃ": "kho khuat",
-    "ค": "kho khwai",
-    "ฅ": "kho khon",
-    "ฆ": "kho rakhang",
-    "ง": "ngo ngu",
-    "จ": "cho chan",
-    "ฉ": "cho ching",
-    "ช": "cho chang",
-    "ซ": "so so",
-    "ฌ": "cho choe",
-    "ญ": "yo ying",
-    "ฎ": "do chada",
-    "ฏ": "to patak",
-    "ฐ": "tho than",
-    "ฑ": "tho montho",
-    "ฒ": "tho phuthao",
-    "ณ": "no nen",
-    "ด": "do dek",
-    "ต": "to tao",
-    "ถ": "tho thung",
-    "ท": "tho thahan",
-    "ธ": "tho thong",
-    "น": "no nu",
-    "บ": "bo baimai",
-    "ป": "po pla",
-    "ผ": "pho phueng",
-    "ฝ": "fo fa",
-    "พ": "pho phan",
-    "ฟ": "fo fan",
-    "ภ": "pho samphao",
-    "ม": "mo ma",
-    "ย": "yo yak",
-    "ร": "ro ruea",
-    "ล": "lo ling",
-    "ว": "wo waen",
-    "ศ": "so sala",
-    "ษ": "so ruesi",
-    "ส": "so suea",
-    "ห": "ho hip",
-    "ฬ": "lo chula",
-    "อ": "o ang",
-    "ฮ": "ho nokhuk"
+    "ก": "gɔɔ gài",
+    "ข": "kɔ̌ɔ kài",
+    "ฃ": "kɔ̌ɔ khùuat",
+    "ค": "kɔɔ khwaai",
+    "ฅ": "kɔɔ khon",
+    "ฆ": "kɔɔ rá-khang",
+    "ง": "ngɔɔ nguu",
+    "จ": "jɔɔ jaan",
+    "ฉ": "chɔ̌ɔ chìng",
+    "ช": "chɔɔ cháang",
+    "ซ": "sɔɔ sôo",
+    "ฌ": "chɔɔ chəə",
+    "ญ": "yɔɔ yǐng",
+    "ฎ": "dɔɔ chá-daa",
+    "ฏ": "dtɔɔ bpà-dtàk",
+    "ฐ": "tɔ̌ɔ tǎan",
+    "ฑ": "tɔɔ mon-too",
+    "ฒ": "tɔɔ phûu-tâo",
+    "ณ": "nɔɔ neen",
+    "ด": "dɔɔ dèk",
+    "ต": "dtɔɔ dtào",
+    "ถ": "tɔ̌ɔ tǔng",
+    "ท": "tɔɔ tá-hǎan",
+    "ธ": "tɔɔ thong",
+    "น": "nɔɔ nǔu",
+    "บ": "bɔɔ bai mái",
+    "ป": "bpɔɔ bplaa",
+    "ผ": "pɔ̌ɔ phʉ̂ng",
+    "ฝ": "fɔ̌ɔ fǎa",
+    "พ": "pɔɔ phaan",
+    "ฟ": "fɔɔ fan",
+    "ภ": "pɔɔ sǎm-phao",
+    "ม": "mɔɔ máa",
+    "ย": "yɔɔ yák",
+    "ร": "rɔɔ rʉʉa",
+    "ล": "lɔɔ ling",
+    "ว": "wɔɔ wɛ̌ɛn",
+    "ศ": "sɔ̌ɔ sǎa-laa",
+    "ษ": "sɔ̌ɔ rʉʉ-sǐi",
+    "ส": "sɔ̌ɔ sʉ̌ʉa",
+    "ห": "hɔ̌ɔ hìip",
+    "ฬ": "lɔɔ jù-laa",
+    "อ": "ɔɔ àang",
+    "ฮ": "hɔɔ nók-hûuk"
   },
   "consonantIpa": {
     "ก": "/k/",
@@ -109,185 +109,185 @@
   "consonantPairs": [
     [
       "ก",
-      "ko kai /k/"
+      "gɔɔ gài /k/"
     ],
     [
       "ข",
-      "kho khai /kʰ/"
+      "kɔ̌ɔ kài /kʰ/"
     ],
     [
       "ฃ",
-      "kho khuat /kʰ/"
+      "kɔ̌ɔ khùuat /kʰ/"
     ],
     [
       "ค",
-      "kho khwai /kʰ/"
+      "kɔɔ khwaai /kʰ/"
     ],
     [
       "ฅ",
-      "kho khon /kʰ/"
+      "kɔɔ khon /kʰ/"
     ],
     [
       "ฆ",
-      "kho rakhang /kʰ/"
+      "kɔɔ rá-khang /kʰ/"
     ],
     [
       "ง",
-      "ngo ngu /ŋ/"
+      "ngɔɔ nguu /ŋ/"
     ],
     [
       "จ",
-      "cho chan /tɕ/"
+      "jɔɔ jaan /tɕ/"
     ],
     [
       "ฉ",
-      "cho ching /tɕʰ/"
+      "chɔ̌ɔ chìng /tɕʰ/"
     ],
     [
       "ช",
-      "cho chang /tɕʰ/"
+      "chɔɔ cháang /tɕʰ/"
     ],
     [
       "ซ",
-      "so so /s/"
+      "sɔɔ sôo /s/"
     ],
     [
       "ฌ",
-      "cho choe /tɕʰ/"
+      "chɔɔ chəə /tɕʰ/"
     ],
     [
       "ญ",
-      "yo ying /j/"
+      "yɔɔ yǐng /j/"
     ],
     [
       "ฎ",
-      "do chada /d/"
+      "dɔɔ chá-daa /d/"
     ],
     [
       "ฏ",
-      "to patak /t/"
+      "dtɔɔ bpà-dtàk /t/"
     ],
     [
       "ฐ",
-      "tho than /tʰ/"
+      "tɔ̌ɔ tǎan /tʰ/"
     ],
     [
       "ฑ",
-      "tho montho /tʰ/"
+      "tɔɔ mon-too /tʰ/"
     ],
     [
       "ฒ",
-      "tho phuthao /tʰ/"
+      "tɔɔ phûu-tâo /tʰ/"
     ],
     [
       "ณ",
-      "no nen /n/"
+      "nɔɔ neen /n/"
     ],
     [
       "ด",
-      "do dek /d/"
+      "dɔɔ dèk /d/"
     ],
     [
       "ต",
-      "to tao /t/"
+      "dtɔɔ dtào /t/"
     ],
     [
       "ถ",
-      "tho thung /tʰ/"
+      "tɔ̌ɔ tǔng /tʰ/"
     ],
     [
       "ท",
-      "tho thahan /tʰ/"
+      "tɔɔ tá-hǎan /tʰ/"
     ],
     [
       "ธ",
-      "tho thong /tʰ/"
+      "tɔɔ thong /tʰ/"
     ],
     [
       "น",
-      "no nu /n/"
+      "nɔɔ nǔu /n/"
     ],
     [
       "บ",
-      "bo baimai /b/"
+      "bɔɔ bai mái /b/"
     ],
     [
       "ป",
-      "po pla /p/"
+      "bpɔɔ bplaa /p/"
     ],
     [
       "ผ",
-      "pho phueng /pʰ/"
+      "pɔ̌ɔ phʉ̂ng /pʰ/"
     ],
     [
       "ฝ",
-      "fo fa /f/"
+      "fɔ̌ɔ fǎa /f/"
     ],
     [
       "พ",
-      "pho phan /pʰ/"
+      "pɔɔ phaan /pʰ/"
     ],
     [
       "ฟ",
-      "fo fan /f/"
+      "fɔɔ fan /f/"
     ],
     [
       "ภ",
-      "pho samphao /pʰ/"
+      "pɔɔ sǎm-phao /pʰ/"
     ],
     [
       "ม",
-      "mo ma /m/"
+      "mɔɔ máa /m/"
     ],
     [
       "ย",
-      "yo yak /j/"
+      "yɔɔ yák /j/"
     ],
     [
       "ร",
-      "ro ruea /r~ɾ/"
+      "rɔɔ rʉʉa /r~ɾ/"
     ],
     [
       "ล",
-      "lo ling /l/"
+      "lɔɔ ling /l/"
     ],
     [
       "ว",
-      "wo waen /w/"
+      "wɔɔ wɛ̌ɛn /w/"
     ],
     [
       "ศ",
-      "so sala /s/"
+      "sɔ̌ɔ sǎa-laa /s/"
     ],
     [
       "ษ",
-      "so ruesi /s/"
+      "sɔ̌ɔ rʉʉ-sǐi /s/"
     ],
     [
       "ส",
-      "so suea /s/"
+      "sɔ̌ɔ sʉ̌ʉa /s/"
     ],
     [
       "ห",
-      "ho hip /h/"
+      "hɔ̌ɔ hìip /h/"
     ],
     [
       "ฬ",
-      "lo chula /l/"
+      "lɔɔ jù-laa /l/"
     ],
     [
       "อ",
-      "o ang /ʔ/ (carrier)"
+      "ɔɔ àang /ʔ/ (carrier)"
     ],
     [
       "ฮ",
-      "ho nokhuk /h/"
+      "hɔɔ nók-hûuk /h/"
     ]
   ],
   "vowelPairs": [
     [
       "อะ",
-      "a"
+      "à"
     ],
     [
       "อา",
@@ -295,7 +295,7 @@
     ],
     [
       "อิ",
-      "i"
+      "ì"
     ],
     [
       "อี",
@@ -303,7 +303,7 @@
     ],
     [
       "อุ",
-      "u"
+      "ù"
     ],
     [
       "อู",
@@ -311,15 +311,15 @@
     ],
     [
       "เอ",
-      "e"
+      "ee"
     ],
     [
       "แอ",
-      "ae"
+      "ɛɛ"
     ],
     [
       "โอ",
-      "o"
+      "oo"
     ],
     [
       "ไอ",
@@ -387,7 +387,7 @@
   "syllableVowels": [
     {
       "thai": "ะ",
-      "latin": "a",
+      "latin": "à",
       "pattern": "post"
     },
     {
@@ -397,7 +397,7 @@
     },
     {
       "thai": "ิ",
-      "latin": "i",
+      "latin": "ì",
       "pattern": "above"
     },
     {
@@ -407,7 +407,7 @@
     },
     {
       "thai": "ุ",
-      "latin": "u",
+      "latin": "ù",
       "pattern": "below"
     },
     {
@@ -417,17 +417,17 @@
     },
     {
       "thai": "เ",
-      "latin": "e",
+      "latin": "ee",
       "pattern": "pre"
     },
     {
       "thai": "แ",
-      "latin": "ae",
+      "latin": "ɛɛ",
       "pattern": "pre"
     },
     {
       "thai": "โ",
-      "latin": "o",
+      "latin": "oo",
       "pattern": "pre"
     },
     {

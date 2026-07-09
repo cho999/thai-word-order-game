@@ -2,12 +2,12 @@
   {
     "id": "lesson1",
     "title": "Lesson 1",
-    "source": "オンライン授業ノート",
+    "source": "Online lesson notes",
     "words": [
       {
         "id": "l1-dog",
         "thai": "หมา",
-        "roman": "maa",
+        "roman": "mǎa",
         "english": "dog"
       },
       {
@@ -19,7 +19,7 @@
       {
         "id": "l1-bread",
         "thai": "ขนมปัง",
-        "roman": "khanom bpang",
+        "roman": "khà-nǒm bpang",
         "english": "bread"
       },
       {
@@ -31,13 +31,13 @@
       {
         "id": "l1-movie",
         "thai": "หนัง",
-        "roman": "nang",
+        "roman": "nǎng",
         "english": "movie"
       },
       {
         "id": "l1-book",
         "thai": "หนังสือ",
-        "roman": "nang sue",
+        "roman": "nǎng sʉ̌ʉ",
         "english": "book"
       },
       {
@@ -49,55 +49,55 @@
       {
         "id": "l1-question",
         "thai": "คำถาม",
-        "roman": "kam taam",
+        "roman": "kham tǎam",
         "english": "question"
       },
       {
         "id": "l1-alcohol",
         "thai": "เหล้า",
-        "roman": "lao",
+        "roman": "lâo",
         "english": "alcohol"
       },
       {
         "id": "l1-travel",
         "thai": "ไปเที่ยว",
-        "roman": "bpai thiao",
+        "roman": "bpai thîao",
         "english": "travel"
       },
       {
         "id": "l1-shopping",
         "thai": "ซื้อของ",
-        "roman": "seu khaawng",
+        "roman": "sʉ́ʉ khǎawng",
         "english": "shopping"
       },
       {
         "id": "l1-like",
         "thai": "ชอบ",
-        "roman": "chaawp",
+        "roman": "châawp",
         "english": "like"
       },
       {
         "id": "l1-you",
         "thai": "คุณ",
-        "roman": "kun",
+        "roman": "khun",
         "english": "you"
       },
       {
         "id": "l1-i",
         "thai": "ผม/ฉัน",
-        "roman": "pom / chan",
+        "roman": "phǒm / chǎn",
         "english": "I"
       },
       {
         "id": "l1-he-she",
         "thai": "เขา",
-        "roman": "kao",
+        "roman": "khǎo",
         "english": "he / she"
       },
       {
         "id": "l1-they",
         "thai": "พวกเขา",
-        "roman": "puak kao",
+        "roman": "phûuak khǎo",
         "english": "they"
       },
       {
@@ -109,31 +109,31 @@
       {
         "id": "l1-this",
         "thai": "นี่",
-        "roman": "nii",
+        "roman": "nîi",
         "english": "this"
       },
       {
         "id": "l1-what",
         "thai": "อะไร",
-        "roman": "arai",
+        "roman": "à-rai",
         "english": "what"
       },
       {
         "id": "l1-speak",
         "thai": "พูด",
-        "roman": "poot",
+        "roman": "phûut",
         "english": "speak"
       },
       {
         "id": "l1-again",
         "thai": "อีกครั้ง",
-        "roman": "iik khrang",
+        "roman": "ìik khráng",
         "english": "again"
       },
       {
         "id": "l1-slowly",
         "thai": "ช้าๆ",
-        "roman": "chaa chaa",
+        "roman": "cháa cháa",
         "english": "slowly"
       },
       {
@@ -151,7 +151,7 @@
       {
         "id": "l1-drink",
         "thai": "ดื่ม",
-        "roman": "deum",
+        "roman": "dèum",
         "english": "drink"
       },
       {
@@ -163,7 +163,7 @@
       {
         "id": "l1-play",
         "thai": "เล่น",
-        "roman": "len",
+        "roman": "lên",
         "english": "play"
       },
       {
@@ -175,7 +175,7 @@
       {
         "id": "l1-read",
         "thai": "อ่าน",
-        "roman": "aan",
+        "roman": "àan",
         "english": "read"
       },
       {
@@ -187,7 +187,7 @@
       {
         "id": "l1-ask",
         "thai": "ถาม",
-        "roman": "taam",
+        "roman": "tǎam",
         "english": "ask"
       },
       {
@@ -199,7 +199,7 @@
       {
         "id": "l1-sing",
         "thai": "ร้อง",
-        "roman": "raawng",
+        "roman": "ráawng",
         "english": "sing"
       },
       {
@@ -217,7 +217,7 @@
       {
         "id": "l1-want",
         "thai": "อยาก",
-        "roman": "yaak",
+        "roman": "yàak",
         "english": "want"
       }
     ]

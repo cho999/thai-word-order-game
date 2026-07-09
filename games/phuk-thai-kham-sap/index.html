@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>フックタイカムサップ</title>
+  <title>Phuk Thai Kham Sap</title>
   <link rel="stylesheet" href="../../assets/css/theme.css">
   <link rel="stylesheet" href="../../assets/css/components.css">
   <link rel="stylesheet" href="style.css">
@@ -11,58 +11,58 @@
 <body class="nari-theme">
   <main class="trainer">
     <header class="topbar">
-      <a class="portal-link" href="../../index.html">← ホーム</a>
-      <div class="scoreboard" aria-label="学習状況">
+      <a class="portal-link" href="../../index.html">← Home</a>
+      <div class="scoreboard" aria-label="Learning status">
         <div><span>Lesson</span><strong id="lessonBadge">1</strong></div>
-        <div><span>正解</span><strong id="correctCount">0</strong></div>
-        <div><span>復習</span><strong id="reviewCount">0</strong></div>
+        <div><span>Correct</span><strong id="correctCount">0</strong></div>
+        <div><span>Review</span><strong id="reviewCount">0</strong></div>
       </div>
     </header>
 
     <section class="hero-panel">
       <div>
         <p class="eyebrow">Phuk Thai Kham Sap</p>
-        <h1>フックタイカムサップ</h1>
-        <p class="lead">授業ノートから増やしていく単語練習です。タイ文字・ローマ字表示を切り替えながら、英語との対応を6択で確認します。</p>
+        <h1>Phuk Thai Kham Sap</h1>
+        <p class="lead">Practice vocabulary from lesson notes. Switch between Thai script and Paiboon romanization, then match each item with English in six choices.</p>
       </div>
-      <img src="../../assets/images/nari/chibi/chibi-thinking.png" alt="ナーリー">
+      <img src="../../assets/images/nari/chibi/chibi-thinking.png" alt="Nari">
     </section>
 
-    <section class="control-panel" aria-label="練習設定">
+    <section class="control-panel" aria-label="Practice settings">
       <label class="field">
         <span>Lesson</span>
         <select id="lessonSelect"></select>
       </label>
 
       <div class="field">
-        <span>表示</span>
-        <div class="segmented" role="group" aria-label="タイ語表示">
-          <button class="display-button active" type="button" data-display="thai">タイ文字</button>
-          <button class="display-button" type="button" data-display="roman">ローマ字</button>
+        <span>Display</span>
+        <div class="segmented" role="group" aria-label="Thai display">
+          <button class="display-button active" type="button" data-display="thai">Thai script</button>
+          <button class="display-button" type="button" data-display="roman">Paiboon</button>
         </div>
       </div>
 
       <div class="field mode-field">
-        <span>モード</span>
-        <div class="segmented" role="group" aria-label="出題モード">
-          <button class="mode-button active" type="button" data-mode="thaiToEnglish">タイ語 → 英語</button>
-          <button class="mode-button" type="button" data-mode="englishToThai">英語 → タイ語</button>
+        <span>Mode</span>
+        <div class="segmented" role="group" aria-label="Quiz mode">
+          <button class="mode-button active" type="button" data-mode="thaiToEnglish">Thai → English</button>
+          <button class="mode-button" type="button" data-mode="englishToThai">English → Thai</button>
         </div>
       </div>
 
-      <button id="normalButton" class="primary-button" type="button">通常練習</button>
-      <button id="reviewButton" class="ghost-button" type="button">復習モード</button>
+      <button id="normalButton" class="primary-button" type="button">Practice</button>
+      <button id="reviewButton" class="ghost-button" type="button">Review mode</button>
     </section>
 
     <section class="quiz-panel" aria-live="polite">
       <div class="quiz-meta">
-        <span id="modeLabel">通常練習</span>
+        <span id="modeLabel">Practice</span>
         <span id="progressLabel">Lesson 1</span>
       </div>
-      <div class="progress-grid" aria-label="練習と復習の進捗">
+      <div class="progress-grid" aria-label="Practice and review progress">
         <div class="progress-card">
           <div class="progress-head">
-            <span>練習</span>
+            <span>Practice</span>
             <strong id="normalProgressText">0 / 0</strong>
           </div>
           <div class="progress-track" aria-hidden="true">
@@ -71,7 +71,7 @@
         </div>
         <div class="progress-card">
           <div class="progress-head">
-            <span>復習</span>
+            <span>Review</span>
             <strong id="reviewProgressText">0 / 0</strong>
           </div>
           <div class="progress-track" aria-hidden="true">
@@ -80,10 +80,10 @@
         </div>
       </div>
       <div class="prompt-card">
-        <p id="promptText" class="prompt-text">通常練習か復習モードを選んでください</p>
-        <p id="promptSub" class="prompt-sub">Lesson1 は今回のオンライン授業ノートから作成しています。</p>
+        <p id="promptText" class="prompt-text">Choose practice or review mode.</p>
+        <p id="promptSub" class="prompt-sub">Lesson 1 is built from the current online lesson notes.</p>
       </div>
-      <div id="choiceGrid" class="choice-grid" aria-label="6択"></div>
+      <div id="choiceGrid" class="choice-grid" aria-label="Six choices"></div>
       <p id="feedback" class="feedback"></p>
     </section>
 
@@ -91,34 +91,34 @@
       <div class="score-head">
         <div>
           <p class="eyebrow">Result</p>
-          <h2 id="scoreTitle">練習結果</h2>
+          <h2 id="scoreTitle">Practice Result</h2>
         </div>
-        <img src="../../assets/images/nari/chibi/chibi-cheer.png" alt="ナーリー">
+        <img src="../../assets/images/nari/chibi/chibi-cheer.png" alt="Nari">
       </div>
-      <div class="score-grid" aria-label="スコア">
-        <div><span>正解</span><strong id="scoreCorrect">0</strong></div>
-        <div><span>回答</span><strong id="scoreAnswered">0</strong></div>
-        <div><span>復習候補</span><strong id="scoreWrong">0</strong></div>
+      <div class="score-grid" aria-label="Score">
+        <div><span>Correct</span><strong id="scoreCorrect">0</strong></div>
+        <div><span>Answered</span><strong id="scoreAnswered">0</strong></div>
+        <div><span>Review items</span><strong id="scoreWrong">0</strong></div>
       </div>
       <p id="scoreMessage" class="score-message"></p>
       <div id="wrongWordList" class="wrong-word-list"></div>
       <div class="score-actions">
-        <button id="reviewMistakesButton" class="primary-button" type="button">間違えた単語を復習</button>
-        <button id="againLessonButton" class="ghost-button" type="button">同じLessonをもう一周</button>
+        <button id="reviewMistakesButton" class="primary-button" type="button">Review missed words</button>
+        <button id="againLessonButton" class="ghost-button" type="button">Repeat this lesson</button>
       </div>
     </section>
 
-    <section class="vocab-panel" aria-label="既習語彙リスト">
+    <section class="vocab-panel" aria-label="Learned vocabulary list">
       <div class="vocab-head">
         <div>
           <p class="eyebrow">Vocabulary</p>
-          <h2>既習語彙リスト</h2>
+          <h2>Learned Vocabulary</h2>
         </div>
         <div class="vocab-tools">
-          <input id="vocabSearchInput" type="search" placeholder="タイ語・Paiboon・英語で検索">
-          <div class="segmented vocab-filter" role="group" aria-label="語彙リスト表示">
-            <button id="showAllWordsButton" class="vocab-filter-button active" type="button">全部</button>
-            <button id="showBookmarksButton" class="vocab-filter-button" type="button">ブックマーク</button>
+          <input id="vocabSearchInput" type="search" placeholder="Search Thai, Paiboon, or English">
+          <div class="segmented vocab-filter" role="group" aria-label="Vocabulary list display">
+            <button id="showAllWordsButton" class="vocab-filter-button active" type="button">All</button>
+            <button id="showBookmarksButton" class="vocab-filter-button" type="button">Bookmarks</button>
           </div>
         </div>
       </div>
@@ -128,10 +128,10 @@
 
     <section class="import-panel">
       <details>
-        <summary>OCRテキスト取り込みメモ</summary>
-        <p>今後の授業では、OCR結果を「タイ語, roman, English」の形式で整理して Lesson2 以降に追加できます。画像OCRそのものは次の段階で接続し、この欄は読み取り結果の確認用に使えます。</p>
-        <textarea id="ocrText" spellcheck="false" placeholder="例: หมา, maa, dog"></textarea>
-        <button id="parseButton" class="ghost-button" type="button">読み取りプレビュー</button>
+        <summary>OCR text import notes</summary>
+        <p>For future lessons, OCR results can be organized as "Thai, Paiboon, English" and added to Lesson 2 or later. Image OCR will be connected in a later stage; this area is for checking parsed text.</p>
+        <textarea id="ocrText" spellcheck="false" placeholder="Example: หมา, mǎa, dog"></textarea>
+        <button id="parseButton" class="ghost-button" type="button">Preview parsed rows</button>
         <div id="parsePreview" class="parse-preview"></div>
       </details>
     </section>
