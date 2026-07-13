@@ -425,9 +425,19 @@ select {
 }
 
 .vocab-tools {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.vocab-toggle {
+  min-width: 92px;
+}
+
+.vocab-list-controls {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 178px;
   gap: 8px;
+  margin-top: 10px;
 }
 
 #vocabSearchInput {
@@ -661,6 +671,10 @@ select {
   margin-top: 12px;
 }
 
+.hidden {
+  display: none !important;
+}
+
 summary {
   cursor: pointer;
   color: var(--teal);
@@ -716,7 +730,7 @@ textarea {
   }
 
   .vocab-head,
-  .vocab-tools {
+  .vocab-list-controls {
     grid-template-columns: 1fr;
   }
 

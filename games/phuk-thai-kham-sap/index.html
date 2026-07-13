@@ -115,15 +115,20 @@
           <h2>Learned Vocabulary</h2>
         </div>
         <div class="vocab-tools">
+          <button id="toggleVocabButton" class="ghost-button vocab-toggle" type="button" aria-expanded="false" aria-controls="vocabListBody">Show list</button>
+        </div>
+      </div>
+      <div id="vocabListBody" class="vocab-list-body hidden">
+        <div class="vocab-list-controls">
           <input id="vocabSearchInput" type="search" placeholder="Search Thai, Paiboon, or English">
           <div class="segmented vocab-filter" role="group" aria-label="Vocabulary list display">
             <button id="showAllWordsButton" class="vocab-filter-button active" type="button">All</button>
             <button id="showBookmarksButton" class="vocab-filter-button" type="button">Bookmarks</button>
           </div>
         </div>
+        <p id="vocabListStatus" class="vocab-status"></p>
+        <div id="vocabList" class="vocab-list"></div>
       </div>
-      <p id="vocabListStatus" class="vocab-status"></p>
-      <div id="vocabList" class="vocab-list"></div>
     </section>
 
     <section class="import-panel">

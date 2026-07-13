@@ -82,6 +82,8 @@ const vocabListStatus = $("#vocabListStatus");
 const vocabList = $("#vocabList");
 const showAllWordsButton = $("#showAllWordsButton");
 const showBookmarksButton = $("#showBookmarksButton");
+const toggleVocabButton = $("#toggleVocabButton");
+const vocabListBody = $("#vocabListBody");
 
 const state = {
   lessonId: lessons[0].id,
@@ -123,6 +125,7 @@ async function init() {
       state.display = button.dataset.display;
       document.querySelectorAll(".display-button").forEach((item) => item.classList.toggle("active", item === button));
       if (state.current) renderQuestion();
+      if (!vocabListBody.classList.contains("hidden")) renderVocabularyList();
     });
   });
 
@@ -144,6 +147,7 @@ async function init() {
   vocabSearchInput.addEventListener("input", renderVocabularyList);
   showAllWordsButton.addEventListener("click", () => setVocabFilter("all"));
   showBookmarksButton.addEventListener("click", () => setVocabFilter("bookmarks"));
+  toggleVocabButton.addEventListener("click", toggleVocabularyList);
   updateStatus();
   renderVocabularyList();
   showIdlePrompt();
@@ -224,9 +228,7 @@ function renderQuestion() {
   const word = state.current;
   const choices = makeChoices(word);
   const prompt = state.mode === "thaiToEnglish" ? thaiText(word) : word.english;
-  const sub = state.mode === "thaiToEnglish"
-    ? `${currentLesson().title} / ${state.display === "thai" ? word.roman : word.thai}`
-    : `${currentLesson().title} / choose ${state.display === "thai" ? "Thai script" : "romanization"}`;
+  const sub = getPromptSub(word);
 
   promptText.textContent = prompt;
   promptSub.textContent = sub;
@@ -301,14 +303,18 @@ function showScoreScreen() {
     ? "You can review only the words you missed."
     : "No missed words in this round. Great work.";
   wrongWordList.innerHTML = wrongWords.length
-    ? wrongWords.map((word) => `
+    ? wrongWords.map((word) => {
+      const detail = state.display === "thai"
+        ? `<em>${word.english}</em>`
+        : `<span>${word.thai}</span><em>${word.english}</em>`;
+      return `
       <article class="wrong-word">
-        <strong>${word.thai}</strong>
-        <span>${word.roman}</span>
-        <em>${word.english}</em>
+        <strong>${thaiText(word)}</strong>
+        ${detail}
         <small>${state.sessionWrongCounts[word.id] || 0} misses</small>
       </article>
-    `).join("")
+    `;
+    }).join("")
     : '<div class="empty-wrong">No review items.</div>';
   scorePanel.classList.remove("hidden");
   updateStatus();
@@ -342,18 +348,28 @@ function renderVocabularyList() {
 
 function renderVocabularyCard(word) {
   const bookmarked = state.bookmarks.has(word.id);
+  const secondary = state.display === "thai"
+    ? `<em>${escapeHtml(word.english)}</em>`
+    : `<span>${escapeHtml(word.thai)}</span><em>${escapeHtml(word.english)}</em>`;
   return `
     <article class="vocab-card${bookmarked ? " bookmarked" : ""}">
       <button class="bookmark-button" type="button" data-id="${escapeHtml(word.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "Remove bookmark" : "Add bookmark"}">
         ${bookmarked ? "★" : "☆"}
       </button>
       <div>
-        <strong>${escapeHtml(word.thai)}</strong>
-        <span>${escapeHtml(word.roman)}</span>
-        <em>${escapeHtml(word.english)}</em>
+        <strong>${escapeHtml(thaiText(word))}</strong>
+        ${secondary}
       </div>
     </article>
   `;
+}
+
+function toggleVocabularyList() {
+  const expanded = toggleVocabButton.getAttribute("aria-expanded") === "true";
+  toggleVocabButton.setAttribute("aria-expanded", String(!expanded));
+  toggleVocabButton.textContent = expanded ? "Show list" : "Hide list";
+  vocabListBody.classList.toggle("hidden", expanded);
+  if (!expanded) renderVocabularyList();
 }
 
 function toggleBookmark(id) {
@@ -393,6 +409,13 @@ function makeChoices(answerWord) {
 
 function thaiText(word) {
   return state.display === "thai" ? word.thai : word.roman;
+}
+
+function getPromptSub(word) {
+  if (state.mode === "thaiToEnglish") {
+    return state.display === "thai" ? currentLesson().title : `${currentLesson().title} / ${word.thai}`;
+  }
+  return state.display === "thai" ? `${currentLesson().title} / choose Thai script` : `${currentLesson().title} / choose romanization`;
 }
 
 function choiceText(word) {

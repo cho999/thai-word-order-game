@@ -165,9 +165,7 @@ function renderQuestion() {
   const word = state.current;
   const choices = makeChoices(word);
   const prompt = state.mode === "thaiToEnglish" ? thaiText(word) : word.english;
-  const sub = state.mode === "thaiToEnglish"
-    ? `${currentLesson().title} / ${state.display === "thai" ? word.roman : word.thai}`
-    : `${currentLesson().title} / choose ${state.display === "thai" ? "Thai script" : "romanization"}`;
+  const sub = getPromptSub(word);
 
   promptText.textContent = prompt;
   promptSub.textContent = sub;
@@ -245,6 +243,13 @@ function makeChoices(answerWord) {
 
 function thaiText(word) {
   return state.display === "thai" ? word.thai : word.roman;
+}
+
+function getPromptSub(word) {
+  if (state.mode === "thaiToEnglish") {
+    return state.display === "thai" ? currentLesson().title : `${currentLesson().title} / ${word.thai}`;
+  }
+  return state.display === "thai" ? `${currentLesson().title} / choose Thai script` : `${currentLesson().title} / choose romanization`;
 }
 
 function choiceText(word) {
