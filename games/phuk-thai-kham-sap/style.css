@@ -30,6 +30,7 @@ body {
     linear-gradient(180deg, #fffdf5 0%, var(--paper) 100%);
   color: var(--ink);
   font-family: "Yu Gothic", "Hiragino Sans", "Noto Sans Thai", "Noto Sans JP", system-ui, sans-serif;
+  overflow-x: hidden;
 }
 
 body::before {
@@ -755,6 +756,10 @@ textarea {
 }
 
 @media (max-width: 520px) {
+  .trainer {
+    width: min(100% - 16px, 1080px);
+  }
+
   .choice-grid,
   .progress-grid,
   .control-panel {

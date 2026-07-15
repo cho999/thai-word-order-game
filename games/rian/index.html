@@ -3,19 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>リアン</title>
+  <title>タイ語語順並べ替えゲーム | Rian</title>
+  <meta name="description" content="日本語とタイ語のカードを並べ替え、語順と修飾関係の違いを学ぶタイ語学習ゲームです。日本語話者向けに、タイ語の文構造を楽しく練習できます。">
+  <link rel="canonical" href="https://cho999.github.io/thai-word-order-game/games/rian/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="タイ語語順並べ替えゲーム | Rian">
+  <meta property="og:description" content="日本語とタイ語のカードを並べ替え、語順と修飾関係の違いを学ぶタイ語学習ゲームです。日本語話者向けの日本語 UI です。">
+  <meta property="og:image" content="https://cho999.github.io/thai-word-order-game/assets/images/banners/nari-adventure-link-banner.png">
   <link rel="stylesheet" href="../../assets/css/theme.css">
   <link rel="stylesheet" href="../../assets/css/components.css">
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="nari-theme">
+<body class="nari-theme" data-game="rian">
   <section id="titleScreen" class="screen title-screen">
     <div class="title-panel">
       <a class="portal-banner-link" href="../../index.html" aria-label="ナーリーのタイ語冒険ノートへ">
         <img src="../../assets/images/banners/nari-adventure-link-banner.png" alt="ナーリーのタイ語冒険ノート">
       </a>
       <p class="eyebrow">Thai Japanese Word Order Flip</p>
-      <h1>リアン</h1>
+      <h1>リアン - タイ語語順並べ替えゲーム</h1>
       <div class="home-note">
         <p>このゲームは基礎文法における修飾関係の違いを体感し、語彙を復習するゲームです。実際の言語運用では必ずしもこの順序ではない場合もありますし、修飾関係ではない述語文にはこの法則は当てはまりません。</p>
         <p>授業ノートセットでは、オンライン授業で書いた単語とフレーズをそのままカード練習にしています。</p>
@@ -113,7 +119,7 @@
       <p class="eyebrow">Review Log</p>
       <h1>ふくしゅう</h1>
       <div class="nari-result">
-        <img src="../../assets/images/nari/chibi/chibi-cheer.png" alt="ナーリー">
+        <img src="../../assets/images/nari/chibi/chibi-cheer.png" alt="復習結果で応援するちびキャラのナーリー">
         <p>おつかれさま！まちがえたカードは、次の冒険の地図になるよ。</p>
       </div>
       <div id="reviewList" class="review-list"></div>
@@ -121,6 +127,35 @@
     </div>
   </section>
 
+  <section class="screen">
+    <div class="title-panel info-section" aria-labelledby="rianInfoTitle">
+      <h2 id="rianInfoTitle">リアン - タイ語語順並べ替えゲームについて</h2>
+      <div class="info-grid">
+        <article>
+          <h3>学べること</h3>
+          <p>タイ語と日本語の語順、修飾関係、文の組み立て方をカードで確認できます。</p>
+        </article>
+        <article>
+          <h3>遊び方</h3>
+          <p>タイ語または日本語のカードを並べ替え、対応する文の形を完成させます。</p>
+        </article>
+        <article>
+          <h3>対象レベル</h3>
+          <p>日本語話者の初級タイ語学習者向けです。</p>
+        </article>
+        <article>
+          <h3>文字とローマ字表記</h3>
+          <p>タイ文字、日本語訳、授業ノート由来の読みを使います。</p>
+        </article>
+        <article>
+          <h3>利用できるモード</h3>
+          <p>タイ語から日本語、日本語からタイ語、レベル別練習、復習ログがあります。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <script src="../../shared/analytics.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -25,6 +25,7 @@ body {
   margin: 0;
   color: var(--ink);
   font-family: "Yu Gothic", "Hiragino Sans", "Noto Sans Thai", "Noto Sans JP", system-ui, sans-serif;
+  overflow-x: hidden;
 }
 
 button {
@@ -469,6 +470,10 @@ h1 {
 }
 
 @media (max-width: 460px) {
+  .game-shell {
+    width: min(100% - 16px, 1060px);
+  }
+
   .topbar {
     align-items: stretch;
     flex-direction: column;
@@ -483,5 +488,9 @@ h1 {
   .well {
     min-height: 420px;
     height: 420px;
+  }
+
+  .choice-button {
+    min-height: 46px;
   }
 }

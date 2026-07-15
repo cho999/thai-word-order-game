@@ -29,6 +29,7 @@
         linear-gradient(180deg, #fffdf5 0%, var(--bg) 100%);
       color: var(--ink);
       font-family: "Yu Gothic", "Hiragino Sans", "Noto Sans Thai", "Noto Sans JP", system-ui, sans-serif;
+      overflow-x: hidden;
     }
 
     body::before {
@@ -49,6 +50,32 @@
       min-height: 100vh;
       margin: 0 auto;
       padding: 28px 0;
+    }
+
+    .portal-nav {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .portal-nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 0 12px;
+      border: 1px solid rgba(25, 167, 168, .24);
+      border-radius: 8px;
+      background: var(--surface-warm);
+      color: var(--teal);
+      font-size: .84rem;
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+    .portal-nav a[aria-current="page"] {
+      background: var(--teal-soft);
+      color: var(--teal);
     }
 
     .hero {
@@ -132,7 +159,7 @@
 
     .game-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(6, minmax(0, 1fr));
       gap: 14px;
     }
 
@@ -148,6 +175,15 @@
       border: 1px solid var(--line);
       border-radius: 8px;
       box-shadow: var(--shadow);
+      grid-column: span 2;
+    }
+
+    .game-card:nth-child(4) {
+      grid-column: 2 / span 2;
+    }
+
+    .game-card:nth-child(5) {
+      grid-column: 4 / span 2;
     }
 
     .game-card::before {
@@ -211,7 +247,7 @@
       position: absolute;
       right: 10px;
       bottom: -10px;
-      width: 70px;
+      width: 64px;
       filter: drop-shadow(0 8px 12px rgba(86, 64, 35, .16));
     }
 
@@ -269,10 +305,120 @@
       filter: brightness(1.04);
     }
 
+    .latest-updates,
+    .update-timeline {
+      position: relative;
+      overflow: hidden;
+      margin-top: 18px;
+      padding: 18px 16px 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .latest-updates::before,
+    .update-timeline article::before {
+      position: absolute;
+      inset: 0 0 auto;
+      height: 5px;
+      content: "";
+      background: linear-gradient(90deg, var(--orange), var(--gold), var(--teal), var(--green));
+      pointer-events: none;
+    }
+
+    .section-head {
+      margin-bottom: 10px;
+    }
+
+    .section-head h2,
+    .update-timeline h2 {
+      font-size: clamp(1.25rem, 2.8vw, 2rem);
+      line-height: 1.15;
+    }
+
+    .updates-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .updates-list article,
+    .update-timeline article {
+      border: 1px solid rgba(25, 167, 168, .22);
+      border-radius: 8px;
+      background: var(--surface-warm);
+    }
+
+    .updates-list article {
+      padding: 12px;
+    }
+
+    .updates-list time,
+    .update-timeline time {
+      display: block;
+      color: var(--teal);
+      font-size: .78rem;
+      font-weight: 900;
+    }
+
+    .updates-list strong {
+      display: block;
+      margin-top: 4px;
+      color: var(--ink);
+    }
+
+    .updates-list p {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: .92rem;
+      line-height: 1.55;
+    }
+
+    .updates-link {
+      display: inline-flex;
+      margin-top: 12px;
+      color: var(--teal);
+      font-weight: 900;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
+    }
+
+    .compact-hero {
+      align-items: center;
+    }
+
+    .update-timeline {
+      display: grid;
+      gap: 12px;
+    }
+
+    .update-timeline article {
+      position: relative;
+      overflow: hidden;
+      padding: 18px 16px 14px;
+    }
+
+    .update-timeline ul {
+      margin: 10px 0 0;
+      padding-left: 20px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
     @media (max-width: 920px) {
-      .hero,
-      .game-grid {
+      .hero {
         grid-template-columns: 1fr;
+      }
+
+      .game-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .game-card,
+      .game-card:nth-child(4),
+      .game-card:nth-child(5) {
+        grid-column: auto;
       }
 
       .hero {
@@ -300,5 +446,37 @@
 
       .game-card {
         min-height: 0;
+      }
+
+      .updates-list {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .portal {
+        width: min(100% - 16px, 1180px);
+        padding: 16px 0;
+      }
+
+      .portal-nav {
+        justify-content: stretch;
+      }
+
+      .portal-nav a {
+        flex: 1;
+        justify-content: center;
+      }
+
+      .game-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .card-body {
+        padding: 18px 14px 12px;
+      }
+
+      .game-card h2 {
+        font-size: 1.18rem;
       }
     }

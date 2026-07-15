@@ -3,7 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Jam Akson Thai</title>
+  <title>Learn Thai Consonants with Audio and Quizzes | Jam Akson Thai</title>
+  <meta name="description" content="Learn Thai consonants with study cards, audio, memory games, sound checks, and quizzes. Practice Thai letter shapes and sounds unit by unit.">
+  <link rel="canonical" href="https://cho999.github.io/thai-word-order-game/games/jam-akson-thai/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Learn Thai Consonants with Audio and Quizzes | Jam Akson Thai">
+  <meta property="og:description" content="Learn Thai consonants with study cards, audio, memory games, sound checks, and quizzes. Practice Thai letter shapes and sounds unit by unit.">
+  <meta property="og:image" content="https://cho999.github.io/thai-word-order-game/assets/images/banners/nari-adventure-link-banner.png">
 
   <!-- Thai fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
@@ -12,13 +18,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="nari-theme">
+<body class="nari-theme" data-game="jam-akson-thai">
   <div class="panel">
     <a class="portalBannerLink" href="../../index.html" aria-label="Go to Nari's Thai Adventure Notes">
-      <img src="../../assets/images/banners/nari-adventure-link-banner.png" alt="Nari's Thai Adventure Notes">
+      <img src="../../assets/images/banners/nari-adventure-link-banner.png" alt="Nari's Thai Adventure Notes home banner">
     </a>
-    <h1>Jam Akson Thai</h1>
-    <div class="sub">Match game + Learning mode (units, sound check, tap-to-quiz)</div>
+    <h1>Jam Akson Thai - Learn Thai Consonants with Audio and Quizzes</h1>
+    <div class="sub">Learn Thai consonants through study cards, audio playback, memory matching, sound checks, and quick quizzes. Practice letter shapes and sounds by unit.</div>
 
     <!-- ===== Title / Home ===== -->
     <div id="homeScreen">
@@ -51,7 +57,7 @@
     <div id="modeMenu" class="hidden">
       <h2>Match Game Mode</h2>
       <div class="row">
-        <button class="button" onclick="selectMode('consonant')">Consonants (Thai ↔ Latin+IPA)</button>
+        <button class="button" onclick="selectMode('consonant')">Consonants (Thai → Latin+IPA)</button>
         <button class="button" onclick="selectMode('vowel')">Vowels (carrier)</button>
         <button class="button" onclick="selectMode('syllable')">Syllables</button>
       </div>
@@ -59,7 +65,7 @@
         <button class="button secondary" onclick="goTo(homeScreen)">Back</button>
       </div>
       <div class="note">
-        Consonant mode is Thai letter ↔ Latin consonant name + IPA (NOT Thai↔Thai).
+        Consonant mode is Thai letter → Latin consonant name + IPA.
       </div>
     </div>
 
@@ -132,7 +138,7 @@
     <div id="resultScreen" class="hidden">
       <h2 id="resultTitle">Clear!</h2>
       <div class="nariResult">
-        <img id="resultNari" src="../../assets/images/nari/chibi/chibi-cheer.png" alt="Nari">
+        <img id="resultNari" src="../../assets/images/nari/chibi/chibi-cheer.png" alt="Nari cheering after Jam Akson Thai practice">
         <div class="talk" id="resultTalk">Nice work! Keep going.</div>
       </div>
       <div class="resultSummary" id="resultSummary"></div>
@@ -258,7 +264,33 @@
       </div>
     </div>
 
+    <section class="info-section" aria-labelledby="jamInfoTitle">
+      <h2 id="jamInfoTitle">About Jam Akson Thai - Learn Thai Consonants with Audio and Quizzes</h2>
+      <div class="info-grid">
+        <article>
+          <h3>What you will learn</h3>
+          <p>Thai consonant shapes, sounds, example words, and short-vowel practice items.</p>
+        </article>
+        <article>
+          <h3>How to play</h3>
+          <p>Use study cards, listen to sounds, take quick quizzes, or match Thai letters with sound labels.</p>
+        </article>
+        <article>
+          <h3>Target level</h3>
+          <p>Beginner learners starting Thai script and sound recognition.</p>
+        </article>
+        <article>
+          <h3>Writing and romanization system</h3>
+          <p>Thai script with Latin sound labels, IPA hints, and audio where available.</p>
+        </article>
+        <article>
+          <h3>Available modes</h3>
+          <p>Match game, learning mode, unit selection, sound checks, and quick quizzes.</p>
+        </article>
+      </div>
+    </section>
   </div>
+  <script src="../../shared/analytics.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

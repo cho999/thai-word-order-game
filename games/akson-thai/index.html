@@ -3,7 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Thai Letter Memory</title>
+  <title>Thai Alphabet Memory Game | Akson Thai</title>
+  <meta name="description" content="Learn Thai consonants and vowels with a free memory matching game. Match Thai letters with Paiboon romanization and practice level by level.">
+  <link rel="canonical" href="https://cho999.github.io/thai-word-order-game/games/akson-thai/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Thai Alphabet Memory Game | Akson Thai">
+  <meta property="og:description" content="Learn Thai consonants and vowels with a free memory matching game. Match Thai letters with Paiboon romanization and practice level by level.">
+  <meta property="og:image" content="https://cho999.github.io/thai-word-order-game/assets/images/banners/nari-adventure-link-banner.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700;800&family=Sarabun:wght@400;700;800&family=Noto+Sans+JP:wght@400;700;800&display=swap" rel="stylesheet">
@@ -11,16 +17,16 @@
   <link rel="stylesheet" href="../../assets/css/components.css">
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="nari-theme">
+<body class="nari-theme" data-game="akson-thai">
   <main class="app">
     <section id="titleScreen" class="screen title-screen">
       <div class="hero">
         <a class="portal-banner-link" href="../../index.html" aria-label="Go to Nari's Thai Adventure Notes">
-          <img src="../../assets/images/banners/nari-adventure-link-banner.png" alt="Nari's Thai Adventure Notes">
+          <img src="../../assets/images/banners/nari-adventure-link-banner.png" alt="Nari's Thai Adventure Notes home banner">
         </a>
         <p class="eyebrow">Thai Letter Memory</p>
-        <h1>Akson Thai</h1>
-        <p class="lead">A memory game that groups common Thai letters into Lv1-4 and leaves very rare letters out of the main path.</p>
+        <h1>Akson Thai - Thai Alphabet Memory Game</h1>
+        <p class="lead">Learn Thai letters with an interactive memory matching game. Pair Thai consonants and vowels with their Paiboon romanization and progress through increasingly challenging levels.</p>
         <p class="related-link">
           Previous letter game:
           <a href="../jam-akson-thai/">Jam Akson Thai</a>
@@ -88,8 +94,8 @@
 
     <section id="gameScreen" class="screen game-screen hidden">
       <header class="topbar">
-        <a class="secondary-button portal-button" href="../../index.html">Home</a>
-        <button id="homeButton" class="secondary-button" type="button">Home</button>
+        <a class="secondary-button portal-button" href="../../index.html">Portal home</a>
+        <button id="homeButton" class="secondary-button" type="button">Game menu</button>
         <div class="stat"><span>Type</span><strong id="kindLabel">Consonants</strong></div>
         <div class="stat"><span>Level</span><strong id="levelLabel">Lv1</strong></div>
         <div class="stat"><span>Time</span><strong id="timer">0s</strong></div>
@@ -107,11 +113,11 @@
 
     <section id="resultScreen" class="screen result-screen hidden">
       <div class="result-card">
-        <p class="portal-return"><a href="../../index.html">← Home</a></p>
+        <p class="portal-return"><a href="../../index.html">&larr; Portal home</a></p>
         <p class="eyebrow">Clear</p>
         <h2>Great work!</h2>
         <div class="nari-result">
-          <img src="../../assets/images/nari/chibi/chibi-wink.png" alt="Nari">
+          <img src="../../assets/images/nari/chibi/chibi-wink.png" alt="Nari winking after a completed Akson Thai round">
           <p>Nice! The letter spirits are starting to feel like travel companions.</p>
         </div>
         <p id="resultText"></p>
@@ -122,8 +128,34 @@
         </div>
       </div>
     </section>
+    <section class="info-section" aria-labelledby="aksonInfoTitle">
+      <h2 id="aksonInfoTitle">About Akson Thai - Thai Alphabet Memory Game</h2>
+      <div class="info-grid">
+        <article>
+          <h3>What you will learn</h3>
+          <p>Thai consonants and vowels, paired with their Paiboon-style readings.</p>
+        </article>
+        <article>
+          <h3>How to play</h3>
+          <p>Flip cards and match each Thai letter with the correct reading card.</p>
+        </article>
+        <article>
+          <h3>Target level</h3>
+          <p>Beginner learners who are building recognition of Thai script.</p>
+        </article>
+        <article>
+          <h3>Writing and romanization system</h3>
+          <p>Thai script with Paiboon-style romanization and sound hints.</p>
+        </article>
+        <article>
+          <h3>Available modes</h3>
+          <p>Consonants, vowels, single-level practice, cumulative practice, and adjustable pair counts.</p>
+        </article>
+      </div>
+    </section>
   </main>
 
+  <script src="../../shared/analytics.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
