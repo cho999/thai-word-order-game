@@ -75,9 +75,9 @@ async function loadWords() {
 
 function isShortThaiWord(word) {
   if (!word?.thai || !word?.roman) return false;
-  if (/[\s/]/.test(word.roman.trim())) return false;
+  if (/[\/]/.test(word.roman.trim())) return false;
   const consonants = word.thai.match(thaiConsonantPattern) || [];
-  return consonants.length > 0 && consonants.length <= 2;
+  return word.ron === true || (consonants.length > 0 && consonants.length <= 2);
 }
 
 function startGame() {

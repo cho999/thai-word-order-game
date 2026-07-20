@@ -366,5 +366,158 @@
         "english": "colleague"
       }
     ]
+  },
+  {
+    "id": "lesson3",
+    "title": "Lesson 3",
+    "source": "Online lesson notes OCR 2026-07-20",
+    "words": [
+      {
+        "id": "l3-singer",
+        "thai": "นักร้อง",
+        "roman": "nák ráawng",
+        "english": "singer"
+      },
+      {
+        "id": "l3-student",
+        "thai": "นักเรียน",
+        "roman": "nák rian",
+        "english": "student"
+      },
+      {
+        "id": "l3-businessman",
+        "thai": "นักธุรกิจ",
+        "roman": "nák thú-rá-gìt",
+        "english": "businessman"
+      },
+      {
+        "id": "l3-swimmer",
+        "thai": "นักว่ายน้ำ",
+        "roman": "nák wâai náam",
+        "english": "swimmer"
+      },
+      {
+        "id": "l3-musician",
+        "thai": "นักดนตรี",
+        "roman": "nák don-dtrii",
+        "english": "musician"
+      },
+      {
+        "id": "l3-engineer",
+        "thai": "วิศวกร",
+        "roman": "wít-sà-wá-gaawn",
+        "english": "engineer"
+      },
+      {
+        "id": "l3-nurse",
+        "thai": "พยาบาล",
+        "roman": "phá-yaa-baan",
+        "english": "nurse"
+      },
+      {
+        "id": "l3-investor",
+        "thai": "นักลงทุน",
+        "roman": "nák long-thun",
+        "english": "investor"
+      },
+      {
+        "id": "l3-cute",
+        "thai": "น่ารัก",
+        "roman": "nâa rák",
+        "english": "cute",
+        "ron": true
+      },
+      {
+        "id": "l3-handsome",
+        "thai": "หล่อ",
+        "roman": "làaw",
+        "english": "handsome",
+        "ron": true
+      },
+      {
+        "id": "l3-beautiful",
+        "thai": "สวย",
+        "roman": "sǔai",
+        "english": "beautiful",
+        "ron": true
+      },
+      {
+        "id": "l3-ugly",
+        "thai": "ขี้เหร่",
+        "roman": "khîi-rèe",
+        "english": "ugly",
+        "ron": true
+      },
+      {
+        "id": "l3-difficult",
+        "thai": "ยาก",
+        "roman": "yâak",
+        "english": "difficult",
+        "ron": true
+      },
+      {
+        "id": "l3-easy",
+        "thai": "ง่าย",
+        "roman": "ngâai",
+        "english": "easy",
+        "ron": true
+      },
+      {
+        "id": "l3-interesting",
+        "thai": "น่าสนใจ",
+        "roman": "nâa sǒn-jai",
+        "english": "interesting",
+        "ron": true
+      },
+      {
+        "id": "l3-boring",
+        "thai": "น่าเบื่อ",
+        "roman": "nâa bʉ̀a",
+        "english": "boring",
+        "ron": true
+      },
+      {
+        "id": "l3-fun",
+        "thai": "สนุก",
+        "roman": "sà-nùk",
+        "english": "fun",
+        "ron": true
+      },
+      {
+        "id": "l3-cheap",
+        "thai": "ถูก",
+        "roman": "thùuk",
+        "english": "cheap",
+        "ron": true
+      },
+      {
+        "id": "l3-be",
+        "thai": "เป็น",
+        "roman": "bpen",
+        "english": "be / am / is / are",
+        "ron": true
+      },
+      {
+        "id": "l3-not-be",
+        "thai": "ไม่ใช่",
+        "roman": "mâi châi",
+        "english": "not be / is not",
+        "ron": true
+      },
+      {
+        "id": "l3-teacher",
+        "thai": "ครู",
+        "roman": "khruu",
+        "english": "teacher",
+        "ron": true
+      },
+      {
+        "id": "l3-polite-male",
+        "thai": "ครับ",
+        "roman": "khráp",
+        "english": "polite particle for male speakers",
+        "ron": true
+      }
+    ]
   }
 ]
