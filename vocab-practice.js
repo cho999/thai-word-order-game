@@ -41,6 +41,36 @@ const lessons = [
       { id: "l1-have", thai: "มี", roman: "mii", english: "have" },
       { id: "l1-want", thai: "อยาก", roman: "yaak", english: "want" }
     ]
+  },
+  {
+    id: "lesson2",
+    title: "Lesson 2",
+    source: "オンライン授業ノート OCR 2026-07-20",
+    words: [
+      { id: "l2-of", thai: "ของ", roman: "khǎawng", english: "of / belonging to" },
+      { id: "l2-food", thai: "อาหาร", roman: "aa-hǎan", english: "food" },
+      { id: "l2-can", thai: "ได้", roman: "dâai", english: "can" },
+      { id: "l2-cannot", thai: "ไม่ได้", roman: "mâi dâai", english: "cannot" },
+      { id: "l2-cook", thai: "ทำอาหาร", roman: "tam aa-hǎan", english: "cook" },
+      { id: "l2-drive", thai: "ขับรถ", roman: "khàp rót", english: "drive a car" },
+      { id: "l2-swim", thai: "ว่ายน้ำ", roman: "wâai náam", english: "swim" },
+      { id: "l2-play-cards", thai: "เล่นไพ่", roman: "lên phâi", english: "play cards" },
+      { id: "l2-boss", thai: "หัวหน้า", roman: "hǔua nâa", english: "boss" },
+      { id: "l2-wife", thai: "ภรรยา", roman: "phan-rá-yaa", english: "wife" },
+      { id: "l2-son", thai: "ลูกชาย", roman: "lûuk chaai", english: "son" },
+      { id: "l2-student", thai: "นักเรียน", roman: "nák rian", english: "student" },
+      { id: "l2-principal", thai: "ครูใหญ่", roman: "khruu yài", english: "principal" },
+      { id: "l2-spicy", thai: "เผ็ด", roman: "phèt", english: "spicy" },
+      { id: "l2-father", thai: "พ่อ", roman: "phâaw", english: "father" },
+      { id: "l2-mother", thai: "แม่", roman: "mâae", english: "mother" },
+      { id: "l2-older-brother", thai: "พี่ชาย", roman: "phîi chaai", english: "older brother" },
+      { id: "l2-younger-brother", thai: "น้องชาย", roman: "náawng chaai", english: "younger brother" },
+      { id: "l2-older-sister", thai: "พี่สาว", roman: "phîi sǎao", english: "older sister" },
+      { id: "l2-younger-sister", thai: "น้องสาว", roman: "náawng sǎao", english: "younger sister" },
+      { id: "l2-friend", thai: "เพื่อน", roman: "phʉ̂an", english: "friend" },
+      { id: "l2-partner", thai: "แฟน", roman: "faaen", english: "boyfriend / girlfriend" },
+      { id: "l2-colleague", thai: "เพื่อนร่วมงาน", roman: "phʉ̂an rûuam-ngaan", english: "colleague" }
+    ]
   }
 ];
 
