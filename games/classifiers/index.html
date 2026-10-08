@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thai Classifiers - Emoji Quest | Nari's Thai Adventure</title>
+  <meta name="description" content="Count emojis and build Thai phrases from independently shuffled nouns, numbers, and classifiers. Practice ten Thai classifiers with Nari.">
+  <link rel="stylesheet" href="../../assets/css/theme.css">
+  <link rel="canonical" href="https://cho999.github.io/thai-word-order-game/games/classifiers/">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="nari-theme">
+  <main class="app">
+    <header><a href="../../index.html">← Nari's Thai Adventure</a><span>THAI CLASSIFIERS</span></header>
+    <section class="intro"><p class="eyebrow">Nari's Thai Adventure</p><h1>Thai Classifiers — Emoji Quest</h1><p>Choose one word from each column: noun + number + classifier.</p><img class="quest-nari" src="../../assets/images/nari/chibi/chibi-cheer.png" alt="Nari cheering you on"></section>
+    <section class="panel" aria-label="Classifier quiz">
+      <div class="stats"><span id="progress"></span><span id="score"></span></div>
+      <progress id="bar" max="10" value="0" aria-label="Questions answered"></progress>
+      <div id="quiz">
+        <h2 id="prompt" tabindex="-1">How do you say this in Thai?</h2>
+        <div id="emoji" class="emoji" role="img"></div>
+        <p id="nounHint" class="hint"></p>
+        <div class="columns" aria-hidden="true"><span>Noun</span><span>Number</span><span>Classifier</span></div>
+        <div id="choices" class="choices"></div>
+        <button id="check" class="primary" type="button" disabled>Check answer</button>
+        <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
+        <button id="next" class="primary" type="button" hidden>Next question →</button>
+      </div>
+      <section id="result" hidden aria-labelledby="resultTitle"><h2 id="resultTitle" tabindex="-1">Quest complete!</h2><p id="resultScore" class="result-score"></p><p id="resultMessage"></p><div id="review"></div><button id="retry" class="primary" type="button">Play again</button></section>
+    </section>
+    <details class="reference"><summary>Ten classifiers and numbers</summary><p>These simplified romanizations omit tone marks.</p><div id="referenceList" class="reference-grid"></div><p>1 Nung · 2 Song · 3 Saam · 4 Shii · 5 Haa</p><p>Example: 🐱🐱🐱 → Meeo Saam Tua（แมว สาม ตัว）</p></details>
+    <footer>Count in this order: noun → number → classifier.</footer>
+  </main>
+</body>
+</html>
