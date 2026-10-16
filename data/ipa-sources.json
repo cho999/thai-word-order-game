@@ -1,0 +1,2538 @@
+{
+  "retrieved": "2026-10-16",
+  "source": "English Wiktionary, Thai pronunciation sections",
+  "entries": {
+    "กะเพรา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/ka˨˩.pʰraw˧/"
+      ]
+    },
+    "ขนม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%99%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "*ɡaʔ naʔ",
+        "/kʰa˨˩.nom˩˩˦/"
+      ]
+    },
+    "ทะเล": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5",
+      "status": 200,
+      "ipa": [
+        "/tʰa˦˥.leː˧/"
+      ]
+    },
+    "รถ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%96",
+      "status": 200,
+      "ipa": [
+        "/rot̚˦˥/",
+        "/ra˦˥.tʰa˨˩./"
+      ]
+    },
+    "โชยุ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%8A%E0%B8%A2%E0%B8%B8",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰoː˧.juʔ˨˩/"
+      ]
+    },
+    "เรือ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/rɯa̯˧/"
+      ]
+    },
+    "ชา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰaː˧/"
+      ]
+    },
+    "ราเมน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%A1%E0%B8%99",
+      "status": 404,
+      "ipa": []
+    },
+    "ไทย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%97%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/tʰaj˧/",
+        "/tʰaj˧.ja˦˥./"
+      ]
+    },
+    "หวาน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/waːn˩˩˦/"
+      ]
+    },
+    "เผ็ด": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94",
+      "status": 200,
+      "ipa": [
+        "/pʰet̚˨˩/"
+      ]
+    },
+    "ญี่ปุ่น": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/jiː˥˩.pun˨˩/"
+      ]
+    },
+    "ถูก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%96%E0%B8%B9%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/tʰuːk̚˨˩/"
+      ]
+    },
+    "แพง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%9E%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/pʰɛːŋ˧/"
+      ]
+    },
+    "สี": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%B5",
+      "status": 200,
+      "ipa": [
+        "/siː˩˩˦/"
+      ]
+    },
+    "มาก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B8%B2%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/maːk̚˥˩/"
+      ]
+    },
+    "แดง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%94%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/dɛːŋ˧/"
+      ]
+    },
+    "ราคา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/raː˧.kʰaː˧/"
+      ]
+    },
+    "รส": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%AA",
+      "status": 200,
+      "ipa": [
+        "/rot̚˦˥/",
+        "/rot̚˦˥.sa˨˩./"
+      ]
+    },
+    "ดำ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B3",
+      "status": 200,
+      "ipa": [
+        "/dam˧/"
+      ]
+    },
+    "กระดาษ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B2%E0%B8%A9",
+      "status": 200,
+      "ipa": [
+        "/kra˨˩.daːt̚˨˩/",
+        "/kra˧.daːt̚˨˩/"
+      ]
+    },
+    "ปากกา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/paːk̚˨˩.kaː˧/"
+      ]
+    },
+    "มอเตอร์ไซค์": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B8%AD%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%8B%E0%B8%84%E0%B9%8C",
+      "status": 200,
+      "ipa": [
+        "/mɔː˧.tɤː˧.saj˧/",
+        "/mɔː˧.tɤː˥˩.saj˧/"
+      ]
+    },
+    "ซุป": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8B%E0%B8%B8%E0%B8%9B",
+      "status": 200,
+      "ipa": [
+        "/sup̚˦˥/"
+      ]
+    },
+    "ช้า": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B9%89%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰaː˦˥/"
+      ]
+    },
+    "น้ำเงิน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/nam˦˥.ŋɤn˧/"
+      ]
+    },
+    "เร็ว": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%A7",
+      "status": 200,
+      "ipa": [
+        "/rew˧/"
+      ]
+    },
+    "ดัง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B1%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/daŋ˧/"
+      ]
+    },
+    "นี่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B5%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/niː˥˩/"
+      ]
+    },
+    "ชอบ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B8%AD%E0%B8%9A",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰɔːp̚˥˩/"
+      ]
+    },
+    "คือ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%B7%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/kʰɯː˧/"
+      ]
+    },
+    "คุณ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%B8%E0%B8%93",
+      "status": 200,
+      "ipa": [
+        "/kʰun˧/",
+        "/kʰun˧.na˦˥./"
+      ]
+    },
+    "อะไร": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3",
+      "status": 200,
+      "ipa": [
+        "/ʔa˨˩.raj˧/"
+      ]
+    },
+    "ภาษาไทย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%84%E0%B8%97%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/tʰaj˧/",
+        "/tʰaj˧.ja˦˥./"
+      ]
+    },
+    "แปลว่า": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%A7%E0%B9%88%E0%B8%B2",
+      "status": 404,
+      "ipa": []
+    },
+    "พูด": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%B9%E0%B8%94",
+      "status": 200,
+      "ipa": [
+        "/pʰuːt̚˥˩/"
+      ]
+    },
+    "หมา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%A1%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/maː˩˩˦/"
+      ]
+    },
+    "ช้าๆ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B9%86",
+      "status": 404,
+      "ipa": []
+    },
+    "ได้ไหม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%84%E0%B8%AB%E0%B8%A1",
+      "status": 404,
+      "ipa": []
+    },
+    "อีกครั้ง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B5%E0%B8%81%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/ʔiːk̚˨˩.kʰraŋ˦˥/"
+      ]
+    },
+    "นม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/nom˧/",
+        "/na˦˥.ma˦˥./",
+        "/nɔː˧.mɔː˧/"
+      ]
+    },
+    "หนัง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/naŋ˩˩˦/"
+      ]
+    },
+    "แมว": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%A1%E0%B8%A7",
+      "status": 200,
+      "ipa": [
+        "/mɛːw˧/"
+      ]
+    },
+    "ขนมปัง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%99%E0%B8%A1%E0%B8%9B%E0%B8%B1%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/kʰa˨˩.nom˩˩˦.paŋ˧/"
+      ]
+    },
+    "เพลง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/pʰleːŋ˧/"
+      ]
+    },
+    "คำถาม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%B3%E0%B8%96%E0%B8%B2%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/kʰam˧.tʰaːm˩˩˦/"
+      ]
+    },
+    "เหล้า": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B9%89%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/law˥˩/"
+      ]
+    },
+    "หนังสือ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B7%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/naŋ˩˩˦.sɯː˩˩˦/"
+      ]
+    },
+    "นอน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%AD%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/nɔːn˧/"
+      ]
+    },
+    "ไปเที่ยว": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%9B%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7",
+      "status": 200,
+      "ipa": [
+        "/paj˧.tʰia̯w˥˩/"
+      ]
+    },
+    "ซื้อของ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8B%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%82%E0%B8%AD%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/sɯː˦˥.kʰɔːŋ˩˩˦/"
+      ]
+    },
+    "กิน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B4%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/kin˧/"
+      ]
+    },
+    "อ่าน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/ʔaːn˨˩/"
+      ]
+    },
+    "ดื่ม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B7%E0%B9%88%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/dɯːm˨˩/"
+      ]
+    },
+    "เล่น": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/len˥˩/"
+      ]
+    },
+    "ดู": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B9",
+      "status": 200,
+      "ipa": [
+        "/duː˧/"
+      ]
+    },
+    "ฟัง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9F%E0%B8%B1%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/faŋ˧/"
+      ]
+    },
+    "ไป": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%9B",
+      "status": 200,
+      "ipa": [
+        "/paj˧/"
+      ]
+    },
+    "อยาก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/jaːk̚˨˩/"
+      ]
+    },
+    "มี": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B8%B5",
+      "status": 200,
+      "ipa": [
+        "/miː˧/"
+      ]
+    },
+    "เขา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%82%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/kʰaw˩˩˦/",
+        "/kʰaw˦˥/"
+      ]
+    },
+    "ร้อง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/rɔːŋ˦˥/"
+      ]
+    },
+    "พวกเขา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%A7%E0%B8%81%E0%B9%80%E0%B8%82%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/pʰua̯k̚˥˩.kʰaw˩˩˦/"
+      ]
+    },
+    "ทำงาน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/tʰam˧.ŋaːn˧/"
+      ]
+    },
+    "เรา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A3%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/raw˧/"
+      ]
+    },
+    "ทำ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%B3",
+      "status": 200,
+      "ipa": [
+        "/tʰam˧/"
+      ]
+    },
+    "ถาม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%96%E0%B8%B2%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/tʰaːm˩˩˦/"
+      ]
+    },
+    "ของ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%AD%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/kʰɔːŋ˩˩˦/"
+      ]
+    },
+    "ได้": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%94%E0%B9%89",
+      "status": 200,
+      "ipa": [
+        "/daːj˥˩/"
+      ]
+    },
+    "ไม่ได้": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89",
+      "status": 200,
+      "ipa": [
+        "/maj˥˩.daj˥˩/"
+      ]
+    },
+    "ทำอาหาร": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%B3%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3",
+      "status": 200,
+      "ipa": [
+        "/tʰam˧.ʔaː˧.haːn˩˩˦/"
+      ]
+    },
+    "อาหาร": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3",
+      "status": 200,
+      "ipa": [
+        "/ʔaː˧.haːn˩˩˦/"
+      ]
+    },
+    "เล่นไพ่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%9E%E0%B9%88",
+      "status": 404,
+      "ipa": []
+    },
+    "ขับรถ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%96",
+      "status": 404,
+      "ipa": []
+    },
+    "ว่ายน้ำ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3",
+      "status": 200,
+      "ipa": [
+        "/waːj˥˩.naːm˦˥/"
+      ]
+    },
+    "หัวหน้า": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/hua̯˩˩˦.naː˥˩/"
+      ]
+    },
+    "ครูใหญ่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%A3%E0%B8%B9%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/kʰruː˧.jaj˨˩/"
+      ]
+    },
+    "นักเรียน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/nak̚˦˥.ria̯n˧/"
+      ]
+    },
+    "ภรรยา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A0%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/pʰan˧.jaː˧/",
+        "/pʰan˧.ra˦˥.jaː˧/"
+      ]
+    },
+    "ลูกชาย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%8A%E0%B8%B2%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/luːk̚˥˩.t͡ɕʰaːj˧/"
+      ]
+    },
+    "แม่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%A1%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/mɛː˥˩/"
+      ]
+    },
+    "น้องชาย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/nɔːŋ˦˥.t͡ɕʰaːj˧/"
+      ]
+    },
+    "พี่ชาย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%B5%E0%B9%88%E0%B8%8A%E0%B8%B2%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/pʰiː˥˩.t͡ɕʰaːj˧/"
+      ]
+    },
+    "พ่อ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B9%88%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "*paʔ, *baʔ",
+        "/pʰɔː˥˩/"
+      ]
+    },
+    "น้องสาว": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A7",
+      "status": 200,
+      "ipa": [
+        "/nɔːŋ˦˥.saːw˩˩˦/"
+      ]
+    },
+    "แฟน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%9F%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/fɛːn˧/"
+      ]
+    },
+    "พี่สาว": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B8%B2%E0%B8%A7",
+      "status": 200,
+      "ipa": [
+        "/pʰiː˥˩.saːw˩˩˦/"
+      ]
+    },
+    "เพื่อน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/pʰɯa̯n˥˩/"
+      ]
+    },
+    "นักร้อง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/nak̚˦˥.rɔːŋ˦˥/"
+      ]
+    },
+    "นักว่ายน้ำ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3",
+      "status": 200,
+      "ipa": [
+        "/nak̚˦˥.waːj˥˩.naːm˦˥/"
+      ]
+    },
+    "เพื่อนร่วมงาน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%87%E0%B8%B2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/pʰɯa̯n˥˩.rua̯m˥˩.ŋaːn˧/"
+      ]
+    },
+    "นักธุรกิจ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88",
+      "status": 200,
+      "ipa": [
+        "/nak̚˦˥.tʰu˦˥.ra˦˥.kit̚˨˩/"
+      ]
+    },
+    "นักดนตรี": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5",
+      "status": 200,
+      "ipa": [
+        "/nak̚˦˥.don˧.triː˧/"
+      ]
+    },
+    "วิศวกร": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3",
+      "status": 200,
+      "ipa": [
+        "/wit̚˦˥.sa˨˩.wa˦˥.kɔːn˧/"
+      ]
+    },
+    "นักลงทุน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/nak̚˦˥.loŋ˧.tʰun˧/"
+      ]
+    },
+    "พยาบาล": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5",
+      "status": 200,
+      "ipa": [
+        "/pʰa˦˥.jaː˧.baːn˧/",
+        "/pʰa˧.jaː˧.baːn˧/"
+      ]
+    },
+    "ขี้เหร่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B9%80%E0%B8%AB%E0%B8%A3%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/kʰiː˥˩.reː˨˩/"
+      ]
+    },
+    "น่ารัก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/naː˥˩.rak̚˦˥/"
+      ]
+    },
+    "สวย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%A7%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/sua̯j˩˩˦/"
+      ]
+    },
+    "หล่อ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/lɔː˨˩/"
+      ]
+    },
+    "น่าเบื่อ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%9A%E0%B8%B7%E0%B9%88%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/naː˥˩.bɯa̯˨˩/"
+      ]
+    },
+    "น่าสนใจ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%99%E0%B9%83%E0%B8%88",
+      "status": 200,
+      "ipa": [
+        "/naː˥˩.son˩˩˦.t͡ɕaj˧/"
+      ]
+    },
+    "ง่าย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/ŋaːj˥˩/"
+      ]
+    },
+    "ยาก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B2%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/jaːk̚˥˩/"
+      ]
+    },
+    "ครู": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%A3%E0%B8%B9",
+      "status": 200,
+      "ipa": [
+        "/kʰruː˧/"
+      ]
+    },
+    "เป็น": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/pen˧/"
+      ]
+    },
+    "ไม่ใช่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%8A%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/maj˥˩.t͡ɕʰaj˥˩/"
+      ]
+    },
+    "สนุก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/sa˨˩.nuk̚˨˩/"
+      ]
+    },
+    "ครับ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%9A",
+      "status": 200,
+      "ipa": [
+        "/kʰrap̚˦˥/"
+      ]
+    },
+    "คอมพิวเตอร์": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C",
+      "status": 200,
+      "ipa": [
+        "/kʰɔm˧.pʰiw˧.tɤː˥˩/",
+        "/kʰɔm˧.pʰiw˦˥.tɤː˥˩/"
+      ]
+    },
+    "คัน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%B1%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/kʰan˧/"
+      ]
+    },
+    "เครื่อง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/kʰrɯa̯ŋ˥˩/"
+      ]
+    },
+    "ด้าม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/daːm˥˩/"
+      ]
+    },
+    "เรือน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/rɯa̯n˧/",
+        "*dan"
+      ]
+    },
+    "เรื่อง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/rɯa̯ŋ˥˩/"
+      ]
+    },
+    "นาฬิกา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B2%E0%B8%AC%E0%B8%B4%E0%B8%81%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/naː˧.li˦˥.kaː˧/"
+      ]
+    },
+    "คน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/kʰon˧/"
+      ]
+    },
+    "อัน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/ʔan˧/"
+      ]
+    },
+    "เล่ม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/lem˥˩/"
+      ]
+    },
+    "กุญแจ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B8%E0%B8%8D%E0%B9%81%E0%B8%88",
+      "status": 200,
+      "ipa": [
+        "/kun˧.t͡ɕɛː˧/"
+      ]
+    },
+    "ตัว": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%95%E0%B8%B1%E0%B8%A7",
+      "status": 200,
+      "ipa": [
+        "/tua̯˧/"
+      ]
+    },
+    "กระเป๋า": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/kra˨˩.paw˩˩˦/"
+      ]
+    },
+    "หนึ่ง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/nɯŋ˨˩/",
+        "/nɯŋ˧/"
+      ]
+    },
+    "ใบ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%9A",
+      "status": 200,
+      "ipa": [
+        "/baj˧/"
+      ]
+    },
+    "ห้า": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B9%89%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "*ŋaːʔ",
+        "/haː˥˩/"
+      ]
+    },
+    "สี่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%B5%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/siː˨˩/"
+      ]
+    },
+    "สาม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%B2%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/saːm˩˩˦/"
+      ]
+    },
+    "สอง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%AD%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/sɔːŋ˩˩˦/"
+      ]
+    },
+    "ออก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%AD%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/ʔɔːk̚˨˩/"
+      ]
+    },
+    "ปลา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%A5%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/plaː˧/"
+      ]
+    },
+    "ตา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%95%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/taː˧/",
+        "*taːʔ"
+      ]
+    },
+    "มือ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B8%B7%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/mɯː˧/"
+      ]
+    },
+    "ทาง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%B2%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/tʰaːŋ˧/"
+      ]
+    },
+    "ลม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A5%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "*plum",
+        "/lom˧/"
+      ]
+    },
+    "บ้าน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/baːn˥˩/"
+      ]
+    },
+    "ดี": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B5",
+      "status": 200,
+      "ipa": [
+        "/diː˧/"
+      ]
+    },
+    "หิว": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%B4%E0%B8%A7",
+      "status": 200,
+      "ipa": [
+        "*hraw",
+        "/hiw˩˩˦/"
+      ]
+    },
+    "ยา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/jaː˧/"
+      ]
+    },
+    "วัน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/wan˧/"
+      ]
+    },
+    "ไฟ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%9F",
+      "status": 200,
+      "ipa": [
+        "/faj˧/"
+      ]
+    },
+    "ภาพ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+      "status": 200,
+      "ipa": [
+        "/pʰaːp̚˥˩/",
+        "/pʰaːp̚˥˩.pʰa˦˥./"
+      ]
+    },
+    "จีน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%88%E0%B8%B5%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "*zin",
+        "/t͡ɕiːn˧/"
+      ]
+    },
+    "ข้าว": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7",
+      "status": 200,
+      "ipa": [
+        "/kʰaːw˥˩/",
+        "/kʰaw˥˩/"
+      ]
+    },
+    "งาน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%87%E0%B8%B2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/ŋaːn˧/"
+      ]
+    },
+    "ศูนย์": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C",
+      "status": 200,
+      "ipa": [
+        "/suːn˩˩˦/"
+      ]
+    },
+    "ญาติ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8D%E0%B8%B2%E0%B8%95%E0%B8%B4",
+      "status": 200,
+      "ipa": [
+        "/jaːt̚˥˩/",
+        "/jaː˧.ti˨˩./",
+        "/jaːt̚˥˩.ti˨˩./"
+      ]
+    },
+    "กีฬา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B5%E0%B8%AC%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/kiː˧.laː˧/"
+      ]
+    },
+    "ธรรม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/tʰam˧/",
+        "/tʰam˧.ma˦˥./"
+      ]
+    },
+    "ข": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%82",
+      "status": 200,
+      "ipa": [
+        "/kʰɔː˩˩˦/",
+        "/kʰɔː˩˩˦.kʰaj˨˩/"
+      ]
+    },
+    "ฆ่า": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%86%E0%B9%88%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/kʰaː˥˩/"
+      ]
+    },
+    "ฃ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%83",
+      "status": 200,
+      "ipa": [
+        "/kʰɔː˩˩˦/",
+        "/kʰɔː˩˩˦.kʰua̯t̚˨˩/"
+      ]
+    },
+    "ก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/kɔː˧/",
+        "/kɔː˧.kaj˨˩/"
+      ]
+    },
+    "ฆ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%86",
+      "status": 200,
+      "ipa": [
+        "/kʰɔː˧/",
+        "/kʰɔː˧.ra˦˥.kʰaŋ˧/"
+      ]
+    },
+    "ฅ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%85",
+      "status": 200,
+      "ipa": [
+        "/kʰɔː˧/",
+        "/kʰɔː˧.kʰon˧/"
+      ]
+    },
+    "ค": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84",
+      "status": 200,
+      "ipa": [
+        "/kʰɔː˧/",
+        "/kʰɔː˧.kʰwaːj˧/"
+      ]
+    },
+    "ง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/ŋɔː˧/",
+        "/ŋɔː˧.ŋuː˧/"
+      ]
+    },
+    "ช": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8A",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰɔː˧/",
+        "/t͡ɕʰɔː˧.t͡ɕʰaːŋ˦˥/"
+      ]
+    },
+    "ฉ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%89",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰɔː˩˩˦/",
+        "/t͡ɕʰɔː˥˩/",
+        "/t͡ɕʰaʔ˨˩/",
+        "/t͡ɕʰɔː˩˩˦.t͡ɕʰiŋ˨˩/"
+      ]
+    },
+    "จ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%88",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕɔː˧/",
+        "/t͡ɕɔː˧.t͡ɕaːn˧/",
+        "/t͡ɕaʔ˨˩/"
+      ]
+    },
+    "ซ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8B",
+      "status": 200,
+      "ipa": [
+        "/sɔː˧/",
+        "/sɔː˧.soː˥˩/"
+      ]
+    },
+    "ญ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8D",
+      "status": 200,
+      "ipa": [
+        "/jɔː˧/",
+        "/jɔː˧.jiŋ˩˩˦/"
+      ]
+    },
+    "ฌ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8C",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰɔː˧/",
+        "/t͡ɕʰɔː˧.t͡ɕʰɤː˧/"
+      ]
+    },
+    "ฏ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8F",
+      "status": 200,
+      "ipa": [
+        "/tɔː˧/",
+        "/tɔː˧.pa˨˩.tak̚˨˩/"
+      ]
+    },
+    "ฎ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8E",
+      "status": 200,
+      "ipa": [
+        "/dɔː˧/",
+        "/dɔː˧.t͡ɕʰa˦˥.daː˧/"
+      ]
+    },
+    "ฒ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%92",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%92",
+      "status": 200,
+      "ipa": [
+        "/tʰɔː˧/",
+        "/tʰɔː˧.pʰuː˥˩.tʰaw˥˩/"
+      ]
+    },
+    "ณ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%93",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%93",
+      "status": 200,
+      "ipa": [
+        "/nɔː˧/",
+        "/nɔː˧.neːn˧/",
+        "/naʔ˦˥/"
+      ]
+    },
+    "ฑ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%91",
+      "status": 200,
+      "ipa": [
+        "/tʰɔː˧/",
+        "/tʰɔː˧.mon˧.tʰoː˧/"
+      ]
+    },
+    "ฐ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%90",
+      "status": 200,
+      "ipa": [
+        "/tʰɔː˩˩˦/",
+        "/tʰɔː˩˩˦.tʰaːn˩˩˦/"
+      ]
+    },
+    "ต": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%95",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%95",
+      "status": 200,
+      "ipa": [
+        "/tɔː˧/",
+        "/tɔː˧.taw˨˩/"
+      ]
+    },
+    "ท": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%97",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%97",
+      "status": 200,
+      "ipa": [
+        "/tʰɔː˧/",
+        "/tʰɔː˧.tʰa˦˥.haːn˩˩˦/"
+      ]
+    },
+    "ถ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%96",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%96",
+      "status": 200,
+      "ipa": [
+        "/tʰɔː˩˩˦/",
+        "/tʰɔː˩˩˦.tʰuŋ˩˩˦/"
+      ]
+    },
+    "ด": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%94",
+      "status": 200,
+      "ipa": [
+        "/dɔː˧/",
+        "/dɔː˧.dek̚˨˩/"
+      ]
+    },
+    "บ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9A",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9A",
+      "status": 200,
+      "ipa": [
+        "/bɔː˧/",
+        "/bɔː˧.baj˧.maj˦˥/"
+      ]
+    },
+    "ป": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9B",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9B",
+      "status": 200,
+      "ipa": [
+        "/pɔː˧/",
+        "/pɔː˧.plaː˧/"
+      ]
+    },
+    "ธ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%98",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%98",
+      "status": 200,
+      "ipa": [
+        "/tʰɔː˧/",
+        "/tʰɔː˧.tʰoŋ˧/",
+        "/tʰaʔ˦˥/"
+      ]
+    },
+    "น": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/nɔː˧/",
+        "/nɔː˧.nuː˩˩˦/"
+      ]
+    },
+    "ผ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9C",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9C",
+      "status": 200,
+      "ipa": [
+        "/pʰɔː˩˩˦/",
+        "/pʰɔː˩˩˦.pʰɯŋ˥˩/"
+      ]
+    },
+    "ฝ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9D",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9D",
+      "status": 200,
+      "ipa": [
+        "/fɔː˩˩˦/",
+        "/fɔː˩˩˦.faː˩˩˦/"
+      ]
+    },
+    "ฟ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9F",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9F",
+      "status": 200,
+      "ipa": [
+        "/fɔː˧/",
+        "/fɔː˧.fan˧/"
+      ]
+    },
+    "พ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9E",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9E",
+      "status": 200,
+      "ipa": [
+        "/pʰɔː˧/",
+        "/pʰɔː˧.pʰaːn˧/"
+      ]
+    },
+    "ม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A1",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/mɔː˧/",
+        "/mɔː˧.maː˦˥/"
+      ]
+    },
+    "ย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/jɔː˧/",
+        "/jɔː˧.jak̚˦˥/"
+      ]
+    },
+    "ร": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A3",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A3",
+      "status": 200,
+      "ipa": [
+        "/rɔː˧/",
+        "/rɔː˧.rɯa̯˧/"
+      ]
+    },
+    "ภ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A0",
+      "status": 200,
+      "ipa": [
+        "/pʰɔː˧/",
+        "/pʰɔː˧.sam˩˩˦.pʰaw˧/"
+      ]
+    },
+    "ว": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A7",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A7",
+      "status": 200,
+      "ipa": [
+        "/wɔː˧/",
+        "/wɔː˧.wɛːn˩˩˦/"
+      ]
+    },
+    "ษ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A9",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A9",
+      "status": 200,
+      "ipa": [
+        "/sɔː˩˩˦/",
+        "/sɔː˩˩˦.rɯː˧.siː˩˩˦/"
+      ]
+    },
+    "ศ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A8",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A8",
+      "status": 200,
+      "ipa": [
+        "/sɔː˩˩˦/",
+        "/sɔː˩˩˦.saː˩˩˦.laː˧/"
+      ]
+    },
+    "ล": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A5",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A5",
+      "status": 200,
+      "ipa": [
+        "/lɔː˧/",
+        "/lɔː˧.liŋ˧/"
+      ]
+    },
+    "ส": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AA",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AA",
+      "status": 200,
+      "ipa": [
+        "/sɔː˩˩˦/",
+        "/sɔː˩˩˦.sɯa̯˩˩˦/"
+      ]
+    },
+    "ฬ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AC",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AC",
+      "status": 200,
+      "ipa": [
+        "/lɔː˧/",
+        "/lɔː˧.t͡ɕu˨˩.laː˧/"
+      ]
+    },
+    "ห": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AB",
+      "status": 200,
+      "ipa": [
+        "/hɔː˩˩˦/",
+        "/hɔː˩˩˦.hiːp̚˨˩/"
+      ]
+    },
+    "อ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/ʔɔː˧/",
+        "/ʔɔː˧.ʔaːŋ˨˩/",
+        "/ʔa˨˩./"
+      ]
+    },
+    "ไก่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%81%E0%B9%88",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%81%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/kaj˨˩/"
+      ]
+    },
+    "ขวด": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%A7%E0%B8%94",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%A7%E0%B8%94",
+      "status": 200,
+      "ipa": [
+        "/kʰua̯t̚˨˩/"
+      ]
+    },
+    "ไข่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%82%E0%B9%88",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%82%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/kʰaj˨˩/"
+      ]
+    },
+    "ฮ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AE",
+      "status": 200,
+      "ipa": [
+        "/hɔː˧/",
+        "/hɔː˧.nok̚˦˥.huːk̚˥˩/"
+      ]
+    },
+    "ระฆัง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%B0%E0%B8%86%E0%B8%B1%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%B0%E0%B8%86%E0%B8%B1%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/ra˦˥.kʰaŋ˧/"
+      ]
+    },
+    "จาน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%88%E0%B8%B2%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%88%E0%B8%B2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕaːn˧/"
+      ]
+    },
+    "ควาย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/kʰwaːj˧/"
+      ]
+    },
+    "งู": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%87%E0%B8%B9",
+      "status": 200,
+      "ipa": [
+        "/ŋuː˧/"
+      ]
+    },
+    "ช้าง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰaːŋ˦˥/"
+      ]
+    },
+    "เฌอ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%8C%E0%B8%AD",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%8C%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰɤː˧/"
+      ]
+    },
+    "โซ่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%8B%E0%B9%88",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%8B%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "*soːlʔ",
+        "/soː˥˩/"
+      ]
+    },
+    "ฉิ่ง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%89%E0%B8%B4%E0%B9%88%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰiŋ˨˩/"
+      ]
+    },
+    "ชฎา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B8%8E%E0%B8%B2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B8%8E%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰa˦˥.daː˧/"
+      ]
+    },
+    "ฐาน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%90%E0%B8%B2%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%90%E0%B8%B2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/tʰaːn˩˩˦/",
+        "/tʰaː˩˩˦.na˦˥./"
+      ]
+    },
+    "ปฏัก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%8F%E0%B8%B1%E0%B8%81",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%8F%E0%B8%B1%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/pa˨˩.tak̚˨˩/"
+      ]
+    },
+    "หญิง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/jiŋ˩˩˦/"
+      ]
+    },
+    "เด็ก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/dek̚˨˩/"
+      ]
+    },
+    "เณร": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%93%E0%B8%A3",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%93%E0%B8%A3",
+      "status": 200,
+      "ipa": [
+        "/neːn˧/"
+      ]
+    },
+    "ผู้เฒ่า": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B9%80%E0%B8%92%E0%B9%88%E0%B8%B2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B9%80%E0%B8%92%E0%B9%88%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/pʰuː˥˩.tʰaw˥˩/"
+      ]
+    },
+    "มณโฑ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B8%93%E0%B9%82%E0%B8%91",
+      "status": 200,
+      "ipa": [
+        "/mon˧.tʰoː˧/"
+      ]
+    },
+    "ธง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%98%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%98%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/tʰoŋ˧/"
+      ]
+    },
+    "ถุง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%96%E0%B8%B8%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%96%E0%B8%B8%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/tʰuŋ˩˩˦/"
+      ]
+    },
+    "ทหาร": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%AB%E0%B8%B2%E0%B8%A3",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%AB%E0%B8%B2%E0%B8%A3",
+      "status": 200,
+      "ipa": [
+        "/tʰa˦˥.haːn˩˩˦/"
+      ]
+    },
+    "เต่า": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%95%E0%B9%88%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/taw˨˩/"
+      ]
+    },
+    "ใบไม้": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%9A%E0%B9%84%E0%B8%A1%E0%B9%89",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%9A%E0%B9%84%E0%B8%A1%E0%B9%89",
+      "status": 200,
+      "ipa": [
+        "/baj˧.maːj˦˥/"
+      ]
+    },
+    "ฝา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9D%E0%B8%B2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9D%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/faː˩˩˦/"
+      ]
+    },
+    "ผึ้ง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9C%E0%B8%B6%E0%B9%89%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/pʰɯŋ˥˩/"
+      ]
+    },
+    "หนู": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%99%E0%B8%B9",
+      "status": 200,
+      "ipa": [
+        "/nuː˩˩˦/"
+      ]
+    },
+    "ฟัน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9F%E0%B8%B1%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9F%E0%B8%B1%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/fan˧/"
+      ]
+    },
+    "ม้า": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B9%89%E0%B8%B2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B9%89%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/maː˦˥/"
+      ]
+    },
+    "พาน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%B2%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%B2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/pʰaːn˧/",
+        "*baːn"
+      ]
+    },
+    "สำเภา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%B2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/sam˩˩˦.pʰaw˧/"
+      ]
+    },
+    "ศาลา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/saː˩˩˦.laː˧/"
+      ]
+    },
+    "แหวน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/wɛːn˩˩˦/"
+      ]
+    },
+    "ยักษ์": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C",
+      "status": 200,
+      "ipa": [
+        "/jak̚˦˥/"
+      ]
+    },
+    "ลิง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A5%E0%B8%B4%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/liŋ˧/"
+      ]
+    },
+    "ฤๅษี": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A4%E0%B9%85%E0%B8%A9%E0%B8%B5",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A4%E0%B9%85%E0%B8%A9%E0%B8%B5",
+      "status": 200,
+      "ipa": [
+        "/rɯː˧.siː˩˩˦/"
+      ]
+    },
+    "เสือ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/sɯa̯˩˩˦/"
+      ]
+    },
+    "จุฬา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%88%E0%B8%B8%E0%B8%AC%E0%B8%B2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%88%E0%B8%B8%E0%B8%AC%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕu˨˩.laː˧/"
+      ]
+    },
+    "หีบ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%B5%E0%B8%9A",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%B5%E0%B8%9A",
+      "status": 200,
+      "ipa": [
+        "/hiːp̚˨˩/"
+      ]
+    },
+    "ฉัน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%89%E0%B8%B1%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%89%E0%B8%B1%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰan˩˩˦/",
+        "/t͡ɕʰan˦˥/"
+      ]
+    },
+    "นกฮูก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%81%E0%B8%AE%E0%B8%B9%E0%B8%81",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%81%E0%B8%AE%E0%B8%B9%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/huːk̚˥˩/"
+      ]
+    },
+    "ผม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9C%E0%B8%A1",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9C%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/pʰom˩˩˦/"
+      ]
+    },
+    "อ่าง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/ʔaːŋ˨˩/"
+      ]
+    },
+    "ปัง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%B1%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%B1%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/paŋ˧/"
+      ]
+    },
+    "เที่ยว": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7",
+      "status": 200,
+      "ipa": [
+        "/tʰia̯w˥˩/"
+      ]
+    },
+    "ซื้อ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8B%E0%B8%B7%E0%B9%89%E0%B8%AD",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%8B%E0%B8%B7%E0%B9%89%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/sɯː˦˥/"
+      ]
+    },
+    "พวก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%A7%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/pʰua̯k̚˥˩/"
+      ]
+    },
+    "ไม่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%A1%E0%B9%88",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%A1%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/maj˥˩/"
+      ]
+    },
+    "น่า": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%88%E0%B8%B2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%88%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/naː˥˩/"
+      ]
+    },
+    "ใช่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%8A%E0%B9%88",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%8A%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰaj˥˩/"
+      ]
+    },
+    "น้ำ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%B3",
+      "status": 200,
+      "ipa": [
+        "/naːm˦˥/",
+        "/naːm˦˥./",
+        "/nam˦˥./"
+      ]
+    },
+    "ร่วม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/rua̯m˥˩/"
+      ]
+    },
+    "ว่าย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%A2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/waːj˥˩/"
+      ]
+    },
+    "สนใจ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%99%E0%B9%83%E0%B8%88",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%99%E0%B9%83%E0%B8%88",
+      "status": 200,
+      "ipa": [
+        "/son˩˩˦.t͡ɕaj˧/"
+      ]
+    },
+    "นัก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/nak̚˦˥/"
+      ]
+    },
+    "ธุรกิจ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88",
+      "status": 200,
+      "ipa": [
+        "/tʰu˦˥.ra˦˥.kit̚˨˩/"
+      ]
+    },
+    "ภาษา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/pʰaː˧.saː˩˩˦/"
+      ]
+    },
+    "ลงทุน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/loŋ˧.tʰun˧/"
+      ]
+    },
+    "ดนตรี": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5",
+      "status": 200,
+      "ipa": [
+        "/don˧.triː˧/"
+      ]
+    },
+    "ไหม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%AB%E0%B8%A1",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%AB%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/maj˩˩˦/",
+        "/maj˦˥/",
+        "*hmɯl"
+      ]
+    },
+    "ว่า": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/waː˥˩/"
+      ]
+    },
+    "แปล": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%9B%E0%B8%A5",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%9B%E0%B8%A5",
+      "status": 200,
+      "ipa": [
+        "/plɛː˧/"
+      ]
+    },
+    "ขับ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%B1%E0%B8%9A",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%B1%E0%B8%9A",
+      "status": 200,
+      "ipa": [
+        "/kʰap̚˨˩/"
+      ]
+    },
+    "ไพ่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%9E%E0%B9%88",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%9E%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/pʰaj˥˩/"
+      ]
+    },
+    "ราเม็ง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%A1%E0%B9%87%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%A1%E0%B9%87%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/raː˧.meŋ˧/"
+      ]
+    },
+    "วันนี้": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B8%B5%E0%B9%89",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B8%B5%E0%B9%89",
+      "status": 200,
+      "ipa": [
+        "/wan˧.niː˦˥/"
+      ]
+    },
+    "เมื่อวาน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A7%E0%B8%B2%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A7%E0%B8%B2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/mɯa̯˥˩.waːn˧/"
+      ]
+    },
+    "พรุ่งนี้": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%99%E0%B8%B5%E0%B9%89",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%99%E0%B8%B5%E0%B9%89",
+      "status": 200,
+      "ipa": [
+        "/pʰruŋ˥˩.niː˦˥/"
+      ]
+    },
+    "คุย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%B8%E0%B8%A2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%B8%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/kʰuj˧/"
+      ]
+    },
+    "กับ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B1%E0%B8%9A",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B1%E0%B8%9A",
+      "status": 200,
+      "ipa": [
+        "/kap̚˨˩/"
+      ]
+    },
+    "เจอ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%88%E0%B8%AD",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%88%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕɤː˧/"
+      ]
+    },
+    "อะไรอีก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B8%AD%E0%B8%B5%E0%B8%81",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B8%AD%E0%B8%B5%E0%B8%81",
+      "status": 404,
+      "ipa": []
+    },
+    "ใครอีก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%B5%E0%B8%81",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%B5%E0%B8%81",
+      "status": 404,
+      "ipa": []
+    },
+    "แค่นี้": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%84%E0%B9%88%E0%B8%99%E0%B8%B5%E0%B9%89",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%84%E0%B9%88%E0%B8%99%E0%B8%B5%E0%B9%89",
+      "status": 404,
+      "ipa": []
+    },
+    "ลด": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A5%E0%B8%94",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A5%E0%B8%94",
+      "status": 200,
+      "ipa": [
+        "/lot̚˦˥/"
+      ]
+    },
+    "มัน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B8%B1%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B8%B1%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/man˧/"
+      ]
+    },
+    "เอา": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AD%E0%B8%B2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AD%E0%B8%B2",
+      "status": 200,
+      "ipa": [
+        "/ʔaw˧/"
+      ]
+    },
+    "เกินไป": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%9B",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%9B",
+      "status": 200,
+      "ipa": [
+        "/kɤːn˧.paj˧/"
+      ]
+    },
+    "เป็นยังไงบ้าง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%87%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%87%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%87",
+      "status": 404,
+      "ipa": []
+    },
+    "ช่วงนี้": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%99%E0%B8%B5%E0%B9%89",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%99%E0%B8%B5%E0%B9%89",
+      "status": 404,
+      "ipa": []
+    },
+    "ยุ่งมาก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%A1%E0%B8%B2%E0%B8%81",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%A1%E0%B8%B2%E0%B8%81",
+      "status": 404,
+      "ipa": []
+    },
+    "เหนื่อยมาก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B8%A1%E0%B8%B2%E0%B8%81",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B8%A1%E0%B8%B2%E0%B8%81",
+      "status": 404,
+      "ipa": []
+    },
+    "ว่างมาก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%B2%E0%B8%81",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%B2%E0%B8%81",
+      "status": 404,
+      "ipa": []
+    },
+    "เหมือนเดิม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%A1",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%A1",
+      "status": 404,
+      "ipa": []
+    },
+    "ไม่มีอะไรพิเศษ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9",
+      "status": 404,
+      "ipa": []
+    },
+    "และ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%A5%E0%B8%B0",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%A5%E0%B8%B0",
+      "status": 200,
+      "ipa": [
+        "*laːlʔ",
+        "/lɛʔ˦˥/"
+      ]
+    },
+    "แต่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%95%E0%B9%88",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%95%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/tɛː˨˩/"
+      ]
+    },
+    "หรือ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/rɯː˩˩˦/"
+      ]
+    },
+    "ดีต่อสุขภาพ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B5%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B5%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+      "status": 404,
+      "ipa": []
+    },
+    "โดยเฉพาะ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%94%E0%B8%A2%E0%B9%80%E0%B8%89%E0%B8%9E%E0%B8%B2%E0%B8%B0",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%94%E0%B8%A2%E0%B9%80%E0%B8%89%E0%B8%9E%E0%B8%B2%E0%B8%B0",
+      "status": 200,
+      "ipa": [
+        "/doːj˧.t͡ɕʰa˨˩.pʰɔʔ˦˥/"
+      ]
+    },
+    "อาหารทะเล": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5",
+      "status": 200,
+      "ipa": [
+        "/ʔaː˧.haːn˩˩˦.tʰa˦˥.leː˧/"
+      ]
+    },
+    "แพ้": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%9E%E0%B9%89",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%9E%E0%B9%89",
+      "status": 200,
+      "ipa": [
+        "/pʰɛː˦˥/"
+      ]
+    },
+    "ปกติ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%81%E0%B8%95%E0%B8%B4",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%81%E0%B8%95%E0%B8%B4",
+      "status": 200,
+      "ipa": [
+        "/pa˨˩.ka˨˩.tiʔ˨˩/",
+        "/pok̚˨˩.ka˨˩.tiʔ˨˩/"
+      ]
+    },
+    "ทุกวัน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/tʰuk̚˦˥.wan˧/"
+      ]
+    },
+    "ฟอง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9F%E0%B8%AD%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9F%E0%B8%AD%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/fɔːŋ˧/"
+      ]
+    },
+    "ปู": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%B9",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%B9",
+      "status": 200,
+      "ipa": [
+        "/puː˧/"
+      ]
+    },
+    "กุ้ง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/kuŋ˥˩/"
+      ]
+    },
+    "ปลาหมึก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/plaː˧.mɯk̚˨˩/"
+      ]
+    },
+    "หอย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%AD%E0%B8%A2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%AD%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/hɔj˩˩˦/"
+      ]
+    },
+    "เนื้อ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/nɯa̯˦˥/"
+      ]
+    },
+    "หมู": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%A1%E0%B8%B9",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%A1%E0%B8%B9",
+      "status": 200,
+      "ipa": [
+        "/muː˩˩˦/"
+      ]
+    },
+    "คนเดียว": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B8%A7",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B8%A7",
+      "status": 200,
+      "ipa": [
+        "/kʰon˧.dia̯w˧/"
+      ]
+    },
+    "อร่อย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%AD%E0%B8%A2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%AD%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/ʔa˨˩.rɔj˨˩/"
+      ]
+    },
+    "ดังนั้น": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/daŋ˧.nan˦˥/"
+      ]
+    },
+    "แทน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%97%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%97%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/tʰɛːn˧/"
+      ]
+    },
+    "แค่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%84%E0%B9%88",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%84%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/kʰɛː˥˩/"
+      ]
+    },
+    "โรงเรียน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/roːŋ˧.ria̯n˧/"
+      ]
+    },
+    "เรียน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/ria̯n˧/"
+      ]
+    },
+    "วันหยุด": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AB%E0%B8%A2%E0%B8%B8%E0%B8%94",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AB%E0%B8%A2%E0%B8%B8%E0%B8%94",
+      "status": 200,
+      "ipa": [
+        "/wan˧.jut̚˨˩/"
+      ]
+    },
+    "ของผม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9C%E0%B8%A1",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9C%E0%B8%A1",
+      "status": 404,
+      "ipa": []
+    },
+    "ของคุณ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B8%E0%B8%93",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B8%E0%B8%93",
+      "status": 404,
+      "ipa": []
+    },
+    "ใคร": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%84%E0%B8%A3",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%84%E0%B8%A3",
+      "status": 200,
+      "ipa": [
+        "/kʰraj˧/"
+      ]
+    },
+    "เท่าไหร่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%AB%E0%B8%A3%E0%B9%88",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%AB%E0%B8%A3%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/tʰaw˥˩.raj˨˩/"
+      ]
+    },
+    "โทรศัพท์": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%A8%E0%B8%B1%E0%B8%9E%E0%B8%97%E0%B9%8C",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%A8%E0%B8%B1%E0%B8%9E%E0%B8%97%E0%B9%8C",
+      "status": 200,
+      "ipa": [
+        "/tʰoː˧.ra˦˥.sap̚˨˩/"
+      ]
+    },
+    "อันนี้": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B8%B5%E0%B9%89",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B8%B5%E0%B9%89",
+      "status": 200,
+      "ipa": [
+        "/ʔan˧.niː˦˥/"
+      ]
+    },
+    "นี้": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B5%E0%B9%89",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B5%E0%B9%89",
+      "status": 200,
+      "ipa": [
+        "*njaɡ",
+        "/niː˦˥/"
+      ]
+    },
+    "คิด": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%B4%E0%B8%94",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%B4%E0%B8%94",
+      "status": 200,
+      "ipa": [
+        "/kʰit̚˦˥/"
+      ]
+    },
+    "รู้": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%B9%E0%B9%89",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%B9%E0%B9%89",
+      "status": 200,
+      "ipa": [
+        "/ruː˦˥/"
+      ]
+    },
+    "หมวก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%A1%E0%B8%A7%E0%B8%81",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%A1%E0%B8%A7%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "*muːɡs",
+        "/mua̯k̚˨˩/"
+      ]
+    },
+    "ใหญ่": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88",
+      "status": 200,
+      "ipa": [
+        "/jaj˨˩/"
+      ]
+    },
+    "กางเกง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/kaːŋ˧.keːŋ˧/"
+      ]
+    },
+    "เล็ก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/lek̚˦˥/"
+      ]
+    },
+    "โอเค": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%AD%E0%B9%80%E0%B8%84",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%AD%E0%B9%80%E0%B8%84",
+      "status": 200,
+      "ipa": [
+        "/ʔoː˧.kʰeː˧/"
+      ]
+    },
+    "ยังไม่ได้กิน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%81%E0%B8%B4%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%81%E0%B8%B4%E0%B8%99",
+      "status": 404,
+      "ipa": []
+    },
+    "ก๋วยเตี๋ยว": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B9%8B%E0%B8%A7%E0%B8%A2%E0%B9%80%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B8%A2%E0%B8%A7",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B9%8B%E0%B8%A7%E0%B8%A2%E0%B9%80%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B8%A2%E0%B8%A7",
+      "status": 200,
+      "ipa": [
+        "/kua̯j˩˩˦.tia̯w˩˩˦/"
+      ]
+    },
+    "ด้วย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/dua̯j˥˩/"
+      ]
+    },
+    "อีก": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B5%E0%B8%81",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B5%E0%B8%81",
+      "status": 200,
+      "ipa": [
+        "/ʔiːk̚˨˩/"
+      ]
+    },
+    "ยัง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B1%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B1%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/jaŋ˧/"
+      ]
+    },
+    "ไง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/ŋaj˧/"
+      ]
+    },
+    "บ้าง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/baŋ˥˩/"
+      ]
+    },
+    "ช่วง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/t͡ɕʰua̯ŋ˥˩/"
+      ]
+    },
+    "ยุ่ง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B8%E0%B9%88%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B8%E0%B9%88%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/juŋ˥˩/"
+      ]
+    },
+    "เหนื่อย": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A2",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A2",
+      "status": 200,
+      "ipa": [
+        "/nɯa̯j˨˩/"
+      ]
+    },
+    "ว่าง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/waːŋ˥˩/"
+      ]
+    },
+    "เหมือน": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%99",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%99",
+      "status": 200,
+      "ipa": [
+        "/mɯa̯n˩˩˦/"
+      ]
+    },
+    "เดิม": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%A1",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%A1",
+      "status": 200,
+      "ipa": [
+        "/dɤːm˧/"
+      ]
+    },
+    "พิเศษ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9",
+      "status": 200,
+      "ipa": [
+        "/pʰi˦˥.seːt̚˨˩/"
+      ]
+    },
+    "ต่อ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%95%E0%B9%88%E0%B8%AD",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%95%E0%B9%88%E0%B8%AD",
+      "status": 200,
+      "ipa": [
+        "/tɔː˨˩/"
+      ]
+    },
+    "สุขภาพ": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+      "status": 200,
+      "ipa": [
+        "/suk̚˨˩.kʰa˨˩.pʰaːp̚˥˩/"
+      ]
+    },
+    "ยังไง": {
+      "url": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%87",
+      "resolvedUrl": "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%87",
+      "status": 200,
+      "ipa": [
+        "/jaŋ˧.ŋaj˧/"
+      ]
+    }
+  }
+}

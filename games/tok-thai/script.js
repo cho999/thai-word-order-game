@@ -1,17 +1,17 @@
 const lessonsUrl = "../../data/vocab-lessons.json";
 const targetCorrect = 15;
-const baseFallDuration = 7200;
+const baseFallDuration = 9360;
 const thaiConsonantPattern = /[\u0E01-\u0E2E]/g;
 const thaiConsonantSet = new Set("กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ".split(""));
 const thaiMarkPattern = /[\u0E30-\u0E3A\u0E40-\u0E4E]/;
 
 const fallbackWords = [
-  { id: "dog", thai: "หมา", roman: "mǎa", english: "dog" },
-  { id: "cat", thai: "แมว", roman: "maaeo", english: "cat" },
-  { id: "milk", thai: "นม", roman: "nom", english: "milk" },
-  { id: "you", thai: "คุณ", roman: "khun", english: "you" },
-  { id: "go", thai: "ไป", roman: "bpai", english: "go" },
-  { id: "watch", thai: "ดู", roman: "duu", english: "watch" }
+  { id: "dog", thai: "หมา", roman: "maː˩˩˦", english: "dog" },
+  { id: "cat", thai: "แมว", roman: "mɛːw˧", english: "cat" },
+  { id: "milk", thai: "นม", roman: "nom˧", english: "milk" },
+  { id: "you", thai: "คุณ", roman: "kʰun˧", english: "you" },
+  { id: "go", thai: "ไป", roman: "paj˧", english: "go" },
+  { id: "watch", thai: "ดู", roman: "duː˧", english: "watch" }
 ];
 
 const $ = (selector) => document.querySelector(selector);
@@ -39,6 +39,10 @@ const state = {
   speedMultiplier: 1,
   mistakes: [],
   stones: [],
+  reviewQueue: [],
+  correctWordCounts: {},
+  presentedWordCounts: {},
+  questionTurns: 0,
   active: false,
   fallStart: 0,
   fallDuration: baseFallDuration,
@@ -68,7 +72,7 @@ async function loadWords() {
       .map((word, index) => ({ ...word, gameId: `${word.id || "word"}-${index}` }));
     return words.length >= targetCorrect ? words : [...words, ...fallbackWords];
   } catch (error) {
-    console.warn("Using fallback Ron Kham Sap words.", error);
+    console.warn("Using fallback เกมคำศัพท์ตกจากฟ้า words.", error);
     return fallbackWords;
   }
 }
@@ -88,6 +92,10 @@ function startGame() {
   state.speedMultiplier = 1;
   state.mistakes = [];
   state.stones = [];
+  state.reviewQueue = [];
+  state.correctWordCounts = {};
+  state.presentedWordCounts = {};
+  state.questionTurns = 0;
   state.active = true;
   resultPanel.classList.add("hidden");
   wellMessage.classList.add("hidden");
@@ -103,8 +111,12 @@ function spawnWord() {
     finishGame();
     return;
   }
-  if (!state.queue.length) state.queue = shuffle([...state.words]);
-  state.current = state.queue.pop();
+  state.current = takeNextWord();
+  if (!state.current) {
+    finishGame();
+    return;
+  }
+  markPresented(state.current);
   state.fallDuration = baseFallDuration / state.speedMultiplier;
   state.fallStart = performance.now();
   fallingWord.innerHTML = colorThaiWord(state.current.thai);
@@ -112,6 +124,63 @@ function spawnWord() {
   renderChoices(buildChoices(state.current));
   setChoiceDisabled(false);
   tick(state.fallStart);
+}
+
+function takeNextWord() {
+  const reviewIndex = state.reviewQueue.findIndex((item) => (
+    item.dueTurn <= state.questionTurns && canPresentWord(item.word)
+  ));
+  if (reviewIndex >= 0) {
+    const [review] = state.reviewQueue.splice(reviewIndex, 1);
+    return review.word;
+  }
+
+  state.reviewQueue = state.reviewQueue.filter((item) => canPresentWord(item.word));
+  while (true) {
+    if (!state.queue.length) {
+      state.queue = shuffle(state.words.filter(canPresentAsNewWord));
+    }
+    if (!state.queue.length) return null;
+    const next = state.queue.pop();
+    if (canPresentAsNewWord(next)) return next;
+  }
+}
+
+function scheduleReview(word) {
+  if (!canPresentWord(word)) return;
+  const delay = randomInt(3, 5);
+  state.reviewQueue.push({ word, dueTurn: state.questionTurns + 1 + delay });
+}
+
+function markCorrect(word) {
+  const key = getWordKey(word);
+  state.correctWordCounts[key] = (state.correctWordCounts[key] || 0) + 1;
+  state.reviewQueue = state.reviewQueue.filter((item) => canPresentWord(item.word));
+}
+
+function markPresented(word) {
+  const key = getWordKey(word);
+  state.presentedWordCounts[key] = (state.presentedWordCounts[key] || 0) + 1;
+}
+
+function canPresentWord(word) {
+  const key = getWordKey(word);
+  const correctCount = state.correctWordCounts[key] || 0;
+  const presentedCount = state.presentedWordCounts[key] || 0;
+  return correctCount < 2 && !(correctCount > 0 && presentedCount >= 2);
+}
+
+function canPresentAsNewWord(word) {
+  return canPresentWord(word) && !isReviewPending(word);
+}
+
+function isReviewPending(word) {
+  const key = getWordKey(word);
+  return state.reviewQueue.some((item) => getWordKey(item.word) === key);
+}
+
+function getWordKey(word) {
+  return word.gameId || word.id || `${word.thai}-${word.roman}`;
 }
 
 function tick(now) {
@@ -135,11 +204,13 @@ function answer(choice) {
   if (choice === state.current.roman) {
     cancelAnimationFrame(state.rafId);
     state.correct += 1;
+    markCorrect(state.current);
     state.speedMultiplier = Number((state.speedMultiplier + 0.1).toFixed(1));
     feedback.className = "feedback good";
     feedback.textContent = `Correct: ${state.current.thai} = ${state.current.roman}`;
     fallingWord.classList.add("hidden");
     state.current = null;
+    state.questionTurns += 1;
     updateHud();
     setChoiceDisabled(true);
     window.setTimeout(spawnWord, 420);
@@ -154,6 +225,7 @@ function missCurrent(reason, choice = "") {
   const missed = state.current;
   state.mistakes.push({ ...missed, selected: choice, reason });
   state.stones.push(missed);
+  scheduleReview(missed);
   if (state.stones.length > 16) state.stones.shift();
   feedback.className = "feedback bad";
   feedback.textContent = reason === "time"
@@ -161,6 +233,7 @@ function missCurrent(reason, choice = "") {
     : `Not quite: ${missed.thai} is ${missed.roman}`;
   fallingWord.classList.add("hidden");
   state.current = null;
+  state.questionTurns += 1;
   renderStones();
   updateHud();
   setChoiceDisabled(true);
@@ -193,44 +266,28 @@ function buildChoices(word) {
 function generateSoundAlikes(roman) {
   const variants = new Set();
   const swaps = [
-    [/aa/g, "a"], [/a(?!a)/g, "aa"],
-    [/ii/g, "i"], [/i(?!i)/g, "ii"],
-    [/uu/g, "u"], [/u(?!u)/g, "uu"],
-    [/ee/g, "e"], [/e(?!e)/g, "ee"],
-    [/oo/g, "o"], [/o(?!o)/g, "oo"],
-    [/ɛɛ/g, "ee"], [/ɔɔ/g, "oo"], [/ʉʉ/g, "uu"],
-    [/kh/g, "k"], [/(^|[^k])k/g, "$1kh"],
-    [/ph/g, "p"], [/(^|[^p])p/g, "$1ph"],
-    [/th/g, "t"], [/(^|[^t])t/g, "$1th"],
-    [/ch/g, "j"], [/j/g, "ch"],
-    [/d/g, "t"], [/t/g, "d"],
-    [/s/g, "th"], [/r/g, "l"], [/l/g, "r"],
-    [/bp/g, "b"], [/b(?!p)/g, "bp"],
-    [/ai/g, "aai"], [/ao/g, "aao"], [/ʉ/g, "u"]
+    // Change one IPA sound; retain combining marks and complete tone contours.
+    [/ɛ/u, "e"], [/e/u, "ɛ"], [/ɔ/u, "o"], [/o/u, "ɔ"],
+    [/ɯ/u, "u"], [/u/u, "ɯ"], [/ɤ/u, "ɔ"],
+    [/(^|[.\s])([pkt])ʰ/u, "$1$2"],
+    [/(^|[.\s])([pkt])(?![ʰɕ͡])/u, "$1$2ʰ"],
+    [/(^|[.\s])r/u, "$1l"], [/(^|[.\s])l/u, "$1r"],
+    [/ŋ(?=[˥˦˧˨˩])/u, "n"], [/n(?=[˥˦˧˨˩])/u, "ŋ"],
+    [/m(?=[˥˦˧˨˩])/u, "n"]
   ];
   swaps.forEach(([pattern, replacement]) => {
     const candidate = roman.replace(pattern, replacement);
     if (candidate !== roman && candidate.length <= roman.length + 3) variants.add(candidate);
   });
-  if (roman.endsWith("ng")) variants.add(`${roman.slice(0, -2)}n`);
-  if (roman.endsWith("n")) variants.add(`${roman.slice(0, -1)}ng`);
-  if (roman.endsWith("m")) variants.add(`${roman.slice(0, -1)}n`);
   return shuffle([...variants]).slice(0, 8);
 }
 
 function generateFallbackDistractors(roman) {
-  const variants = new Set();
-  const plain = roman.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  const vowels = ["a", "i", "u", "e", "o"];
-  vowels.forEach((vowel) => {
-    if (plain.includes(vowel)) {
-      variants.add(plain.replace(vowel, `${vowel}${vowel}`));
-      variants.add(plain.replace(`${vowel}${vowel}`, vowel));
-    }
-  });
-  ["h", "ng", "n", "t", "k"].forEach((ending) => variants.add(`${plain}${ending}`));
-  if (plain.length > 2) variants.add(plain.slice(0, -1));
-  return [...variants].filter((variant) => variant && variant !== roman && variant.length <= roman.length + 3);
+  // Tone contrasts are synthetic wrong answers, not dictionary word readings.
+  // Replace the whole contour; never append a consonant after a tone letter.
+  return ["˧", "˨˩", "˥˩", "˦˥", "˩˩˦"]
+    .map(tone => roman.replace(/[˥˦˧˨˩]+/u, tone))
+    .filter(variant => variant !== roman);
 }
 
 function colorThaiWord(thai) {
@@ -299,6 +356,10 @@ function shuffle(items) {
     [array[index], array[swapIndex]] = [array[swapIndex], array[index]];
   }
   return array;
+}
+
+function randomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function escapeAttribute(value) {

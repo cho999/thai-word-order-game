@@ -1,0 +1,31 @@
+/* IPA combining marks and tone letters need normal casing and generous line height. */
+.ipa-guide {
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 16px 20px;
+  border: 1px solid #d6e3df;
+  border-radius: 14px;
+  background: #fffdf7;
+  color: #203b39;
+  font: 15px/1.8 "Segoe UI", "Noto Sans", "Arial", sans-serif;
+}
+.ipa-guide summary { cursor: pointer; font-weight: 700; }
+.ipa-guide p { margin: 10px 0; }
+.ipa-guide a { color: #00696b; text-decoration: underline; }
+.ipa-text, .reading, .card-reading, .choice, .word-column, .roman, .ipa {
+  text-transform: none;
+  letter-spacing: normal;
+  overflow-wrap: anywhere;
+}
+.ipa-page { max-width: 1080px; margin: auto; padding: 24px; line-height: 1.8; }
+.ipa-page table { width: 100%; border-collapse: collapse; background: #fffdf7; }
+.ipa-page th, .ipa-page td { padding: 10px 12px; border-bottom: 1px solid #d6e3df; text-align: left; vertical-align: top; }
+.ipa-page .table-scroll { overflow-x: auto; }
+.ipa-page .ipa-text { font-family: "Segoe UI", "Noto Sans", "Arial", sans-serif; font-size: 18px; }
+.ipa-page input { width: 100%; box-sizing: border-box; padding: 12px; margin: 12px 0; font: inherit; }
+.ipa-page small { display: block; color: #526967; }
+@media (max-width: 600px) {
+  .ipa-guide { margin: 18px 12px; }
+  .ipa-page { padding: 16px; }
+  .word-column { min-width: 0; }
+}

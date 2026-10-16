@@ -22,79 +22,79 @@ const removedConsonants = ["ฃ", "ฅ", "ฆ", "ฌ", "ฎ", "ฏ", "ฐ", "ฑ
 const data = {
   consonant: [
     level(1, "Lv1 Most frequent", "Consonants you will see again and again first", [
-      card("ก", "gɔɔ gài", "/k/", "chicken"),
-      card("น", "nɔɔ nǔu", "/n/", "mouse"),
-      card("ม", "mɔɔ máa", "/m/", "horse"),
-      card("ร", "rɔɔ rʉʉa", "/r/", "boat"),
-      card("อ", "ɔɔ àang", "/ʔ/", "basin"),
-      card("ส", "sɔ̌ɔ sʉ̌ʉa", "/s/", "tiger"),
-      card("ต", "dtɔɔ dtào", "/t/", "turtle"),
-      card("ป", "bpɔɔ bplaa", "/p/", "fish")
+      card("ก", "kɔː˧.kaj˨˩", "/k/", "chicken"),
+      card("น", "nɔː˧.nuː˩˩˦", "/n/", "mouse"),
+      card("ม", "mɔː˧.maː˦˥", "/m/", "horse"),
+      card("ร", "rɔː˧.rɯa̯˧", "/r~ɾ/", "boat"),
+      card("อ", "ʔɔː˧.ʔaːŋ˨˩", "/ʔ/ (carrier)", "basin"),
+      card("ส", "sɔː˩˩˦.sɯa̯˩˩˦", "/s/", "tiger"),
+      card("ต", "tɔː˧.taw˨˩", "/t/", "turtle"),
+      card("ป", "pɔː˧.plaː˧", "/p/", "fish")
     ]),
     level(2, "Lv2 Common", "Consonants common in beginner vocabulary", [
-      card("บ", "bɔɔ bai mái", "/b/", "leaf"),
-      card("ล", "lɔɔ ling", "/l/", "monkey"),
-      card("ด", "dɔɔ dèk", "/d/", "child"),
-      card("ช", "chɔɔ cháang", "/ch/", "elephant"),
-      card("ค", "kɔɔ khwaai", "/kh/", "buffalo"),
-      card("ท", "tɔɔ tá-hǎan", "/th/", "soldier"),
-      card("ย", "yɔɔ yák", "/y/", "giant"),
-      card("ห", "hɔ̌ɔ hìip", "/h/", "chest")
+      card("บ", "bɔː˧.baj˧.maj˦˥", "/b/", "leaf"),
+      card("ล", "lɔː˧.liŋ˧", "/l/", "monkey"),
+      card("ด", "dɔː˧.dek̚˨˩", "/d/", "child"),
+      card("ช", "t͡ɕʰɔː˧.t͡ɕʰaːŋ˦˥", "/tɕʰ/", "elephant"),
+      card("ค", "kʰɔː˧.kʰwaːj˧", "/kʰ/", "buffalo"),
+      card("ท", "tʰɔː˧.tʰa˦˥.haːn˩˩˦", "/tʰ/", "soldier"),
+      card("ย", "jɔː˧.jak̚˦˥", "/j/", "giant"),
+      card("ห", "hɔː˩˩˦.hiːp̚˨˩", "/h/", "chest")
     ]),
     level(3, "Lv3 Standard", "Consonants to secure for reading and writing", [
-      card("ว", "wɔɔ wɛ̌ɛn", "/w/", "ring"),
-      card("พ", "pɔɔ phaan", "/ph/", "tray"),
-      card("ฟ", "fɔɔ fan", "/f/", "teeth"),
-      card("ง", "ngɔɔ nguu", "/ng/", "snake"),
-      card("จ", "jɔɔ jaan", "/ch/", "plate"),
-      card("ข", "kɔ̌ɔ kài", "/kh/", "egg"),
-      card("ภ", "pɔɔ sǎm-phao", "/ph/", "sailboat"),
-      card("ธ", "tɔɔ thong", "/th/", "flag")
+      card("ว", "wɔː˧.wɛːn˩˩˦", "/w/", "ring"),
+      card("พ", "pʰɔː˧.pʰaːn˧", "/pʰ/", "tray"),
+      card("ฟ", "fɔː˧.fan˧", "/f/", "teeth"),
+      card("ง", "ŋɔː˧.ŋuː˧", "/ŋ/", "snake"),
+      card("จ", "t͡ɕɔː˧.t͡ɕaːn˧", "/tɕ/", "plate"),
+      card("ข", "kʰɔː˩˩˦.kʰaj˨˩", "/kʰ/", "egg"),
+      card("ภ", "pʰɔː˧.sam˩˩˦.pʰaw˧", "/pʰ/", "sailboat"),
+      card("ธ", "tʰɔː˧.tʰoŋ˧", "/tʰ/", "flag")
     ]),
     level(4, "Lv4 Extra", "Less frequent consonants kept for coverage", [
-      card("ญ", "yɔɔ yǐng", "/y/", "woman"),
-      card("ถ", "tɔ̌ɔ tǔng", "/th/", "bag"),
-      card("ผ", "pɔ̌ɔ phʉ̂ng", "/ph/", "bee"),
-      card("ฝ", "fɔ̌ɔ fǎa", "/f/", "lid"),
-      card("ซ", "sɔɔ sôo", "/s/", "chain"),
-      card("ฉ", "chɔ̌ɔ chìng", "/ch/", "cymbals"),
-      card("ฮ", "hɔɔ nók-hûuk", "/h/", "owl")
+      card("ญ", "jɔː˧.jiŋ˩˩˦", "/j/", "woman"),
+      card("ถ", "tʰɔː˩˩˦.tʰuŋ˩˩˦", "/tʰ/", "bag"),
+      card("ผ", "pʰɔː˩˩˦.pʰɯŋ˥˩", "/pʰ/", "bee"),
+      card("ฝ", "fɔː˩˩˦.faː˩˩˦", "/f/", "lid"),
+      card("ซ", "sɔː˧.soː˥˩", "/s/", "chain"),
+      card("ฉ", "t͡ɕʰɔː˩˩˦.t͡ɕʰiŋ˨˩", "/tɕʰ/", "cymbals"),
+      card("ฮ", "hɔː˧.nok̚˦˥.huːk̚˥˩", "/h/", "owl")
     ])
   ],
   vowel: [
     level(1, "Lv1 Most frequent", "Basic short and long vowels", [
-      card("กะ", "gà", "/a/", "ก + ◌ะ"),
-      card("กา", "gaa", "/aː/", "ก + า"),
-      card("กิ", "gì", "/i/", "ก + ◌ิ"),
-      card("กี", "gii", "/iː/", "ก + ◌ี"),
-      card("กุ", "gù", "/u/", "ก + ◌ุ"),
-      card("กู", "guu", "/uː/", "ก + ◌ู")
+      card("กะ", "kaʔ˨˩", "/a/", "ก + ◌ะ"),
+      card("กา", "kaː˧", "/aː/", "ก + า"),
+      card("กิ", "kiʔ˨˩", "/i/", "ก + ◌ิ"),
+      card("กี", "kiː˧", "/iː/", "ก + ◌ี"),
+      card("กุ", "kuʔ˨˩", "/u/", "ก + ◌ุ"),
+      card("กู", "kuː˧", "/uː/", "ก + ◌ู")
     ]),
     level(2, "Lv2 Common", "Central vowels and e/o patterns", [
-      card("กึ", "gʉ̀", "/ɯ/", "ก + ◌ึ"),
-      card("กื", "gʉʉ", "/ɯː/", "ก + ◌ื"),
-      card("เกะ", "gè", "/e/", "เ + ก + ะ"),
-      card("เก", "gee", "/eː/", "เ + ก"),
-      card("โกะ", "gò", "/o/", "โ + ก + ะ"),
-      card("โก", "goo", "/oː/", "โ + ก")
+      card("กึ", "kɯʔ˨˩", "/ɯ/", "ก + ◌ึ"),
+      card("กือ", "kɯː˧", "/ɯː/", "ก + ◌ือ"),
+      card("เกะ", "keʔ˨˩", "/e/", "เ + ก + ะ"),
+      card("เก", "keː˧", "/eː/", "เ + ก"),
+      card("โกะ", "koʔ˨˩", "/o/", "โ + ก + ะ"),
+      card("โก", "koː˧", "/oː/", "โ + ก")
     ]),
     level(3, "Lv3 Standard", "ae/o/oe patterns", [
-      card("แกะ", "gɛ̀", "/ɛ/", "แ + ก + ะ"),
-      card("แก", "gɛɛ", "/ɛː/", "แ + ก"),
-      card("เกาะ", "gɔ̀", "/ɔ/", "เ + ก + าะ"),
-      card("กอ", "gɔɔ", "/ɔː/", "ก + อ"),
-      card("เกอะ", "gə̀", "/ɤ/", "เ + ก + อะ"),
-      card("เกอ", "gəə", "/ɤː/", "เ + ก + อ")
+      card("แกะ", "kɛʔ˨˩", "/ɛ/", "แ + ก + ะ"),
+      card("แก", "kɛː˧", "/ɛː/", "แ + ก"),
+      card("เกาะ", "kɔʔ˨˩", "/ɔ/", "เ + ก + าะ"),
+      card("กอ", "kɔː˧", "/ɔː/", "ก + อ"),
+      card("เกอะ", "kɤʔ˨˩", "/ɤ/", "เ + ก + อะ"),
+      card("เกอ", "kɤː˧", "/ɤː/", "เ + ก + อ")
     ]),
     level(4, "Lv4 Extra", "Compound vowels and common forms", [
-      card("เกียะ", "gìa", "/ia/", "เ + ก + ียะ"),
-      card("เกีย", "gia", "/iaː/", "เ + ก + ีย"),
-      card("เกือะ", "gʉ̀a", "/ɯa/", "เ + ก + ือะ"),
-      card("เกือ", "gʉa", "/ɯaː/", "เ + ก + ือ"),
-      card("กัวะ", "gùa", "/ua/", "ก + ัวะ"),
-      card("กัว", "gua", "/uaː/", "ก + ัว"),
-      card("ไก", "gai", "/gai/", "ไ + ก"),
-      card("เกา", "gao", "/gao/", "เ + ก + า")
+      card("เกียะ", "kia̯ʔ˨˩", "/ia̯/", "เ + ก + ียะ"),
+      card("เกีย", "kia̯˧", "/ia̯/", "เ + ก + ีย"),
+      card("เกือะ", "kɯa̯ʔ˨˩", "/ɯa̯/", "เ + ก + ือะ"),
+      card("เกือ", "kɯa̯˧", "/ɯa̯/", "เ + ก + ือ"),
+      card("กัวะ", "kua̯ʔ˨˩", "/ua̯/", "ก + ัวะ"),
+      card("กัว", "kua̯˧", "/ua̯/", "ก + ัว"),
+      card("ไก", "kaj˧", "/aj/", "ไ + ก"),
+      card("เกา", "kaw˧", "/aw/", "เ + ก + า")
     ])
   ]
 };

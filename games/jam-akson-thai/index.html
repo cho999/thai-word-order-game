@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Learn Thai Consonants with Audio and Quizzes | Jam Akson Thai</title>
+  <title>Learn Thai Consonants with Audio and Quizzes | ฝึกพยัญชนะไทย</title>
   <meta name="description" content="Learn Thai consonants with study cards, audio, memory games, sound checks, and quizzes. Practice Thai letter shapes and sounds unit by unit.">
   <link rel="canonical" href="https://cho999.github.io/thai-word-order-game/games/jam-akson-thai/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Learn Thai Consonants with Audio and Quizzes | Jam Akson Thai">
+  <meta property="og:title" content="Learn Thai Consonants with Audio and Quizzes | ฝึกพยัญชนะไทย">
   <meta property="og:description" content="Learn Thai consonants with study cards, audio, memory games, sound checks, and quizzes. Practice Thai letter shapes and sounds unit by unit.">
   <meta property="og:image" content="https://cho999.github.io/thai-word-order-game/assets/images/banners/nari-adventure-link-banner.png">
   <!-- Google Search Console verification: paste the exact meta tag from Search Console on the next line. Do not add a fake token. -->
@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="../../assets/css/theme.css">
   <link rel="stylesheet" href="../../assets/css/components.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../assets/css/ipa.css">
 </head>
 
 <body class="nari-theme" data-game="jam-akson-thai">
@@ -24,7 +25,7 @@
     <a class="portalBannerLink" href="../../index.html" aria-label="Go to Nari's Thai Adventure Notes">
       <img src="../../assets/images/banners/nari-adventure-link-banner.png" alt="Nari's Thai Adventure Notes home banner">
     </a>
-    <h1>Jam Akson Thai - Learn Thai Consonants with Audio and Quizzes</h1>
+    <h1>ฝึกพยัญชนะไทย - Learn Thai Consonants with Audio and Quizzes</h1>
     <div class="sub">Learn Thai consonants through study cards, audio playback, memory matching, sound checks, and quick quizzes. Practice letter shapes and sounds by unit.</div>
 
     <!-- ===== Title / Home ===== -->
@@ -58,7 +59,7 @@
     <div id="modeMenu" class="hidden">
       <h2>Match Game Mode</h2>
       <div class="row">
-        <button class="button" onclick="selectMode('consonant')">Consonants (Thai → Latin+IPA)</button>
+        <button class="button" onclick="selectMode('consonant')">Consonants (Thai → IPA + tones)</button>
         <button class="button" onclick="selectMode('vowel')">Vowels (carrier)</button>
         <button class="button" onclick="selectMode('syllable')">Syllables</button>
       </div>
@@ -66,7 +67,7 @@
         <button class="button secondary" onclick="goTo(homeScreen)">Back</button>
       </div>
       <div class="note">
-        Consonant mode is Thai letter → Latin consonant name + IPA.
+        Consonant mode is Thai letter → IPA consonant name with tones + consonant sound.
       </div>
     </div>
 
@@ -139,7 +140,7 @@
     <div id="resultScreen" class="hidden">
       <h2 id="resultTitle">Clear!</h2>
       <div class="nariResult">
-        <img id="resultNari" src="../../assets/images/nari/chibi/chibi-cheer.png" alt="Nari cheering after Jam Akson Thai practice">
+        <img id="resultNari" src="../../assets/images/nari/chibi/chibi-cheer.png" alt="Nari cheering after ฝึกพยัญชนะไทย practice">
         <div class="talk" id="resultTalk">Nice work! Keep going.</div>
       </div>
       <div class="resultSummary" id="resultSummary"></div>
@@ -266,7 +267,7 @@
     </div>
 
     <section class="info-section" aria-labelledby="jamInfoTitle">
-      <h2 id="jamInfoTitle">About Jam Akson Thai - Learn Thai Consonants with Audio and Quizzes</h2>
+      <h2 id="jamInfoTitle">About ฝึกพยัญชนะไทย - Learn Thai Consonants with Audio and Quizzes</h2>
       <div class="info-grid">
         <article>
           <h3>What you will learn</h3>
@@ -281,8 +282,8 @@
           <p>Beginner learners starting Thai script and sound recognition.</p>
         </article>
         <article>
-          <h3>Writing and romanization system</h3>
-          <p>Thai script with Latin sound labels, IPA hints, and audio where available.</p>
+          <h3>Writing and IPA transcription</h3>
+          <p>Thai script with IPA transcriptions with tone marks, and audio where available.</p>
         </article>
         <article>
           <h3>Available modes</h3>
@@ -293,5 +294,6 @@
   </div>
   <script src="../../shared/analytics.js"></script>
   <script src="script.js"></script>
+<details class="ipa-guide"><summary>How to read IPA and tone marks</summary><p>Mid ˧ · Low ˨˩ · Falling ˥˩ · High ˦˥ · Rising ˩˩˦. Tone marks follow each syllable. ː = long vowel; ʰ = aspiration; ʔ = glottal stop; . = syllable boundary.</p><p>Words, letter names and practice syllables carry tones. Individual consonant and vowel sounds do not have an inherent tone.</p><a href="../../pronunciation.html">Pronunciation guide and word-by-word sources</a></details>
 </body>
 </html>

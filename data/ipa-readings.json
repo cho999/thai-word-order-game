@@ -1,0 +1,1857 @@
+{
+  "convention": "Wiktionary Thai IPA; tones at the end of each syllable",
+  "license": "Wiktionary-derived pronunciation data: CC BY-SA 4.0; links identify contributing pages.",
+  "readings": {
+    "ก": {
+      "ipa": "kɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%81"
+      ]
+    },
+    "กระดาษ": {
+      "ipa": "kra˨˩.daːt̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B2%E0%B8%A9"
+      ]
+    },
+    "กระเป๋า": {
+      "ipa": "kra˨˩.paw˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2"
+      ]
+    },
+    "กะเพรา": {
+      "ipa": "ka˨˩.pʰraw˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2"
+      ]
+    },
+    "กิน": {
+      "ipa": "kin˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B4%E0%B8%99"
+      ]
+    },
+    "กีฬา": {
+      "ipa": "kiː˧.laː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B5%E0%B8%AC%E0%B8%B2"
+      ]
+    },
+    "กุญแจ": {
+      "ipa": "kun˧.t͡ɕɛː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%81%E0%B8%B8%E0%B8%8D%E0%B9%81%E0%B8%88"
+      ]
+    },
+    "ข": {
+      "ipa": "kʰɔː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%82"
+      ]
+    },
+    "ขนม": {
+      "ipa": "kʰa˨˩.nom˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%99%E0%B8%A1"
+      ]
+    },
+    "ขนมปัง": {
+      "ipa": "kʰa˨˩.nom˩˩˦.paŋ˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%99%E0%B8%A1%E0%B8%9B%E0%B8%B1%E0%B8%87"
+      ]
+    },
+    "ขวด": {
+      "ipa": "kʰua̯t̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%A7%E0%B8%94"
+      ]
+    },
+    "ของ": {
+      "ipa": "kʰɔːŋ˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%AD%E0%B8%87"
+      ]
+    },
+    "ขับ": {
+      "ipa": "kʰap̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%B1%E0%B8%9A"
+      ]
+    },
+    "ขับรถ": {
+      "ipa": "kʰap̚˨˩ rot̚˦˥",
+      "kind": "composed",
+      "parts": [
+        "ขับ",
+        "รถ"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%B1%E0%B8%9A",
+        "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%96"
+      ]
+    },
+    "ขี้เหร่": {
+      "ipa": "kʰiː˥˩.reː˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B9%80%E0%B8%AB%E0%B8%A3%E0%B9%88"
+      ]
+    },
+    "ข้าว": {
+      "ipa": "kʰaːw˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7"
+      ]
+    },
+    "ฃ": {
+      "ipa": "kʰɔː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%83"
+      ]
+    },
+    "ค": {
+      "ipa": "kʰɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%84"
+      ]
+    },
+    "คน": {
+      "ipa": "kʰon˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%99"
+      ]
+    },
+    "ครับ": {
+      "ipa": "kʰrap̚˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%9A"
+      ]
+    },
+    "ครู": {
+      "ipa": "kʰruː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%A3%E0%B8%B9"
+      ]
+    },
+    "ครูใหญ่": {
+      "ipa": "kʰruː˧.jaj˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%A3%E0%B8%B9%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88"
+      ]
+    },
+    "ควาย": {
+      "ipa": "kʰwaːj˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A2"
+      ]
+    },
+    "คอมพิวเตอร์": {
+      "ipa": "kʰɔm˧.pʰiw˧.tɤː˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C"
+      ]
+    },
+    "คัน": {
+      "ipa": "kʰan˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%B1%E0%B8%99"
+      ]
+    },
+    "คำถาม": {
+      "ipa": "kʰam˧.tʰaːm˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%B3%E0%B8%96%E0%B8%B2%E0%B8%A1"
+      ]
+    },
+    "คือ": {
+      "ipa": "kʰɯː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%B7%E0%B8%AD"
+      ]
+    },
+    "คุณ": {
+      "ipa": "kʰun˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%B8%E0%B8%93"
+      ]
+    },
+    "ฅ": {
+      "ipa": "kʰɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%85"
+      ]
+    },
+    "ฆ": {
+      "ipa": "kʰɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%86"
+      ]
+    },
+    "ฆ่า": {
+      "ipa": "kʰaː˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%86%E0%B9%88%E0%B8%B2"
+      ]
+    },
+    "ง": {
+      "ipa": "ŋɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%87"
+      ]
+    },
+    "งาน": {
+      "ipa": "ŋaːn˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%87%E0%B8%B2%E0%B8%99"
+      ]
+    },
+    "งู": {
+      "ipa": "ŋuː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%87%E0%B8%B9"
+      ]
+    },
+    "ง่าย": {
+      "ipa": "ŋaːj˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2"
+      ]
+    },
+    "จ": {
+      "ipa": "t͡ɕɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%88"
+      ]
+    },
+    "จาน": {
+      "ipa": "t͡ɕaːn˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%88%E0%B8%B2%E0%B8%99"
+      ]
+    },
+    "จีน": {
+      "ipa": "t͡ɕiːn˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%88%E0%B8%B5%E0%B8%99"
+      ]
+    },
+    "จุฬา": {
+      "ipa": "t͡ɕu˨˩.laː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%88%E0%B8%B8%E0%B8%AC%E0%B8%B2"
+      ]
+    },
+    "ฉ": {
+      "ipa": "t͡ɕʰɔː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%89"
+      ]
+    },
+    "ฉัน": {
+      "ipa": "t͡ɕʰan˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%89%E0%B8%B1%E0%B8%99"
+      ]
+    },
+    "ฉิ่ง": {
+      "ipa": "t͡ɕʰiŋ˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%89%E0%B8%B4%E0%B9%88%E0%B8%87"
+      ]
+    },
+    "ช": {
+      "ipa": "t͡ɕʰɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8A"
+      ]
+    },
+    "ชฎา": {
+      "ipa": "t͡ɕʰa˦˥.daː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B8%8E%E0%B8%B2"
+      ]
+    },
+    "ชอบ": {
+      "ipa": "t͡ɕʰɔːp̚˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B8%AD%E0%B8%9A"
+      ]
+    },
+    "ชา": {
+      "ipa": "t͡ɕʰaː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B8%B2"
+      ]
+    },
+    "ช้า": {
+      "ipa": "t͡ɕʰaː˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B9%89%E0%B8%B2"
+      ]
+    },
+    "ช้าง": {
+      "ipa": "t͡ɕʰaːŋ˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87"
+      ]
+    },
+    "ช้าๆ": {
+      "ipa": "t͡ɕʰaː˦˥ t͡ɕʰaː˦˥",
+      "kind": "composed",
+      "parts": [
+        "ช้า",
+        "ช้า"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B9%89%E0%B8%B2",
+        "https://en.wiktionary.org/wiki/%E0%B8%8A%E0%B9%89%E0%B8%B2"
+      ]
+    },
+    "ซ": {
+      "ipa": "sɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8B"
+      ]
+    },
+    "ซื้อ": {
+      "ipa": "sɯː˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8B%E0%B8%B7%E0%B9%89%E0%B8%AD"
+      ]
+    },
+    "ซื้อของ": {
+      "ipa": "sɯː˦˥.kʰɔːŋ˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8B%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%82%E0%B8%AD%E0%B8%87"
+      ]
+    },
+    "ซุป": {
+      "ipa": "sup̚˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8B%E0%B8%B8%E0%B8%9B"
+      ]
+    },
+    "ฌ": {
+      "ipa": "t͡ɕʰɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8C"
+      ]
+    },
+    "ญ": {
+      "ipa": "jɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8D"
+      ]
+    },
+    "ญาติ": {
+      "ipa": "jaːt̚˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8D%E0%B8%B2%E0%B8%95%E0%B8%B4"
+      ]
+    },
+    "ญี่ปุ่น": {
+      "ipa": "jiː˥˩.pun˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99"
+      ]
+    },
+    "ฎ": {
+      "ipa": "dɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8E"
+      ]
+    },
+    "ฏ": {
+      "ipa": "tɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%8F"
+      ]
+    },
+    "ฐ": {
+      "ipa": "tʰɔː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%90"
+      ]
+    },
+    "ฐาน": {
+      "ipa": "tʰaːn˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%90%E0%B8%B2%E0%B8%99"
+      ]
+    },
+    "ฑ": {
+      "ipa": "tʰɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%91"
+      ]
+    },
+    "ฒ": {
+      "ipa": "tʰɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%92"
+      ]
+    },
+    "ณ": {
+      "ipa": "nɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%93"
+      ]
+    },
+    "ด": {
+      "ipa": "dɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%94"
+      ]
+    },
+    "ดนตรี": {
+      "ipa": "don˧.triː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5"
+      ]
+    },
+    "ดัง": {
+      "ipa": "daŋ˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B1%E0%B8%87"
+      ]
+    },
+    "ดำ": {
+      "ipa": "dam˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B3"
+      ]
+    },
+    "ดี": {
+      "ipa": "diː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B5"
+      ]
+    },
+    "ดื่ม": {
+      "ipa": "dɯːm˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B7%E0%B9%88%E0%B8%A1"
+      ]
+    },
+    "ดู": {
+      "ipa": "duː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B8%B9"
+      ]
+    },
+    "ด้าม": {
+      "ipa": "daːm˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%A1"
+      ]
+    },
+    "ต": {
+      "ipa": "tɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%95"
+      ]
+    },
+    "ตัว": {
+      "ipa": "tua̯˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%95%E0%B8%B1%E0%B8%A7"
+      ]
+    },
+    "ตา": {
+      "ipa": "taː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%95%E0%B8%B2"
+      ]
+    },
+    "ถ": {
+      "ipa": "tʰɔː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%96"
+      ]
+    },
+    "ถาม": {
+      "ipa": "tʰaːm˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%96%E0%B8%B2%E0%B8%A1"
+      ]
+    },
+    "ถุง": {
+      "ipa": "tʰuŋ˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%96%E0%B8%B8%E0%B8%87"
+      ]
+    },
+    "ถูก": {
+      "ipa": "tʰuːk̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%96%E0%B8%B9%E0%B8%81"
+      ]
+    },
+    "ท": {
+      "ipa": "tʰɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%97"
+      ]
+    },
+    "ทหาร": {
+      "ipa": "tʰa˦˥.haːn˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%AB%E0%B8%B2%E0%B8%A3"
+      ]
+    },
+    "ทะเล": {
+      "ipa": "tʰa˦˥.leː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5"
+      ]
+    },
+    "ทาง": {
+      "ipa": "tʰaːŋ˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%B2%E0%B8%87"
+      ]
+    },
+    "ทำ": {
+      "ipa": "tʰam˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%B3"
+      ]
+    },
+    "ทำงาน": {
+      "ipa": "tʰam˧.ŋaːn˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99"
+      ]
+    },
+    "ทำอาหาร": {
+      "ipa": "tʰam˧.ʔaː˧.haːn˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%97%E0%B8%B3%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
+      ]
+    },
+    "ธ": {
+      "ipa": "tʰɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%98"
+      ]
+    },
+    "ธง": {
+      "ipa": "tʰoŋ˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%98%E0%B8%87"
+      ]
+    },
+    "ธรรม": {
+      "ipa": "tʰam˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1"
+      ]
+    },
+    "ธุรกิจ": {
+      "ipa": "tʰu˦˥.ra˦˥.kit̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88"
+      ]
+    },
+    "น": {
+      "ipa": "nɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99"
+      ]
+    },
+    "นกฮูก": {
+      "ipa": "nok̚˦˥.huːk̚˥˩",
+      "kind": "dictionary-letter-name",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AE"
+      ],
+      "note": "The full owl word occurs in the name of ฮ; the นกฮูก entry redirects to ฮูก."
+    },
+    "นม": {
+      "ipa": "nom˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%A1"
+      ]
+    },
+    "นอน": {
+      "ipa": "nɔːn˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%AD%E0%B8%99"
+      ]
+    },
+    "นัก": {
+      "ipa": "nak̚˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81"
+      ]
+    },
+    "นักดนตรี": {
+      "ipa": "nak̚˦˥.don˧.triː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5"
+      ]
+    },
+    "นักธุรกิจ": {
+      "ipa": "nak̚˦˥.tʰu˦˥.ra˦˥.kit̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88"
+      ]
+    },
+    "นักร้อง": {
+      "ipa": "nak̚˦˥.rɔːŋ˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%87"
+      ]
+    },
+    "นักลงทุน": {
+      "ipa": "nak̚˦˥.loŋ˧.tʰun˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99"
+      ]
+    },
+    "นักว่ายน้ำ": {
+      "ipa": "nak̚˦˥.waːj˥˩.naːm˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3"
+      ]
+    },
+    "นักเรียน": {
+      "ipa": "nak̚˦˥.ria̯n˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99"
+      ]
+    },
+    "นาฬิกา": {
+      "ipa": "naː˧.li˦˥.kaː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B2%E0%B8%AC%E0%B8%B4%E0%B8%81%E0%B8%B2"
+      ]
+    },
+    "นี่": {
+      "ipa": "niː˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B8%B5%E0%B9%88"
+      ]
+    },
+    "น่า": {
+      "ipa": "naː˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%88%E0%B8%B2"
+      ]
+    },
+    "น่ารัก": {
+      "ipa": "naː˥˩.rak̚˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81"
+      ]
+    },
+    "น่าสนใจ": {
+      "ipa": "naː˥˩.son˩˩˦.t͡ɕaj˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%99%E0%B9%83%E0%B8%88"
+      ]
+    },
+    "น่าเบื่อ": {
+      "ipa": "naː˥˩.bɯa̯˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%9A%E0%B8%B7%E0%B9%88%E0%B8%AD"
+      ]
+    },
+    "น้องชาย": {
+      "ipa": "nɔːŋ˦˥.t͡ɕʰaːj˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%A2"
+      ]
+    },
+    "น้องสาว": {
+      "ipa": "nɔːŋ˦˥.saːw˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A7"
+      ]
+    },
+    "น้ำ": {
+      "ipa": "naːm˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%B3"
+      ]
+    },
+    "น้ำเงิน": {
+      "ipa": "nam˦˥.ŋɤn˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99"
+      ]
+    },
+    "บ": {
+      "ipa": "bɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9A"
+      ]
+    },
+    "บ้าน": {
+      "ipa": "baːn˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99"
+      ]
+    },
+    "ป": {
+      "ipa": "pɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9B"
+      ]
+    },
+    "ปฏัก": {
+      "ipa": "pa˨˩.tak̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%8F%E0%B8%B1%E0%B8%81"
+      ]
+    },
+    "ปลา": {
+      "ipa": "plaː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%A5%E0%B8%B2"
+      ]
+    },
+    "ปัง": {
+      "ipa": "paŋ˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%B1%E0%B8%87"
+      ]
+    },
+    "ปากกา": {
+      "ipa": "paːk̚˨˩.kaː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%B2"
+      ]
+    },
+    "ผ": {
+      "ipa": "pʰɔː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9C"
+      ]
+    },
+    "ผม": {
+      "ipa": "pʰom˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9C%E0%B8%A1"
+      ]
+    },
+    "ผม/ฉัน": {
+      "ipa": "pʰom˩˩˦ / t͡ɕʰan˩˩˦",
+      "kind": "alternatives",
+      "parts": [
+        "ผม",
+        "ฉัน"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9C%E0%B8%A1",
+        "https://en.wiktionary.org/wiki/%E0%B8%89%E0%B8%B1%E0%B8%99"
+      ]
+    },
+    "ผึ้ง": {
+      "ipa": "pʰɯŋ˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9C%E0%B8%B6%E0%B9%89%E0%B8%87"
+      ]
+    },
+    "ผู้เฒ่า": {
+      "ipa": "pʰuː˥˩.tʰaw˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B9%80%E0%B8%92%E0%B9%88%E0%B8%B2"
+      ]
+    },
+    "ฝ": {
+      "ipa": "fɔː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9D"
+      ]
+    },
+    "ฝา": {
+      "ipa": "faː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9D%E0%B8%B2"
+      ]
+    },
+    "พ": {
+      "ipa": "pʰɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9E"
+      ]
+    },
+    "พยาบาล": {
+      "ipa": "pʰa˦˥.jaː˧.baːn˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5"
+      ]
+    },
+    "พวก": {
+      "ipa": "pʰua̯k̚˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%A7%E0%B8%81"
+      ]
+    },
+    "พวกเขา": {
+      "ipa": "pʰua̯k̚˥˩.kʰaw˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%A7%E0%B8%81%E0%B9%80%E0%B8%82%E0%B8%B2"
+      ]
+    },
+    "พาน": {
+      "ipa": "pʰaːn˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%B2%E0%B8%99"
+      ]
+    },
+    "พี่ชาย": {
+      "ipa": "pʰiː˥˩.t͡ɕʰaːj˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%B5%E0%B9%88%E0%B8%8A%E0%B8%B2%E0%B8%A2"
+      ]
+    },
+    "พี่สาว": {
+      "ipa": "pʰiː˥˩.saːw˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B8%B2%E0%B8%A7"
+      ]
+    },
+    "พูด": {
+      "ipa": "pʰuːt̚˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B8%B9%E0%B8%94"
+      ]
+    },
+    "พ่อ": {
+      "ipa": "pʰɔː˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9E%E0%B9%88%E0%B8%AD"
+      ]
+    },
+    "ฟ": {
+      "ipa": "fɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9F"
+      ]
+    },
+    "ฟัง": {
+      "ipa": "faŋ˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9F%E0%B8%B1%E0%B8%87"
+      ]
+    },
+    "ฟัน": {
+      "ipa": "fan˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%9F%E0%B8%B1%E0%B8%99"
+      ]
+    },
+    "ภ": {
+      "ipa": "pʰɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A0"
+      ]
+    },
+    "ภรรยา": {
+      "ipa": "pʰan˧.jaː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A0%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2"
+      ]
+    },
+    "ภาพ": {
+      "ipa": "pʰaːp̚˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%9E"
+      ]
+    },
+    "ภาษา": {
+      "ipa": "pʰaː˧.saː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2"
+      ]
+    },
+    "ภาษาไทย": {
+      "ipa": "pʰaː˧.saː˩˩˦ tʰaj˧",
+      "kind": "composed",
+      "parts": [
+        "ภาษา",
+        "ไทย"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2",
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%97%E0%B8%A2"
+      ]
+    },
+    "ม": {
+      "ipa": "mɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A1"
+      ]
+    },
+    "มณโฑ": {
+      "ipa": "mon˧.tʰoː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B8%93%E0%B9%82%E0%B8%91"
+      ]
+    },
+    "มอเตอร์ไซค์": {
+      "ipa": "mɔː˧.tɤː˧.saj˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B8%AD%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%8B%E0%B8%84%E0%B9%8C"
+      ]
+    },
+    "มาก": {
+      "ipa": "maːk̚˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B8%B2%E0%B8%81"
+      ]
+    },
+    "มี": {
+      "ipa": "miː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B8%B5"
+      ]
+    },
+    "มือ": {
+      "ipa": "mɯː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B8%B7%E0%B8%AD"
+      ]
+    },
+    "ม้า": {
+      "ipa": "maː˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A1%E0%B9%89%E0%B8%B2"
+      ]
+    },
+    "ย": {
+      "ipa": "jɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A2"
+      ]
+    },
+    "ยักษ์": {
+      "ipa": "jak̚˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C"
+      ]
+    },
+    "ยา": {
+      "ipa": "jaː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B2"
+      ]
+    },
+    "ยาก": {
+      "ipa": "jaːk̚˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A2%E0%B8%B2%E0%B8%81"
+      ]
+    },
+    "ร": {
+      "ipa": "rɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A3"
+      ]
+    },
+    "รถ": {
+      "ipa": "rot̚˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%96"
+      ]
+    },
+    "รส": {
+      "ipa": "rot̚˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%AA"
+      ]
+    },
+    "ระฆัง": {
+      "ipa": "ra˦˥.kʰaŋ˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%B0%E0%B8%86%E0%B8%B1%E0%B8%87"
+      ]
+    },
+    "ราคา": {
+      "ipa": "raː˧.kʰaː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2"
+      ]
+    },
+    "ราเมน": {
+      "ipa": "raː˧.meŋ˧",
+      "kind": "spelling-variant",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%A1%E0%B9%87%E0%B8%87",
+        "https://th.wiktionary.org/wiki/ราเม็ง"
+      ],
+      "note": "ราเมน is listed as a nonstandard spelling of ราเม็ง; use the lemma pronunciation."
+    },
+    "ราเม็ง": {
+      "ipa": "raː˧.meŋ˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%A1%E0%B9%87%E0%B8%87"
+      ]
+    },
+    "ร่วม": {
+      "ipa": "rua̯m˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1"
+      ]
+    },
+    "ร้อง": {
+      "ipa": "rɔːŋ˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%87"
+      ]
+    },
+    "ฤๅษี": {
+      "ipa": "rɯː˧.siː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A4%E0%B9%85%E0%B8%A9%E0%B8%B5"
+      ]
+    },
+    "ล": {
+      "ipa": "lɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A5"
+      ]
+    },
+    "ลงทุน": {
+      "ipa": "loŋ˧.tʰun˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99"
+      ]
+    },
+    "ลม": {
+      "ipa": "lom˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A5%E0%B8%A1"
+      ]
+    },
+    "ลิง": {
+      "ipa": "liŋ˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A5%E0%B8%B4%E0%B8%87"
+      ]
+    },
+    "ลูกชาย": {
+      "ipa": "luːk̚˥˩.t͡ɕʰaːj˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%8A%E0%B8%B2%E0%B8%A2"
+      ]
+    },
+    "ว": {
+      "ipa": "wɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A7"
+      ]
+    },
+    "วัน": {
+      "ipa": "wan˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%99"
+      ]
+    },
+    "วิศวกร": {
+      "ipa": "wit̚˦˥.sa˨˩.wa˦˥.kɔːn˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3"
+      ]
+    },
+    "ว่า": {
+      "ipa": "waː˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2"
+      ]
+    },
+    "ว่าย": {
+      "ipa": "waːj˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%A2"
+      ]
+    },
+    "ว่ายน้ำ": {
+      "ipa": "waːj˥˩.naːm˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3"
+      ]
+    },
+    "ศ": {
+      "ipa": "sɔː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A8"
+      ]
+    },
+    "ศาลา": {
+      "ipa": "saː˩˩˦.laː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2"
+      ]
+    },
+    "ศูนย์": {
+      "ipa": "suːn˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C"
+      ]
+    },
+    "ษ": {
+      "ipa": "sɔː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%A9"
+      ]
+    },
+    "ส": {
+      "ipa": "sɔː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AA"
+      ]
+    },
+    "สนุก": {
+      "ipa": "sa˨˩.nuk̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%81"
+      ]
+    },
+    "สนใจ": {
+      "ipa": "son˩˩˦.t͡ɕaj˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%99%E0%B9%83%E0%B8%88"
+      ]
+    },
+    "สวย": {
+      "ipa": "sua̯j˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%A7%E0%B8%A2"
+      ]
+    },
+    "สอง": {
+      "ipa": "sɔːŋ˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%AD%E0%B8%87"
+      ]
+    },
+    "สาม": {
+      "ipa": "saːm˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%B2%E0%B8%A1"
+      ]
+    },
+    "สำเภา": {
+      "ipa": "sam˩˩˦.pʰaw˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%B2"
+      ]
+    },
+    "สี": {
+      "ipa": "siː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%B5"
+      ]
+    },
+    "สี่": {
+      "ipa": "siː˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AA%E0%B8%B5%E0%B9%88"
+      ]
+    },
+    "ห": {
+      "ipa": "hɔː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB"
+      ]
+    },
+    "หญิง": {
+      "ipa": "jiŋ˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87"
+      ]
+    },
+    "หนัง": {
+      "ipa": "naŋ˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87"
+      ]
+    },
+    "หนังสือ": {
+      "ipa": "naŋ˩˩˦.sɯː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B7%E0%B8%AD"
+      ]
+    },
+    "หนึ่ง": {
+      "ipa": "nɯŋ˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87"
+      ]
+    },
+    "หนู": {
+      "ipa": "nuː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%99%E0%B8%B9"
+      ]
+    },
+    "หมา": {
+      "ipa": "maː˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%A1%E0%B8%B2"
+      ]
+    },
+    "หล่อ": {
+      "ipa": "lɔː˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%AD"
+      ]
+    },
+    "หวาน": {
+      "ipa": "waːn˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99"
+      ]
+    },
+    "หัวหน้า": {
+      "ipa": "hua̯˩˩˦.naː˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2"
+      ]
+    },
+    "หิว": {
+      "ipa": "hiw˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%B4%E0%B8%A7"
+      ]
+    },
+    "หีบ": {
+      "ipa": "hiːp̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%B5%E0%B8%9A"
+      ]
+    },
+    "ห้า": {
+      "ipa": "haː˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B9%89%E0%B8%B2"
+      ]
+    },
+    "ฬ": {
+      "ipa": "lɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AC"
+      ]
+    },
+    "อ": {
+      "ipa": "ʔɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AD"
+      ]
+    },
+    "อยาก": {
+      "ipa": "jaːk̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%81"
+      ]
+    },
+    "ออก": {
+      "ipa": "ʔɔːk̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%AD%E0%B8%81"
+      ]
+    },
+    "อะไร": {
+      "ipa": "ʔa˨˩.raj˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3"
+      ]
+    },
+    "อัน": {
+      "ipa": "ʔan˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%99"
+      ]
+    },
+    "อาหาร": {
+      "ipa": "ʔaː˧.haːn˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
+      ]
+    },
+    "อีกครั้ง": {
+      "ipa": "ʔiːk̚˨˩.kʰraŋ˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B8%B5%E0%B8%81%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87"
+      ]
+    },
+    "อ่าง": {
+      "ipa": "ʔaːŋ˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%87"
+      ]
+    },
+    "อ่าน": {
+      "ipa": "ʔaːn˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99"
+      ]
+    },
+    "ฮ": {
+      "ipa": "hɔː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B8%AE"
+      ]
+    },
+    "เขา": {
+      "ipa": "kʰaw˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%82%E0%B8%B2"
+      ]
+    },
+    "เครื่อง": {
+      "ipa": "kʰrɯa̯ŋ˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87"
+      ]
+    },
+    "เฌอ": {
+      "ipa": "t͡ɕʰɤː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%8C%E0%B8%AD"
+      ]
+    },
+    "เณร": {
+      "ipa": "neːn˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%93%E0%B8%A3"
+      ]
+    },
+    "เด็ก": {
+      "ipa": "dek̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81"
+      ]
+    },
+    "เต่า": {
+      "ipa": "taw˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%95%E0%B9%88%E0%B8%B2"
+      ]
+    },
+    "เที่ยว": {
+      "ipa": "tʰia̯w˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7"
+      ]
+    },
+    "เป็น": {
+      "ipa": "pen˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99"
+      ]
+    },
+    "เผ็ด": {
+      "ipa": "pʰet̚˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94"
+      ]
+    },
+    "เพลง": {
+      "ipa": "pʰleːŋ˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%87"
+      ]
+    },
+    "เพื่อน": {
+      "ipa": "pʰɯa̯n˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99"
+      ]
+    },
+    "เพื่อนร่วมงาน": {
+      "ipa": "pʰɯa̯n˥˩.rua̯m˥˩.ŋaːn˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%87%E0%B8%B2%E0%B8%99"
+      ]
+    },
+    "เรา": {
+      "ipa": "raw˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A3%E0%B8%B2"
+      ]
+    },
+    "เรือ": {
+      "ipa": "rɯa̯˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD"
+      ]
+    },
+    "เรือน": {
+      "ipa": "rɯa̯n˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%99"
+      ]
+    },
+    "เรื่อง": {
+      "ipa": "rɯa̯ŋ˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87"
+      ]
+    },
+    "เร็ว": {
+      "ipa": "rew˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%A7"
+      ]
+    },
+    "เล่น": {
+      "ipa": "len˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99"
+      ]
+    },
+    "เล่นไพ่": {
+      "ipa": "len˥˩ pʰaj˥˩",
+      "kind": "composed",
+      "parts": [
+        "เล่น",
+        "ไพ่"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99",
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%9E%E0%B9%88"
+      ]
+    },
+    "เล่ม": {
+      "ipa": "lem˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1"
+      ]
+    },
+    "เสือ": {
+      "ipa": "sɯa̯˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD"
+      ]
+    },
+    "เหล้า": {
+      "ipa": "law˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B9%89%E0%B8%B2"
+      ]
+    },
+    "แดง": {
+      "ipa": "dɛːŋ˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%94%E0%B8%87"
+      ]
+    },
+    "แปล": {
+      "ipa": "plɛː˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%9B%E0%B8%A5"
+      ]
+    },
+    "แปลว่า": {
+      "ipa": "plɛː˧ waː˥˩",
+      "kind": "composed",
+      "parts": [
+        "แปล",
+        "ว่า"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%9B%E0%B8%A5",
+        "https://en.wiktionary.org/wiki/%E0%B8%A7%E0%B9%88%E0%B8%B2"
+      ]
+    },
+    "แพง": {
+      "ipa": "pʰɛːŋ˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%9E%E0%B8%87"
+      ]
+    },
+    "แฟน": {
+      "ipa": "fɛːn˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%9F%E0%B8%99"
+      ]
+    },
+    "แมว": {
+      "ipa": "mɛːw˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%A1%E0%B8%A7"
+      ]
+    },
+    "แม่": {
+      "ipa": "mɛː˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%A1%E0%B9%88"
+      ]
+    },
+    "แหวน": {
+      "ipa": "wɛːn˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99"
+      ]
+    },
+    "โชยุ": {
+      "ipa": "t͡ɕʰoː˧.juʔ˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%8A%E0%B8%A2%E0%B8%B8"
+      ]
+    },
+    "โซ่": {
+      "ipa": "soː˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%82%E0%B8%8B%E0%B9%88"
+      ]
+    },
+    "ใช่": {
+      "ipa": "t͡ɕʰaj˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%8A%E0%B9%88"
+      ]
+    },
+    "ใบ": {
+      "ipa": "baj˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%9A"
+      ]
+    },
+    "ใบไม้": {
+      "ipa": "baj˧.maːj˦˥",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%83%E0%B8%9A%E0%B9%84%E0%B8%A1%E0%B9%89"
+      ]
+    },
+    "ไก่": {
+      "ipa": "kaj˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%81%E0%B9%88"
+      ]
+    },
+    "ไข่": {
+      "ipa": "kʰaj˨˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%82%E0%B9%88"
+      ]
+    },
+    "ได้": {
+      "ipa": "daːj˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%94%E0%B9%89"
+      ]
+    },
+    "ได้ไหม": {
+      "ipa": "daːj˥˩ maj˩˩˦",
+      "kind": "composed",
+      "parts": [
+        "ได้",
+        "ไหม"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%94%E0%B9%89",
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%AB%E0%B8%A1"
+      ]
+    },
+    "ไทย": {
+      "ipa": "tʰaj˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%97%E0%B8%A2"
+      ]
+    },
+    "ไป": {
+      "ipa": "paj˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%9B"
+      ]
+    },
+    "ไปเที่ยว": {
+      "ipa": "paj˧.tʰia̯w˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%9B%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7"
+      ]
+    },
+    "ไพ่": {
+      "ipa": "pʰaj˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%9E%E0%B9%88"
+      ]
+    },
+    "ไฟ": {
+      "ipa": "faj˧",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%9F"
+      ]
+    },
+    "ไม่": {
+      "ipa": "maj˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%A1%E0%B9%88"
+      ]
+    },
+    "ไม่ใช่": {
+      "ipa": "maj˥˩.t͡ɕʰaj˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%8A%E0%B9%88"
+      ]
+    },
+    "ไม่ได้": {
+      "ipa": "maj˥˩.daj˥˩",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89"
+      ]
+    },
+    "ไหม": {
+      "ipa": "maj˩˩˦",
+      "kind": "dictionary",
+      "sources": [
+        "https://en.wiktionary.org/wiki/%E0%B9%84%E0%B8%AB%E0%B8%A1"
+      ]
+    }
+  }
+}

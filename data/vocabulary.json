@@ -4,440 +4,440 @@
     "ja": "おかし",
     "romaji": "okashi",
     "th": "ขนม",
-    "thaiReading": "khanom"
+    "thaiReading": "kʰa˨˩.nom˩˩˦"
   },
   {
     "id": 2,
     "ja": "くるま",
     "romaji": "kuruma",
     "th": "รถ",
-    "thaiReading": "rot"
+    "thaiReading": "rot̚˦˥"
   },
   {
     "id": 3,
     "ja": "ガパオ",
     "romaji": "gapao",
     "th": "กะเพรา",
-    "thaiReading": "kaprao"
+    "thaiReading": "ka˨˩.pʰraw˧"
   },
   {
     "id": 4,
     "ja": "かいせん",
     "romaji": "kaisen",
     "th": "ทะเล",
-    "thaiReading": "thale"
+    "thaiReading": "tʰa˦˥.leː˧"
   },
   {
     "id": 5,
     "ja": "ラーメン",
     "romaji": "raamen",
     "th": "ราเมน",
-    "thaiReading": "ramen"
+    "thaiReading": "raː˧.meŋ˧"
   },
   {
     "id": 6,
     "ja": "しょうゆ",
     "romaji": "shouyu",
     "th": "โชยุ",
-    "thaiReading": "shoyu"
+    "thaiReading": "t͡ɕʰoː˧.juʔ˨˩"
   },
   {
     "id": 7,
     "ja": "おちゃ",
     "romaji": "ocha",
     "th": "ชา",
-    "thaiReading": "chaa"
+    "thaiReading": "t͡ɕʰaː˧"
   },
   {
     "id": 8,
     "ja": "ふね",
     "romaji": "fune",
     "th": "เรือ",
-    "thaiReading": "ruea"
+    "thaiReading": "rɯa̯˧"
   },
   {
     "id": 9,
     "ja": "タイの",
     "romaji": "tai no",
     "th": "ไทย",
-    "thaiReading": "thai"
+    "thaiReading": "tʰaj˧"
   },
   {
     "id": 10,
     "ja": "にほんの",
     "romaji": "nihon no",
     "th": "ญี่ปุ่น",
-    "thaiReading": "yipun"
+    "thaiReading": "jiː˥˩.pun˨˩"
   },
   {
     "id": 11,
     "ja": "からい",
     "romaji": "karai",
     "th": "เผ็ด",
-    "thaiReading": "phet"
+    "thaiReading": "pʰet̚˨˩"
   },
   {
     "id": 12,
     "ja": "あまい",
     "romaji": "amai",
     "th": "หวาน",
-    "thaiReading": "waan"
+    "thaiReading": "waːn˩˩˦"
   },
   {
     "id": 13,
     "ja": "やすい",
     "romaji": "yasui",
     "th": "ถูก",
-    "thaiReading": "thuuk"
+    "thaiReading": "tʰuːk̚˨˩"
   },
   {
     "id": 14,
     "ja": "たかい",
     "romaji": "takai",
     "th": "แพง",
-    "thaiReading": "phaeng"
+    "thaiReading": "pʰɛːŋ˧"
   },
   {
     "id": 15,
     "ja": "とても",
     "romaji": "totemo",
     "th": "มาก",
-    "thaiReading": "maak"
+    "thaiReading": "maːk̚˥˩"
   },
   {
     "id": 16,
     "ja": "いろの",
     "romaji": "iro no",
     "th": "สี",
-    "thaiReading": "sii"
+    "thaiReading": "siː˩˩˦"
   },
   {
     "id": 17,
     "ja": "ねだんの",
     "romaji": "nedan no",
     "th": "ราคา",
-    "thaiReading": "raakhaa"
+    "thaiReading": "raː˧.kʰaː˧"
   },
   {
     "id": 18,
     "ja": "あじの",
     "romaji": "aji no",
     "th": "รส",
-    "thaiReading": "rot"
+    "thaiReading": "rot̚˦˥"
   },
   {
     "id": 19,
     "ja": "あかい",
     "romaji": "akai",
     "th": "แดง",
-    "thaiReading": "daeng"
+    "thaiReading": "dɛːŋ˧"
   },
   {
     "id": 20,
     "ja": "くろい",
     "romaji": "kuroi",
     "th": "ดำ",
-    "thaiReading": "dam"
+    "thaiReading": "dam˧"
   },
   {
     "id": 21,
     "ja": "ペン",
     "romaji": "pen",
     "th": "ปากกา",
-    "thaiReading": "paakkaa"
+    "thaiReading": "paːk̚˨˩.kaː˧"
   },
   {
     "id": 22,
     "ja": "かみ",
     "romaji": "kami",
     "th": "กระดาษ",
-    "thaiReading": "kradaat"
+    "thaiReading": "kra˨˩.daːt̚˨˩"
   },
   {
     "id": 23,
     "ja": "スープ",
     "romaji": "suupu",
     "th": "ซุป",
-    "thaiReading": "sup"
+    "thaiReading": "sup̚˦˥"
   },
   {
     "id": 24,
     "ja": "バイク",
     "romaji": "baiku",
     "th": "มอเตอร์ไซค์",
-    "thaiReading": "motosai"
+    "thaiReading": "mɔː˧.tɤː˧.saj˧"
   },
   {
     "id": 25,
     "ja": "あおい",
     "romaji": "aoi",
     "th": "น้ำเงิน",
-    "thaiReading": "nam ngoen"
+    "thaiReading": "nam˦˥.ŋɤn˧"
   },
   {
     "id": 26,
     "ja": "ゆうめいな",
     "romaji": "yuumei na",
     "th": "ดัง",
-    "thaiReading": "dang"
+    "thaiReading": "daŋ˧"
   },
   {
     "id": 27,
     "ja": "はやい",
     "romaji": "hayai",
     "th": "เร็ว",
-    "thaiReading": "reo"
+    "thaiReading": "rew˧"
   },
   {
     "id": 28,
     "ja": "おそい",
     "romaji": "osoi",
     "th": "ช้า",
-    "thaiReading": "chaa"
+    "thaiReading": "t͡ɕʰaː˦˥"
   },
   {
     "id": 29,
     "ja": "わたしは",
     "romaji": "watashi wa",
     "th": "ผม/ฉัน",
-    "thaiReading": "phom / chan"
+    "thaiReading": "pʰom˩˩˦ / t͡ɕʰan˩˩˦"
   },
   {
     "id": 30,
     "ja": "あなた",
     "romaji": "anata",
     "th": "คุณ",
-    "thaiReading": "khun"
+    "thaiReading": "kʰun˧"
   },
   {
     "id": 31,
     "ja": "好き",
     "romaji": "suki",
     "th": "ชอบ",
-    "thaiReading": "choop"
+    "thaiReading": "t͡ɕʰɔːp̚˥˩"
   },
   {
     "id": 32,
     "ja": "これは",
     "romaji": "kore wa",
     "th": "นี่",
-    "thaiReading": "nii"
+    "thaiReading": "niː˥˩"
   },
   {
     "id": 33,
     "ja": "です",
     "romaji": "desu",
     "th": "คือ",
-    "thaiReading": "khue"
+    "thaiReading": "kʰɯː˧"
   },
   {
     "id": 34,
     "ja": "何ですか",
     "romaji": "nan desu ka",
     "th": "อะไร",
-    "thaiReading": "arai"
+    "thaiReading": "ʔa˨˩.raj˧"
   },
   {
     "id": 35,
     "ja": "意味は",
     "romaji": "imi wa",
     "th": "แปลว่า",
-    "thaiReading": "bplaae waa"
+    "thaiReading": "plɛː˧ waː˥˩"
   },
   {
     "id": 36,
     "ja": "タイ語で",
     "romaji": "taigo de",
     "th": "ภาษาไทย",
-    "thaiReading": "phasa thai"
+    "thaiReading": "pʰaː˧.saː˩˩˦ tʰaj˧"
   },
   {
     "id": 37,
     "ja": "話す",
     "romaji": "hanasu",
     "th": "พูด",
-    "thaiReading": "phuut"
+    "thaiReading": "pʰuːt̚˥˩"
   },
   {
     "id": 38,
     "ja": "もう一度",
     "romaji": "mou ichido",
     "th": "อีกครั้ง",
-    "thaiReading": "iik khrang"
+    "thaiReading": "ʔiːk̚˨˩.kʰraŋ˦˥"
   },
   {
     "id": 39,
     "ja": "できますか",
     "romaji": "dekimasu ka",
     "th": "ได้ไหม",
-    "thaiReading": "dai mai"
+    "thaiReading": "daːj˥˩ maj˩˩˦"
   },
   {
     "id": 40,
     "ja": "ゆっくり",
     "romaji": "yukkuri",
     "th": "ช้าๆ",
-    "thaiReading": "chaa chaa"
+    "thaiReading": "t͡ɕʰaː˦˥ t͡ɕʰaː˦˥"
   },
   {
     "id": 41,
     "ja": "犬",
     "romaji": "inu",
     "th": "หมา",
-    "thaiReading": "maa"
+    "thaiReading": "maː˩˩˦"
   },
   {
     "id": 42,
     "ja": "猫",
     "romaji": "neko",
     "th": "แมว",
-    "thaiReading": "maaeo"
+    "thaiReading": "mɛːw˧"
   },
   {
     "id": 43,
     "ja": "パン",
     "romaji": "pan",
     "th": "ขนมปัง",
-    "thaiReading": "khanom pang"
+    "thaiReading": "kʰa˨˩.nom˩˩˦.paŋ˧"
   },
   {
     "id": 44,
     "ja": "牛乳",
     "romaji": "gyuunyuu",
     "th": "นม",
-    "thaiReading": "nom"
+    "thaiReading": "nom˧"
   },
   {
     "id": 45,
     "ja": "映画",
     "romaji": "eiga",
     "th": "หนัง",
-    "thaiReading": "nang"
+    "thaiReading": "naŋ˩˩˦"
   },
   {
     "id": 46,
     "ja": "本",
     "romaji": "hon",
     "th": "หนังสือ",
-    "thaiReading": "nang sue"
+    "thaiReading": "naŋ˩˩˦.sɯː˩˩˦"
   },
   {
     "id": 47,
     "ja": "歌",
     "romaji": "uta",
     "th": "เพลง",
-    "thaiReading": "phleeng"
+    "thaiReading": "pʰleːŋ˧"
   },
   {
     "id": 48,
     "ja": "質問",
     "romaji": "shitsumon",
     "th": "คำถาม",
-    "thaiReading": "kham thaam"
+    "thaiReading": "kʰam˧.tʰaːm˩˩˦"
   },
   {
     "id": 49,
     "ja": "お酒",
     "romaji": "osake",
     "th": "เหล้า",
-    "thaiReading": "lao"
+    "thaiReading": "law˥˩"
   },
   {
     "id": 50,
     "ja": "旅行",
     "romaji": "ryokou",
     "th": "ไปเที่ยว",
-    "thaiReading": "bpai thiao"
+    "thaiReading": "paj˧.tʰia̯w˥˩"
   },
   {
     "id": 51,
     "ja": "買い物",
     "romaji": "kaimono",
     "th": "ซื้อของ",
-    "thaiReading": "sue khong"
+    "thaiReading": "sɯː˦˥.kʰɔːŋ˩˩˦"
   },
   {
     "id": 52,
     "ja": "寝る",
     "romaji": "neru",
     "th": "นอน",
-    "thaiReading": "noon"
+    "thaiReading": "nɔːn˧"
   },
   {
     "id": 53,
     "ja": "食べる",
     "romaji": "taberu",
     "th": "กิน",
-    "thaiReading": "gin"
+    "thaiReading": "kin˧"
   },
   {
     "id": 54,
     "ja": "飲む",
     "romaji": "nomu",
     "th": "ดื่ม",
-    "thaiReading": "duem"
+    "thaiReading": "dɯːm˨˩"
   },
   {
     "id": 55,
     "ja": "見る",
     "romaji": "miru",
     "th": "ดู",
-    "thaiReading": "duu"
+    "thaiReading": "duː˧"
   },
   {
     "id": 56,
     "ja": "遊ぶ",
     "romaji": "asobu",
     "th": "เล่น",
-    "thaiReading": "len"
+    "thaiReading": "len˥˩"
   },
   {
     "id": 57,
     "ja": "読む",
     "romaji": "yomu",
     "th": "อ่าน",
-    "thaiReading": "aan"
+    "thaiReading": "ʔaːn˨˩"
   },
   {
     "id": 58,
     "ja": "行く",
     "romaji": "iku",
     "th": "ไป",
-    "thaiReading": "bpai"
+    "thaiReading": "paj˧"
   },
   {
     "id": 59,
     "ja": "聞く",
     "romaji": "kiku",
     "th": "ฟัง",
-    "thaiReading": "fang"
+    "thaiReading": "faŋ˧"
   },
   {
     "id": 60,
     "ja": "持っている",
     "romaji": "motte iru",
     "th": "มี",
-    "thaiReading": "mii"
+    "thaiReading": "miː˧"
   },
   {
     "id": 61,
     "ja": "したい",
     "romaji": "shitai",
     "th": "อยาก",
-    "thaiReading": "yaak"
+    "thaiReading": "jaːk̚˨˩"
   },
   {
     "id": 62,
     "ja": "働く",
     "romaji": "hataraku",
     "th": "ทำงาน",
-    "thaiReading": "tham ngaan"
+    "thaiReading": "tʰam˧.ŋaːn˧"
   },
   {
     "id": 63,
     "ja": "歌う",
     "romaji": "utau",
     "th": "ร้อง",
-    "thaiReading": "roong"
+    "thaiReading": "rɔːŋ˦˥"
   }
 ]

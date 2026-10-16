@@ -1,18 +1,18 @@
 "use strict";
 // Each round includes every requested classifier once. Use unambiguous nouns.
 const CLASSIFIERS = [
-  {roman:"Khruang",thai:"เครื่อง",usage:"Machines and appliances",emoji:"💻",noun:"Khomphiutoe",nounThai:"คอมพิวเตอร์",name:"computer",plural:"computers"},
-  {roman:"Khan",thai:"คัน",usage:"Cars and bicycles",emoji:"🚗",noun:"Rot",nounThai:"รถ",name:"car",plural:"cars"},
-  {roman:"Ruan",thai:"เรือน",usage:"Watches and clocks",emoji:"⌚",noun:"Naalikaa",nounThai:"นาฬิกา",name:"watch",plural:"watches"},
-  {roman:"Ruang",thai:"เรื่อง",usage:"Movies and stories",emoji:"🎬",noun:"Nang",nounThai:"หนัง",name:"movie",plural:"movies"},
-  {roman:"Daam",thai:"ด้าม",usage:"Pens and tools with handles",emoji:"🖊️",noun:"Paakkaa",nounThai:"ปากกา",name:"pen",plural:"pens"},
-  {roman:"Lem",thai:"เล่ม",usage:"Books and notebooks",emoji:"📕",noun:"Nansuu",nounThai:"หนังสือ",name:"book",plural:"books"},
-  {roman:"Khon",thai:"คน",usage:"People",emoji:"🧑",noun:"Khon",nounThai:"คน",name:"person",plural:"people"},
-  {roman:"An",thai:"อัน",usage:"Small objects",emoji:"🔑",noun:"Kunchae",nounThai:"กุญแจ",name:"key",plural:"keys"},
-  {roman:"Bai",thai:"ใบ",usage:"Bags, hats, and containers",emoji:"👜",noun:"Krapao",nounThai:"กระเป๋า",name:"bag",plural:"bags"},
-  {roman:"Tua",thai:"ตัว",usage:"Animals",emoji:"🐱",noun:"Meeo",nounThai:"แมว",name:"cat",plural:"cats"}
+  {roman:"kʰrɯa̯ŋ˥˩",thai:"เครื่อง",usage:"Machines and appliances",emoji:"💻",noun:"kʰɔm˧.pʰiw˧.tɤː˥˩",nounThai:"คอมพิวเตอร์",name:"computer",plural:"computers"},
+  {roman:"kʰan˧",thai:"คัน",usage:"Cars and bicycles",emoji:"🚗",noun:"rot̚˦˥",nounThai:"รถ",name:"car",plural:"cars"},
+  {roman:"rɯa̯n˧",thai:"เรือน",usage:"Watches and clocks",emoji:"⌚",noun:"naː˧.li˦˥.kaː˧",nounThai:"นาฬิกา",name:"watch",plural:"watches"},
+  {roman:"rɯa̯ŋ˥˩",thai:"เรื่อง",usage:"Movies and stories",emoji:"🎬",noun:"naŋ˩˩˦",nounThai:"หนัง",name:"movie",plural:"movies"},
+  {roman:"daːm˥˩",thai:"ด้าม",usage:"Pens and tools with handles",emoji:"🖊️",noun:"paːk̚˨˩.kaː˧",nounThai:"ปากกา",name:"pen",plural:"pens"},
+  {roman:"lem˥˩",thai:"เล่ม",usage:"Books and notebooks",emoji:"📕",noun:"naŋ˩˩˦.sɯː˩˩˦",nounThai:"หนังสือ",name:"book",plural:"books"},
+  {roman:"kʰon˧",thai:"คน",usage:"People",emoji:"🧑",noun:"kʰon˧",nounThai:"คน",name:"person",plural:"people"},
+  {roman:"ʔan˧",thai:"อัน",usage:"Small objects",emoji:"🔑",noun:"kun˧.t͡ɕɛː˧",nounThai:"กุญแจ",name:"key",plural:"keys"},
+  {roman:"baj˧",thai:"ใบ",usage:"Bags, hats, and containers",emoji:"👜",noun:"kra˨˩.paw˩˩˦",nounThai:"กระเป๋า",name:"bag",plural:"bags"},
+  {roman:"tua̯˧",thai:"ตัว",usage:"Animals",emoji:"🐱",noun:"mɛːw˧",nounThai:"แมว",name:"cat",plural:"cats"}
 ];
-const NUMBERS = [null,{roman:"Nung",thai:"หนึ่ง"},{roman:"Song",thai:"สอง"},{roman:"Saam",thai:"สาม"},{roman:"Shii",thai:"สี่"},{roman:"Haa",thai:"ห้า"}];
+const NUMBERS = [null,{roman:"nɯŋ˨˩",thai:"หนึ่ง"},{roman:"sɔːŋ˩˩˦",thai:"สอง"},{roman:"saːm˩˩˦",thai:"สาม"},{roman:"siː˨˩",thai:"สี่"},{roman:"haː˥˩",thai:"ห้า"}];
 const $ = id => document.getElementById(id);
 function shuffle(values){const result=[...values];for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result;}
 function makeQuestion(item){

@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Thai Vocabulary Quiz and Review | Phuk Thai Kham Sap</title>
-  <meta name="description" content="Practice Thai vocabulary with six-choice quizzes, Thai script, Paiboon romanization, bookmarks, search, and a dedicated review mode.">
+  <title>Thai Vocabulary Quiz and Review | ฝึกคำศัพท์ภาษาไทย</title>
+  <meta name="description" content="Practice Thai vocabulary with six-choice quizzes, Thai script, IPA transcription with tone marks, bookmarks, search, and a dedicated review mode.">
   <link rel="canonical" href="https://cho999.github.io/thai-word-order-game/games/phuk-thai-kham-sap/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Thai Vocabulary Quiz and Review | Phuk Thai Kham Sap">
-  <meta property="og:description" content="Practice Thai vocabulary with six-choice quizzes, Thai script, Paiboon romanization, bookmarks, search, and a dedicated review mode.">
+  <meta property="og:title" content="Thai Vocabulary Quiz and Review | ฝึกคำศัพท์ภาษาไทย">
+  <meta property="og:description" content="Practice Thai vocabulary with six-choice quizzes, Thai script, IPA transcription with tone marks, bookmarks, search, and a dedicated review mode.">
   <meta property="og:image" content="https://cho999.github.io/thai-word-order-game/assets/images/banners/nari-adventure-link-banner.png">
   <!-- Google Search Console verification: paste the exact meta tag from Search Console on the next line. Do not add a fake token. -->
   <link rel="stylesheet" href="../../assets/css/theme.css">
   <link rel="stylesheet" href="../../assets/css/components.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../assets/css/ipa.css">
 </head>
 <body class="nari-theme" data-game="phuk-thai-kham-sap">
   <main class="trainer">
@@ -28,9 +29,9 @@
 
     <section class="hero-panel">
       <div>
-        <p class="eyebrow">Phuk Thai Kham Sap</p>
-        <h1>Phuk Thai Kham Sap - Thai Vocabulary Quiz and Review</h1>
-        <p class="lead">Build practical Thai vocabulary from lesson notes with six-choice quizzes, Thai script, Paiboon romanization, search, bookmarks, and a dedicated review mode.</p>
+        <p class="eyebrow">ฝึกคำศัพท์ภาษาไทย</p>
+        <h1>ฝึกคำศัพท์ภาษาไทย - Thai Vocabulary Quiz and Review</h1>
+        <p class="lead">Build practical Thai vocabulary from lesson notes with six-choice quizzes, Thai script, IPA transcription with tone marks, search, bookmarks, and a dedicated review mode.</p>
       </div>
       <img src="../../assets/images/nari/chibi/chibi-thinking.png" alt="Nari thinking beside the Thai vocabulary quiz">
     </section>
@@ -45,7 +46,7 @@
         <span>Display</span>
         <div class="segmented" role="group" aria-label="Thai display">
           <button class="display-button active" type="button" data-display="thai">Thai script</button>
-          <button class="display-button" type="button" data-display="roman">Paiboon</button>
+          <button class="display-button" type="button" data-display="roman">IPA</button>
         </div>
       </div>
 
@@ -127,7 +128,7 @@
       </div>
       <div id="vocabListBody" class="vocab-list-body hidden">
         <div class="vocab-list-controls">
-          <input id="vocabSearchInput" type="search" placeholder="Search Thai, Paiboon, or English">
+          <input id="vocabSearchInput" type="search" placeholder="Search Thai, IPA, or English">
           <div class="segmented vocab-filter" role="group" aria-label="Vocabulary list display">
             <button id="showAllWordsButton" class="vocab-filter-button active" type="button">All</button>
             <button id="showBookmarksButton" class="vocab-filter-button" type="button">Bookmarks</button>
@@ -139,11 +140,11 @@
     </section>
 
     <section class="info-section" aria-labelledby="phukInfoTitle">
-      <h2 id="phukInfoTitle">About Phuk Thai Kham Sap - Thai Vocabulary Quiz and Review</h2>
+      <h2 id="phukInfoTitle">About ฝึกคำศัพท์ภาษาไทย - Thai Vocabulary Quiz and Review</h2>
       <div class="info-grid">
         <article>
           <h3>What you will learn</h3>
-          <p>Lesson-note vocabulary with Thai script, Paiboon romanization, and English meanings.</p>
+          <p>Lesson-note vocabulary with Thai script, IPA transcription with tone marks, and English meanings.</p>
         </article>
         <article>
           <h3>How to play</h3>
@@ -154,8 +155,8 @@
           <p>Beginner to early-intermediate learners building a personal Thai vocabulary base.</p>
         </article>
         <article>
-          <h3>Writing and romanization system</h3>
-          <p>Thai script and Paiboon romanization with tone marks in the shared vocabulary data.</p>
+          <h3>Writing and IPA transcription</h3>
+          <p>Thai script and IPA pronunciation, with a tone mark on every syllable.</p>
         </article>
         <article>
           <h3>Available modes</h3>
@@ -167,8 +168,8 @@
     <section class="import-panel">
       <details>
         <summary>OCR text import notes</summary>
-        <p>For future lessons, OCR results can be organized as "Thai, Paiboon, English" and added to Lesson 2 or later. Image OCR will be connected in a later stage; this area is for checking parsed text.</p>
-        <textarea id="ocrText" spellcheck="false" placeholder="Example: หมา, mǎa, dog"></textarea>
+        <p>For future lessons, OCR results can be organized as "Thai, IPA, English" and added to Lesson 2 or later. Image OCR will be connected in a later stage; this area is for checking parsed text.</p>
+        <textarea id="ocrText" spellcheck="false" placeholder="Example: หมา, maː˩˩˦, dog"></textarea>
         <button id="parseButton" class="ghost-button" type="button">Preview parsed rows</button>
         <div id="parsePreview" class="parse-preview"></div>
       </details>
@@ -177,5 +178,6 @@
 
   <script src="../../shared/analytics.js"></script>
   <script src="script.js"></script>
+<details class="ipa-guide"><summary>How to read IPA and tone marks</summary><p>Mid ˧ · Low ˨˩ · Falling ˥˩ · High ˦˥ · Rising ˩˩˦. Tone marks follow each syllable. ː = long vowel; ʰ = aspiration; ʔ = glottal stop; . = syllable boundary.</p><p>Words, letter names and practice syllables carry tones. Individual consonant and vowel sounds do not have an inherent tone.</p><a href="../../pronunciation.html">Pronunciation guide and word-by-word sources</a></details>
 </body>
 </html>

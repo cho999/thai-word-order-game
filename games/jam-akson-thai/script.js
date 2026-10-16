@@ -115,21 +115,54 @@
     .forEach(cb => cb.addEventListener('change', () => setIncludeRare(cb.checked)));
 
   // =========================
-  // Match Game: Consonant labels (Latin) + IPA
+  // Match Game: IPA alphabet names with tones + consonant phonemes.
   // =========================
   const CONSONANT_LABEL_LATIN = {
-    'ก': 'gɔɔ gài', 'ข': 'kɔ̌ɔ kài', 'ฃ': 'kɔ̌ɔ khùuat', 'ค': 'kɔɔ khwaai', 'ฅ': 'kɔɔ khon', 'ฆ': 'kɔɔ rá-khang',
-    'ง': 'ngɔɔ nguu',
-    'จ': 'jɔɔ jaan', 'ฉ': 'chɔ̌ɔ chìng', 'ช': 'chɔɔ cháang', 'ซ': 'sɔɔ sôo', 'ฌ': 'chɔɔ chəə',
-    'ญ': 'yɔɔ yǐng',
-    'ฎ': 'dɔɔ chá-daa', 'ฏ': 'dtɔɔ bpà-dtàk',
-    'ฐ': 'tɔ̌ɔ tǎan', 'ฑ': 'tɔɔ mon-too', 'ฒ': 'tɔɔ phûu-tâo', 'ณ': 'nɔɔ neen',
-    'ด': 'dɔɔ dèk', 'ต': 'dtɔɔ dtào', 'ถ': 'tɔ̌ɔ tǔng', 'ท': 'tɔɔ tá-hǎan', 'ธ': 'tɔɔ thong', 'น': 'nɔɔ nǔu',
-    'บ': 'bɔɔ bai mái', 'ป': 'bpɔɔ bplaa', 'ผ': 'pɔ̌ɔ phʉ̂ng', 'ฝ': 'fɔ̌ɔ fǎa', 'พ': 'pɔɔ phaan', 'ฟ': 'fɔɔ fan', 'ภ': 'pɔɔ sǎm-phao', 'ม': 'mɔɔ máa',
-    'ย': 'yɔɔ yák', 'ร': 'rɔɔ rʉʉa', 'ล': 'lɔɔ ling', 'ว': 'wɔɔ wɛ̌ɛn',
-    'ศ': 'sɔ̌ɔ sǎa-laa', 'ษ': 'sɔ̌ɔ rʉʉ-sǐi', 'ส': 'sɔ̌ɔ sʉ̌ʉa',
-    'ห': 'hɔ̌ɔ hìip', 'ฬ': 'lɔɔ jù-laa', 'อ': 'ɔɔ àang', 'ฮ': 'hɔɔ nók-hûuk'
-  };
+  "ก": "kɔː˧.kaj˨˩",
+  "ข": "kʰɔː˩˩˦.kʰaj˨˩",
+  "ฃ": "kʰɔː˩˩˦.kʰua̯t̚˨˩",
+  "ค": "kʰɔː˧.kʰwaːj˧",
+  "ฅ": "kʰɔː˧.kʰon˧",
+  "ฆ": "kʰɔː˧.ra˦˥.kʰaŋ˧",
+  "ง": "ŋɔː˧.ŋuː˧",
+  "จ": "t͡ɕɔː˧.t͡ɕaːn˧",
+  "ฉ": "t͡ɕʰɔː˩˩˦.t͡ɕʰiŋ˨˩",
+  "ช": "t͡ɕʰɔː˧.t͡ɕʰaːŋ˦˥",
+  "ซ": "sɔː˧.soː˥˩",
+  "ฌ": "t͡ɕʰɔː˧.t͡ɕʰɤː˧",
+  "ญ": "jɔː˧.jiŋ˩˩˦",
+  "ฎ": "dɔː˧.t͡ɕʰa˦˥.daː˧",
+  "ฏ": "tɔː˧.pa˨˩.tak̚˨˩",
+  "ฐ": "tʰɔː˩˩˦.tʰaːn˩˩˦",
+  "ฑ": "tʰɔː˧.mon˧.tʰoː˧",
+  "ฒ": "tʰɔː˧.pʰuː˥˩.tʰaw˥˩",
+  "ณ": "nɔː˧.neːn˧",
+  "ด": "dɔː˧.dek̚˨˩",
+  "ต": "tɔː˧.taw˨˩",
+  "ถ": "tʰɔː˩˩˦.tʰuŋ˩˩˦",
+  "ท": "tʰɔː˧.tʰa˦˥.haːn˩˩˦",
+  "ธ": "tʰɔː˧.tʰoŋ˧",
+  "น": "nɔː˧.nuː˩˩˦",
+  "บ": "bɔː˧.baj˧.maj˦˥",
+  "ป": "pɔː˧.plaː˧",
+  "ผ": "pʰɔː˩˩˦.pʰɯŋ˥˩",
+  "ฝ": "fɔː˩˩˦.faː˩˩˦",
+  "พ": "pʰɔː˧.pʰaːn˧",
+  "ฟ": "fɔː˧.fan˧",
+  "ภ": "pʰɔː˧.sam˩˩˦.pʰaw˧",
+  "ม": "mɔː˧.maː˦˥",
+  "ย": "jɔː˧.jak̚˦˥",
+  "ร": "rɔː˧.rɯa̯˧",
+  "ล": "lɔː˧.liŋ˧",
+  "ว": "wɔː˧.wɛːn˩˩˦",
+  "ศ": "sɔː˩˩˦.saː˩˩˦.laː˧",
+  "ษ": "sɔː˩˩˦.rɯː˧.siː˩˩˦",
+  "ส": "sɔː˩˩˦.sɯa̯˩˩˦",
+  "ห": "hɔː˩˩˦.hiːp̚˨˩",
+  "ฬ": "lɔː˧.t͡ɕu˨˩.laː˧",
+  "อ": "ʔɔː˧.ʔaːŋ˨˩",
+  "ฮ": "hɔː˧.nok̚˦˥.huːk̚˥˩"
+};
 
   const CONSONANT_IPA = {
     'ก': '/k/',
@@ -154,15 +187,59 @@
   });
 
   const VOWEL_PAIRS = [
-    ['อะ','à'],   ['อา','aa'],
-    ['อิ','ì'],   ['อี','ii'],
-    ['อุ','ù'],   ['อู','uu'],
-    ['เอ','ee'],   ['แอ','ɛɛ'],
-    ['โอ','oo'],
-    ['ไอ','ai'],  ['ใอ','ai'],
-    ['เอา','ao'],
-    ['อำ','am']
-  ];
+  [
+    "อะ",
+    "ʔaʔ˨˩"
+  ],
+  [
+    "อา",
+    "ʔaː˧"
+  ],
+  [
+    "อิ",
+    "ʔiʔ˨˩"
+  ],
+  [
+    "อี",
+    "ʔiː˧"
+  ],
+  [
+    "อุ",
+    "ʔuʔ˨˩"
+  ],
+  [
+    "อู",
+    "ʔuː˧"
+  ],
+  [
+    "เอ",
+    "ʔeː˧"
+  ],
+  [
+    "แอ",
+    "ʔɛː˧"
+  ],
+  [
+    "โอ",
+    "ʔoː˧"
+  ],
+  [
+    "ไอ",
+    "ʔaj˧"
+  ],
+  [
+    "ใอ",
+    "ʔaj˧"
+  ],
+  [
+    "เอา",
+    "ʔaw˧"
+  ],
+  [
+    "อำ",
+    "ʔam˧"
+  ]
+];
 
   const SYLLABLE_BASE_CONSONANTS_ALL = [
     'ก','ข','ค','ง','จ','ฉ','ช','ซ','ญ','ด','ต','ถ','ท','ธ','น',
@@ -171,17 +248,17 @@
   ];
 
   const SYLLABLE_VOWELS = [
-    {thai:'ะ', latin:'a',  pattern:'post'},
-    {thai:'า', latin:'aa', pattern:'post'},
-    {thai:'ิ', latin:'i',  pattern:'above'},
-    {thai:'ี', latin:'ii', pattern:'above'},
-    {thai:'ุ', latin:'u',  pattern:'below'},
-    {thai:'ู', latin:'uu', pattern:'below'},
-    {thai:'เ', latin:'ee',  pattern:'pre'},
-    {thai:'แ', latin:'ɛɛ', pattern:'pre'},
-    {thai:'โ', latin:'oo',  pattern:'pre'},
-    {thai:'ไ', latin:'ai', pattern:'pre'},
-    {thai:'ใ', latin:'ai', pattern:'pre'}
+    {thai:'ะ', latin:'a', pattern:'post'},
+    {thai:'า', latin:'aː', pattern:'post'},
+    {thai:'ิ', latin:'i', pattern:'above'},
+    {thai:'ี', latin:'iː', pattern:'above'},
+    {thai:'ุ', latin:'u', pattern:'below'},
+    {thai:'ู', latin:'uː', pattern:'below'},
+    {thai:'เ', latin:'eː', pattern:'pre'},
+    {thai:'แ', latin:'ɛː', pattern:'pre'},
+    {thai:'โ', latin:'oː', pattern:'pre'},
+    {thai:'ไ', latin:'aj', pattern:'pre'},
+    {thai:'ใ', latin:'aj', pattern:'pre'}
   ];
 
   function composeSyllable(consonant, vowel){
@@ -190,20 +267,8 @@
   }
 
   function consonantToLatin(c){
-    const map = {
-      'ก':'g','ข':'k','ฃ':'k','ค':'k','ฅ':'k','ฆ':'k',
-      'ง':'ng',
-      'จ':'j','ฉ':'ch','ช':'ch','ซ':'s','ฌ':'ch',
-      'ญ':'y',
-      'ฎ':'d','ฏ':'dt',
-      'ฐ':'t','ฑ':'t','ฒ':'t','ณ':'n',
-      'ด':'d','ต':'dt','ถ':'t','ท':'t','ธ':'t','น':'n',
-      'บ':'b','ป':'bp','ผ':'p','ฝ':'f','พ':'p','ฟ':'f','ภ':'p','ม':'m',
-      'ย':'y','ร':'r','ล':'l','ว':'w',
-      'ศ':'s','ษ':'s','ส':'s',
-      'ห':'h','ฬ':'l','อ':'', 'ฮ':'h'
-    };
-    return (map[c] ?? '?');
+    // The initial sound, not the alphabet name; อ supplies a glottal onset.
+    return (CONSONANT_IPA[c]?.match(/^\/([^/]+)\//)?.[1] || '?').replace('r~ɾ','r');
   }
 
   function consonantClass(c) {
@@ -213,28 +278,16 @@
   }
 
   function applyTone(base, tone) {
-    if (tone === 'mid') return base;
-    const marks = {
-      low: { a: 'à', e: 'è', i: 'ì', o: 'ò', u: 'ù', ɔ: 'ɔ̀', ɛ: 'ɛ̀', ə: 'ə̀', ʉ: 'ʉ̀' },
-      falling: { a: 'â', e: 'ê', i: 'î', o: 'ô', u: 'û', ɔ: 'ɔ̂', ɛ: 'ɛ̂', ə: 'ə̂', ʉ: 'ʉ̂' },
-      high: { a: 'á', e: 'é', i: 'í', o: 'ó', u: 'ú', ɔ: 'ɔ́', ɛ: 'ɛ́', ə: 'ə́', ʉ: 'ʉ́' },
-      rising: { a: 'ǎ', e: 'ě', i: 'ǐ', o: 'ǒ', u: 'ǔ', ɔ: 'ɔ̌', ɛ: 'ɛ̌', ə: 'ə̌', ʉ: 'ʉ̌' }
-    };
-    const index = [...base].findIndex((char) => marks[tone][char]);
-    if (index < 0) return base;
-    const chars = [...base];
-    chars[index] = marks[tone][chars[index]];
-    return chars.join('');
+    const marks = { mid:'˧', low:'˨˩', falling:'˥˩', high:'˦˥', rising:'˩˩˦' };
+    return base + marks[tone];
   }
 
   function romanizeSyntheticSyllable(consonant, vowel) {
-    const base = consonantToLatin(consonant) + vowel.latin;
-    const liveVowels = new Set(['aa', 'ii', 'uu', 'ee', 'ɛɛ', 'oo', 'ai']);
-    const live = liveVowels.has(vowel.latin);
+    const live = !['ะ','ิ','ุ'].includes(vowel.thai);
+    const base = consonantToLatin(consonant) + vowel.latin + (live ? '' : 'ʔ');
     const klass = consonantClass(consonant);
     if (live) return applyTone(base, klass === 'high' ? 'rising' : 'mid');
-    if (klass === 'low') return applyTone(base, 'high');
-    return applyTone(base, 'low');
+    return applyTone(base, klass === 'low' ? 'high' : 'low');
   }
 
   // =========================
@@ -269,7 +322,7 @@
     selectedPairs.clear();
 
     if (mode === 'consonant'){
-      modeLabel.textContent = 'Consonants (Thai ↔ Latin+IPA)';
+      modeLabel.textContent = 'Consonants (Thai ↔ IPA + tones)';
       pairList = CONSONANT_PAIRS_ALL.slice();
     } else if (mode === 'vowel'){
       modeLabel.textContent = 'Vowels (carrier)';
@@ -511,41 +564,41 @@
   ];
 
   const LEARN_CONS = {
-    'ก': { name:'กอ', ipa:'/k/',    word:'กิน',  wordIpa:'/kin/', meaning:'eat' },
-    'น': { name:'นอ', ipa:'/n/',    word:'นม',   wordIpa:'/nom/', meaning:'milk' },
-    'ม': { name:'มอ', ipa:'/m/',    word:'มือ',  wordIpa:'/mɯː/', meaning:'hand' },
-    'ร': { name:'รอ', ipa:'/r~ɾ/',  word:'รถ',   wordIpa:'/rót/', meaning:'car' },
-    'อ': { name:'ออ', ipa:'/ʔ/ (carrier)', word:'ออก',  wordIpa:'/ʔɔ̀ːk/', meaning:'go out' },
+    'ก': { name:'กอ', ipa:'/k/',    word:'กิน',  wordIpa:'/kin˧/', meaning:'eat' },
+    'น': { name:'นอ', ipa:'/n/',    word:'นม',   wordIpa:'/nom˧/', meaning:'milk' },
+    'ม': { name:'มอ', ipa:'/m/',    word:'มือ',  wordIpa:'/mɯː˧/', meaning:'hand' },
+    'ร': { name:'รอ', ipa:'/r~ɾ/',  word:'รถ',   wordIpa:'/rot̚˦˥/', meaning:'car' },
+    'อ': { name:'ออ', ipa:'/ʔ/ (carrier)', word:'ออก',  wordIpa:'/ʔɔːk̚˨˩/', meaning:'go out' },
 
-    'ส': { name:'สอ', ipa:'/s/',    word:'สวย',  wordIpa:'/sǔai/', meaning:'beautiful' },
-    'ต': { name:'ตอ', ipa:'/t/',    word:'ตา',   wordIpa:'/taː/', meaning:'eye / grandpa (context)' },
-    'ป': { name:'ปอ', ipa:'/p/',    word:'ปลา',  wordIpa:'/plaː/', meaning:'fish' },
-    'บ': { name:'บอ', ipa:'/b/',    word:'บ้าน', wordIpa:'/bâːn/', meaning:'house' },
-    'ล': { name:'ลอ', ipa:'/l/',    word:'ลม',   wordIpa:'/lom/', meaning:'wind' },
+    'ส': { name:'สอ', ipa:'/s/',    word:'สวย',  wordIpa:'/sua̯j˩˩˦/', meaning:'beautiful' },
+    'ต': { name:'ตอ', ipa:'/t/',    word:'ตา',   wordIpa:'/taː˧/', meaning:'eye / grandpa (context)' },
+    'ป': { name:'ปอ', ipa:'/p/',    word:'ปลา',  wordIpa:'/plaː˧/', meaning:'fish' },
+    'บ': { name:'บอ', ipa:'/b/',    word:'บ้าน', wordIpa:'/baːn˥˩/', meaning:'house' },
+    'ล': { name:'ลอ', ipa:'/l/',    word:'ลม',   wordIpa:'/lom˧/', meaning:'wind' },
 
-    'ด': { name:'ดอ', ipa:'/d/',    word:'ดี',   wordIpa:'/diː/', meaning:'good' },
-    'ช': { name:'ชอ', ipa:'/tɕʰ/',  word:'ชา',   wordIpa:'/tɕʰaː/', meaning:'tea' },
-    'ค': { name:'คอ', ipa:'/kʰ/',   word:'คน',   wordIpa:'/kʰon/', meaning:'person' },
-    'ท': { name:'ทอ', ipa:'/tʰ/',   word:'ทาง',  wordIpa:'/tʰaːŋ/', meaning:'way / road' },
-    'ย': { name:'ยอ', ipa:'/j/',    word:'ยา',   wordIpa:'/jaː/', meaning:'medicine' },
+    'ด': { name:'ดอ', ipa:'/d/',    word:'ดี',   wordIpa:'/diː˧/', meaning:'good' },
+    'ช': { name:'ชอ', ipa:'/tɕʰ/',  word:'ชา',   wordIpa:'/t͡ɕʰaː˧/', meaning:'tea' },
+    'ค': { name:'คอ', ipa:'/kʰ/',   word:'คน',   wordIpa:'/kʰon˧/', meaning:'person' },
+    'ท': { name:'ทอ', ipa:'/tʰ/',   word:'ทาง',  wordIpa:'/tʰaːŋ˧/', meaning:'way / road' },
+    'ย': { name:'ยอ', ipa:'/j/',    word:'ยา',   wordIpa:'/jaː˧/', meaning:'medicine' },
 
-    'ห': { name:'หอ', ipa:'/h/',    word:'หิว',  wordIpa:'/hǐu/', meaning:'hungry' },
-    'ว': { name:'วอ', ipa:'/w/',    word:'วัน',  wordIpa:'/wan/', meaning:'day' },
-    'พ': { name:'พอ', ipa:'/pʰ/',   word:'พ่อ',  wordIpa:'/pʰɔ̂ː/', meaning:'father' },
-    'ฟ': { name:'ฟอ', ipa:'/f/',    word:'ไฟ',   wordIpa:'/fai/', meaning:'fire / electricity' },
-    'ง': { name:'งอ', ipa:'/ŋ/',    word:'งาน',  wordIpa:'/ŋaːn/', meaning:'work / event' },
+    'ห': { name:'หอ', ipa:'/h/',    word:'หิว',  wordIpa:'/hiw˩˩˦/', meaning:'hungry' },
+    'ว': { name:'วอ', ipa:'/w/',    word:'วัน',  wordIpa:'/wan˧/', meaning:'day' },
+    'พ': { name:'พอ', ipa:'/pʰ/',   word:'พ่อ',  wordIpa:'/pʰɔː˥˩/', meaning:'father' },
+    'ฟ': { name:'ฟอ', ipa:'/f/',    word:'ไฟ',   wordIpa:'/faj˧/', meaning:'fire / electricity' },
+    'ง': { name:'งอ', ipa:'/ŋ/',    word:'งาน',  wordIpa:'/ŋaːn˧/', meaning:'work / event' },
 
-    'จ': { name:'จอ', ipa:'/tɕ/',   word:'จีน',  wordIpa:'/tɕiːn/', meaning:'China / Chinese' },
-    'ข': { name:'ขอ', ipa:'/kʰ/',   word:'ข้าว', wordIpa:'/kʰâːw/', meaning:'rice (cooked)' },
-    'ภ': { name:'ภอ', ipa:'/pʰ/',   word:'ภาพ',  wordIpa:'/pʰâːp/', meaning:'picture' },
-    'ธ': { name:'ธอ', ipa:'/tʰ/',   word:'ธรรม', wordIpa:'/tʰam/', meaning:'dharma / moral (context)' },
-    'ญ': { name:'ญอ', ipa:'/j/',    word:'ญาติ', wordIpa:'/jâːt/', meaning:'relative' },
+    'จ': { name:'จอ', ipa:'/tɕ/',   word:'จีน',  wordIpa:'/t͡ɕiːn˧/', meaning:'China / Chinese' },
+    'ข': { name:'ขอ', ipa:'/kʰ/',   word:'ข้าว', wordIpa:'/kʰaːw˥˩/', meaning:'rice (cooked)' },
+    'ภ': { name:'ภอ', ipa:'/pʰ/',   word:'ภาพ',  wordIpa:'/pʰaːp̚˥˩/', meaning:'picture' },
+    'ธ': { name:'ธอ', ipa:'/tʰ/',   word:'ธรรม', wordIpa:'/tʰam˧/', meaning:'dharma / moral (context)' },
+    'ญ': { name:'ญอ', ipa:'/j/',    word:'ญาติ', wordIpa:'/jaːt̚˥˩/', meaning:'relative' },
 
-    'ศ': { name:'ศอ', ipa:'/s/',    word:'ศูนย์', wordIpa:'/sǔːn/', meaning:'zero / center' },
+    'ศ': { name:'ศอ', ipa:'/s/',    word:'ศูนย์', wordIpa:'/suːn˩˩˦/', meaning:'zero / center' },
     'ษ': { name:'ษอ', ipa:'/s/',    word:'(edit later)', wordIpa:'', meaning:'rare (edit later)' },
-    'ฬ': { name:'ฬอ', ipa:'/l/',    word:'กีฬา',  wordIpa:'/kiːlaː/', meaning:'sport' },
+    'ฬ': { name:'ฬอ', ipa:'/l/',    word:'กีฬา',  wordIpa:'/kiː˧.laː˧/', meaning:'sport' },
     'ณ': { name:'ณอ', ipa:'/n/',    word:'(edit later)', wordIpa:'', meaning:'rare (edit later)' },
-    'ฆ': { name:'ฆอ', ipa:'/kʰ/',   word:'ฆ่า',   wordIpa:'/kʰâː/', meaning:'kill (common word; careful)' }
+    'ฆ': { name:'ฆอ', ipa:'/kʰ/',   word:'ฆ่า',   wordIpa:'/kʰaː˥˩/', meaning:'kill (common word; careful)' }
   };
 
   // =========================
@@ -570,8 +623,8 @@
         { short:'โอะ', long:'โอ', ipaS:'/o/',  ipaL:'/oː/', exS:'โต๊ะ', exL:'โต', meaning:'table / big(grow)' },
         { short:'เอาะ', long:'ออ', ipaS:'/ɔ/',  ipaL:'/ɔː/', exS:'เพราะ', exL:'พอ', meaning:'because / enough' },
         { short:'อึ', long:'อือ', ipaS:'/ɯ/',  ipaL:'/ɯː/', exS:'ตึก', exL:'มือ', meaning:'building / hand' },
-        { short:'เอียะ', long:'เอีย', ipaS:'/ia/', ipaL:'/iaː/', exS:'(edit)', exL:'เสีย', meaning:'diphthong (edit later)' },
-        { short:'เอือะ', long:'เอือ', ipaS:'/ɯa/', ipaL:'/ɯaː/', exS:'(edit)', exL:'เรือ', meaning:'diphthong (edit later)' }
+        { short:'เอียะ', long:'เอีย', ipaS:'/ia̯/', ipaL:'/ia̯/', exS:'(edit)', exL:'เสีย', meaning:'diphthong (edit later)' },
+        { short:'เอือะ', long:'เอือ', ipaS:'/ɯa̯/', ipaL:'/ɯa̯/', exS:'(edit)', exL:'เรือ', meaning:'diphthong (edit later)' }
       ]
     }
   ];

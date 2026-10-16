@@ -1,82 +1,100 @@
 const LEVEL_LIMIT_SECONDS = 60;
+const LEVEL_MIXES = {
+  1: [{ level: 1, weight: 100 }],
+  2: [
+    { level: 1, weight: 30 },
+    { level: 2, weight: 70 }
+  ],
+  3: [
+    { level: 1, weight: 10 },
+    { level: 2, weight: 20 },
+    { level: 3, weight: 70 }
+  ],
+  4: [
+    { level: 1, weight: 10 },
+    { level: 2, weight: 10 },
+    { level: 3, weight: 20 },
+    { level: 4, weight: 60 }
+  ]
+};
 const removedConsonants = ["ฃ", "ฅ", "ฆ", "ฌ", "ฎ", "ฏ", "ฐ", "ฑ", "ฒ", "ณ", "ศ", "ษ", "ฬ"];
 
 const data = {
   consonant: [
     level(1, "Lv1 最頻出", "最初に何度も見る子音字", [
-      card("ก", "ko kai", "/k/", "chicken"),
-      card("น", "no nu", "/n/", "mouse"),
-      card("ม", "mo ma", "/m/", "horse"),
-      card("ร", "ro ruea", "/r/", "boat"),
-      card("อ", "o ang", "/ʔ/", "basin"),
-      card("ส", "so suea", "/s/", "tiger"),
-      card("ต", "to tao", "/t/", "turtle"),
-      card("ป", "po pla", "/p/", "fish")
+      card("ก", "kɔː˧.kaj˨˩", "/k/", "chicken"),
+      card("น", "nɔː˧.nuː˩˩˦", "/n/", "mouse"),
+      card("ม", "mɔː˧.maː˦˥", "/m/", "horse"),
+      card("ร", "rɔː˧.rɯa̯˧", "/r~ɾ/", "boat"),
+      card("อ", "ʔɔː˧.ʔaːŋ˨˩", "/ʔ/ (carrier)", "basin"),
+      card("ส", "sɔː˩˩˦.sɯa̯˩˩˦", "/s/", "tiger"),
+      card("ต", "tɔː˧.taw˨˩", "/t/", "turtle"),
+      card("ป", "pɔː˧.plaː˧", "/p/", "fish")
     ]),
     level(2, "Lv2 よく使う", "初級語彙でよく出る子音字", [
-      card("บ", "bo baimai", "/b/", "leaf"),
-      card("ล", "lo ling", "/l/", "monkey"),
-      card("ด", "do dek", "/d/", "child"),
-      card("ช", "cho chang", "/ch/", "elephant"),
-      card("ค", "kho khwai", "/kh/", "buffalo"),
-      card("ท", "tho thahan", "/th/", "soldier"),
-      card("ย", "yo yak", "/y/", "giant"),
-      card("ห", "ho hip", "/h/", "chest")
+      card("บ", "bɔː˧.baj˧.maj˦˥", "/b/", "leaf"),
+      card("ล", "lɔː˧.liŋ˧", "/l/", "monkey"),
+      card("ด", "dɔː˧.dek̚˨˩", "/d/", "child"),
+      card("ช", "t͡ɕʰɔː˧.t͡ɕʰaːŋ˦˥", "/tɕʰ/", "elephant"),
+      card("ค", "kʰɔː˧.kʰwaːj˧", "/kʰ/", "buffalo"),
+      card("ท", "tʰɔː˧.tʰa˦˥.haːn˩˩˦", "/tʰ/", "soldier"),
+      card("ย", "jɔː˧.jak̚˦˥", "/j/", "giant"),
+      card("ห", "hɔː˩˩˦.hiːp̚˨˩", "/h/", "chest")
     ]),
     level(3, "Lv3 標準", "読み書きで押さえたい子音字", [
-      card("ว", "wo waen", "/w/", "ring"),
-      card("พ", "pho phan", "/ph/", "tray"),
-      card("ฟ", "fo fan", "/f/", "teeth"),
-      card("ง", "ngo ngu", "/ng/", "snake"),
-      card("จ", "cho chan", "/ch/", "plate"),
-      card("ข", "kho khai", "/kh/", "egg"),
-      card("ภ", "pho samphao", "/ph/", "sailboat"),
-      card("ธ", "tho thong", "/th/", "flag")
+      card("ว", "wɔː˧.wɛːn˩˩˦", "/w/", "ring"),
+      card("พ", "pʰɔː˧.pʰaːn˧", "/pʰ/", "tray"),
+      card("ฟ", "fɔː˧.fan˧", "/f/", "teeth"),
+      card("ง", "ŋɔː˧.ŋuː˧", "/ŋ/", "snake"),
+      card("จ", "t͡ɕɔː˧.t͡ɕaːn˧", "/tɕ/", "plate"),
+      card("ข", "kʰɔː˩˩˦.kʰaj˨˩", "/kʰ/", "egg"),
+      card("ภ", "pʰɔː˧.sam˩˩˦.pʰaw˧", "/pʰ/", "sailboat"),
+      card("ธ", "tʰɔː˧.tʰoŋ˧", "/tʰ/", "flag")
     ]),
     level(4, "Lv4 追加", "頻度は下がるが残す子音字", [
-      card("ญ", "yo ying", "/y/", "woman"),
-      card("ถ", "tho thung", "/th/", "bag"),
-      card("ผ", "pho phueng", "/ph/", "bee"),
-      card("ฝ", "fo fa", "/f/", "lid"),
-      card("ซ", "so so", "/s/", "chain"),
-      card("ฉ", "cho ching", "/ch/", "cymbals"),
-      card("ฮ", "ho nok huk", "/h/", "owl")
+      card("ญ", "jɔː˧.jiŋ˩˩˦", "/j/", "woman"),
+      card("ถ", "tʰɔː˩˩˦.tʰuŋ˩˩˦", "/tʰ/", "bag"),
+      card("ผ", "pʰɔː˩˩˦.pʰɯŋ˥˩", "/pʰ/", "bee"),
+      card("ฝ", "fɔː˩˩˦.faː˩˩˦", "/f/", "lid"),
+      card("ซ", "sɔː˧.soː˥˩", "/s/", "chain"),
+      card("ฉ", "t͡ɕʰɔː˩˩˦.t͡ɕʰiŋ˨˩", "/tɕʰ/", "cymbals"),
+      card("ฮ", "hɔː˧.nok̚˦˥.huːk̚˥˩", "/h/", "owl")
     ])
   ],
   vowel: [
     level(1, "Lv1 最頻出", "基本の短母音・長母音", [
-      card("กะ", "a short", "/a/", "ก + ◌ะ"),
-      card("กา", "aa long", "/aː/", "ก + า"),
-      card("กิ", "i short", "/i/", "ก + ◌ิ"),
-      card("กี", "ii long", "/iː/", "ก + ◌ี"),
-      card("กุ", "u short", "/u/", "ก + ◌ุ"),
-      card("กู", "uu long", "/uː/", "ก + ◌ู")
+      card("กะ", "kaʔ˨˩", "/a/", "ก + ◌ะ"),
+      card("กา", "kaː˧", "/aː/", "ก + า"),
+      card("กิ", "kiʔ˨˩", "/i/", "ก + ◌ิ"),
+      card("กี", "kiː˧", "/iː/", "ก + ◌ี"),
+      card("กุ", "kuʔ˨˩", "/u/", "ก + ◌ุ"),
+      card("กู", "kuː˧", "/uː/", "ก + ◌ู")
     ]),
     level(2, "Lv2 よく使う", "中舌母音とe/o系", [
-      card("กึ", "ue short", "/ɯ/", "ก + ◌ึ"),
-      card("กื", "uee long", "/ɯː/", "ก + ◌ื"),
-      card("เกะ", "e short", "/e/", "เ + ก + ะ"),
-      card("เก", "ee long", "/eː/", "เ + ก"),
-      card("โกะ", "o short", "/o/", "โ + ก + ะ"),
-      card("โก", "oo long", "/oː/", "โ + ก")
+      card("กึ", "kɯʔ˨˩", "/ɯ/", "ก + ◌ึ"),
+      card("กือ", "kɯː˧", "/ɯː/", "ก + ◌ือ"),
+      card("เกะ", "keʔ˨˩", "/e/", "เ + ก + ะ"),
+      card("เก", "keː˧", "/eː/", "เ + ก"),
+      card("โกะ", "koʔ˨˩", "/o/", "โ + ก + ะ"),
+      card("โก", "koː˧", "/oː/", "โ + ก")
     ]),
     level(3, "Lv3 標準", "ae/o/oe 系", [
-      card("แกะ", "ae short", "/ɛ/", "แ + ก + ะ"),
-      card("แก", "aae long", "/ɛː/", "แ + ก"),
-      card("เกาะ", "aw short", "/ɔ/", "เ + ก + าะ"),
-      card("กอ", "aw long", "/ɔː/", "ก + อ"),
-      card("เกอะ", "oe short", "/ɤ/", "เ + ก + อะ"),
-      card("เกอ", "oe long", "/ɤː/", "เ + ก + อ")
+      card("แกะ", "kɛʔ˨˩", "/ɛ/", "แ + ก + ะ"),
+      card("แก", "kɛː˧", "/ɛː/", "แ + ก"),
+      card("เกาะ", "kɔʔ˨˩", "/ɔ/", "เ + ก + าะ"),
+      card("กอ", "kɔː˧", "/ɔː/", "ก + อ"),
+      card("เกอะ", "kɤʔ˨˩", "/ɤ/", "เ + ก + อะ"),
+      card("เกอ", "kɤː˧", "/ɤː/", "เ + ก + อ")
     ]),
     level(4, "Lv4 追加", "複合母音・よく見る形", [
-      card("เกียะ", "ia short", "/ia/", "เ + ก + ียะ"),
-      card("เกีย", "ia long", "/iaː/", "เ + ก + ีย"),
-      card("เกือะ", "uea short", "/ɯa/", "เ + ก + ือะ"),
-      card("เกือ", "uea long", "/ɯaː/", "เ + ก + ือ"),
-      card("กัวะ", "ua short", "/ua/", "ก + ัวะ"),
-      card("กัว", "ua long", "/uaː/", "ก + ัว"),
-      card("ไก", "ai", "/ai/", "ไ + ก"),
-      card("เกา", "ao", "/ao/", "เ + ก + า")
+      card("เกียะ", "kia̯ʔ˨˩", "/ia̯/", "เ + ก + ียะ"),
+      card("เกีย", "kia̯˧", "/ia̯/", "เ + ก + ีย"),
+      card("เกือะ", "kɯa̯ʔ˨˩", "/ɯa̯/", "เ + ก + ือะ"),
+      card("เกือ", "kɯa̯˧", "/ɯa̯/", "เ + ก + ือ"),
+      card("กัวะ", "kua̯ʔ˨˩", "/ua̯/", "ก + ัวะ"),
+      card("กัว", "kua̯˧", "/ua̯/", "ก + ัว"),
+      card("ไก", "kaj˧", "/aj/", "ไ + ก"),
+      card("เกา", "kaw˧", "/aw/", "เ + ก + า")
     ])
   ]
 };
@@ -220,7 +238,13 @@ function syncSettings() {
 function pickItems() {
   const pool = getAvailableItems();
   const desired = state.pairCount === "all" ? pool.length : Number(state.pairCount);
-  return shuffle(pool).slice(0, Math.min(desired, pool.length));
+  const count = Math.min(desired, pool.length);
+
+  if (state.range === "cumulative") {
+    return shuffle(pool).slice(0, count);
+  }
+
+  return pickWeightedItems(count);
 }
 
 function getAvailableItems() {
@@ -234,7 +258,52 @@ function getActiveLevelIds() {
   if (state.range === "cumulative") {
     return data[state.kind].filter((levelData) => levelData.id <= state.selectedLevel).map((levelData) => levelData.id);
   }
-  return [state.selectedLevel];
+  return getLevelMix().map((mix) => mix.level);
+}
+
+function getLevelMix() {
+  return LEVEL_MIXES[state.selectedLevel] || LEVEL_MIXES[1];
+}
+
+function pickWeightedItems(count) {
+  const itemsByLevel = new Map(data[state.kind].map((levelData) => [
+    levelData.id,
+    shuffle(levelData.items.map((itemData) => ({ ...itemData, level: levelData.id })))
+  ]));
+  const allocations = allocateLevelCounts(count);
+  const selected = [];
+
+  allocations.forEach(({ level: levelId, count: levelCount }) => {
+    const levelItems = itemsByLevel.get(levelId) || [];
+    selected.push(...levelItems.splice(0, Math.min(levelCount, levelItems.length)));
+  });
+
+  if (selected.length < count) {
+    const leftovers = shuffle([...itemsByLevel.values()].flat());
+    selected.push(...leftovers.slice(0, count - selected.length));
+  }
+
+  return shuffle(selected);
+}
+
+function allocateLevelCounts(count) {
+  const mix = getLevelMix();
+  const totalWeight = mix.reduce((sum, entry) => sum + entry.weight, 0);
+  const allocations = mix.map((entry) => {
+    const raw = (count * entry.weight) / totalWeight;
+    return { level: entry.level, count: Math.floor(raw), remainder: raw % 1 };
+  });
+  let remaining = count - allocations.reduce((sum, entry) => sum + entry.count, 0);
+
+  [...allocations]
+    .sort((a, b) => b.remainder - a.remainder || b.level - a.level)
+    .forEach((entry) => {
+      if (remaining <= 0) return;
+      entry.count += 1;
+      remaining -= 1;
+    });
+
+  return allocations;
 }
 
 function buildDeck(items) {

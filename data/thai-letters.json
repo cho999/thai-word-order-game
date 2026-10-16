@@ -24,49 +24,49 @@
         "items": [
           {
             "symbol": "ก",
-            "label": "gɔɔ gài",
+            "label": "kɔː˧.kaj˨˩",
             "ipa": "/k/",
             "hint": "chicken"
           },
           {
             "symbol": "น",
-            "label": "nɔɔ nǔu",
+            "label": "nɔː˧.nuː˩˩˦",
             "ipa": "/n/",
             "hint": "mouse"
           },
           {
             "symbol": "ม",
-            "label": "mɔɔ máa",
+            "label": "mɔː˧.maː˦˥",
             "ipa": "/m/",
             "hint": "horse"
           },
           {
             "symbol": "ร",
-            "label": "rɔɔ rʉʉa",
-            "ipa": "/r/",
+            "label": "rɔː˧.rɯa̯˧",
+            "ipa": "/r~ɾ/",
             "hint": "boat"
           },
           {
             "symbol": "อ",
-            "label": "ɔɔ àang",
-            "ipa": "/ʔ/",
+            "label": "ʔɔː˧.ʔaːŋ˨˩",
+            "ipa": "/ʔ/ (carrier)",
             "hint": "basin"
           },
           {
             "symbol": "ส",
-            "label": "sɔ̌ɔ sʉ̌ʉa",
+            "label": "sɔː˩˩˦.sɯa̯˩˩˦",
             "ipa": "/s/",
             "hint": "tiger"
           },
           {
             "symbol": "ต",
-            "label": "dtɔɔ dtào",
+            "label": "tɔː˧.taw˨˩",
             "ipa": "/t/",
             "hint": "turtle"
           },
           {
             "symbol": "ป",
-            "label": "bpɔɔ bplaa",
+            "label": "pɔː˧.plaː˧",
             "ipa": "/p/",
             "hint": "fish"
           }
@@ -79,49 +79,49 @@
         "items": [
           {
             "symbol": "บ",
-            "label": "bɔɔ bai mái",
+            "label": "bɔː˧.baj˧.maj˦˥",
             "ipa": "/b/",
             "hint": "leaf"
           },
           {
             "symbol": "ล",
-            "label": "lɔɔ ling",
+            "label": "lɔː˧.liŋ˧",
             "ipa": "/l/",
             "hint": "monkey"
           },
           {
             "symbol": "ด",
-            "label": "dɔɔ dèk",
+            "label": "dɔː˧.dek̚˨˩",
             "ipa": "/d/",
             "hint": "child"
           },
           {
             "symbol": "ช",
-            "label": "chɔɔ cháang",
-            "ipa": "/ch/",
+            "label": "t͡ɕʰɔː˧.t͡ɕʰaːŋ˦˥",
+            "ipa": "/tɕʰ/",
             "hint": "elephant"
           },
           {
             "symbol": "ค",
-            "label": "kɔɔ khwaai",
-            "ipa": "/kh/",
+            "label": "kʰɔː˧.kʰwaːj˧",
+            "ipa": "/kʰ/",
             "hint": "buffalo"
           },
           {
             "symbol": "ท",
-            "label": "tɔɔ tá-hǎan",
-            "ipa": "/th/",
+            "label": "tʰɔː˧.tʰa˦˥.haːn˩˩˦",
+            "ipa": "/tʰ/",
             "hint": "soldier"
           },
           {
             "symbol": "ย",
-            "label": "yɔɔ yák",
-            "ipa": "/y/",
+            "label": "jɔː˧.jak̚˦˥",
+            "ipa": "/j/",
             "hint": "giant"
           },
           {
             "symbol": "ห",
-            "label": "hɔ̌ɔ hìip",
+            "label": "hɔː˩˩˦.hiːp̚˨˩",
             "ipa": "/h/",
             "hint": "chest"
           }
@@ -134,50 +134,50 @@
         "items": [
           {
             "symbol": "ว",
-            "label": "wɔɔ wɛ̌ɛn",
+            "label": "wɔː˧.wɛːn˩˩˦",
             "ipa": "/w/",
             "hint": "ring"
           },
           {
             "symbol": "พ",
-            "label": "pɔɔ phaan",
-            "ipa": "/ph/",
+            "label": "pʰɔː˧.pʰaːn˧",
+            "ipa": "/pʰ/",
             "hint": "tray"
           },
           {
             "symbol": "ฟ",
-            "label": "fɔɔ fan",
+            "label": "fɔː˧.fan˧",
             "ipa": "/f/",
             "hint": "teeth"
           },
           {
             "symbol": "ง",
-            "label": "ngɔɔ nguu",
-            "ipa": "/ng/",
+            "label": "ŋɔː˧.ŋuː˧",
+            "ipa": "/ŋ/",
             "hint": "snake"
           },
           {
             "symbol": "จ",
-            "label": "jɔɔ jaan",
-            "ipa": "/ch/",
+            "label": "t͡ɕɔː˧.t͡ɕaːn˧",
+            "ipa": "/tɕ/",
             "hint": "plate"
           },
           {
             "symbol": "ข",
-            "label": "kɔ̌ɔ kài",
-            "ipa": "/kh/",
+            "label": "kʰɔː˩˩˦.kʰaj˨˩",
+            "ipa": "/kʰ/",
             "hint": "egg"
           },
           {
             "symbol": "ภ",
-            "label": "pɔɔ sǎm-phao",
-            "ipa": "/ph/",
+            "label": "pʰɔː˧.sam˩˩˦.pʰaw˧",
+            "ipa": "/pʰ/",
             "hint": "sailboat"
           },
           {
             "symbol": "ธ",
-            "label": "tɔɔ thong",
-            "ipa": "/th/",
+            "label": "tʰɔː˧.tʰoŋ˧",
+            "ipa": "/tʰ/",
             "hint": "flag"
           }
         ]
@@ -189,43 +189,43 @@
         "items": [
           {
             "symbol": "ญ",
-            "label": "yɔɔ yǐng",
-            "ipa": "/y/",
+            "label": "jɔː˧.jiŋ˩˩˦",
+            "ipa": "/j/",
             "hint": "woman"
           },
           {
             "symbol": "ถ",
-            "label": "tɔ̌ɔ tǔng",
-            "ipa": "/th/",
+            "label": "tʰɔː˩˩˦.tʰuŋ˩˩˦",
+            "ipa": "/tʰ/",
             "hint": "bag"
           },
           {
             "symbol": "ผ",
-            "label": "pɔ̌ɔ phʉ̂ng",
-            "ipa": "/ph/",
+            "label": "pʰɔː˩˩˦.pʰɯŋ˥˩",
+            "ipa": "/pʰ/",
             "hint": "bee"
           },
           {
             "symbol": "ฝ",
-            "label": "fɔ̌ɔ fǎa",
+            "label": "fɔː˩˩˦.faː˩˩˦",
             "ipa": "/f/",
             "hint": "lid"
           },
           {
             "symbol": "ซ",
-            "label": "sɔɔ sôo",
+            "label": "sɔː˧.soː˥˩",
             "ipa": "/s/",
             "hint": "chain"
           },
           {
             "symbol": "ฉ",
-            "label": "chɔ̌ɔ chìng",
-            "ipa": "/ch/",
+            "label": "t͡ɕʰɔː˩˩˦.t͡ɕʰiŋ˨˩",
+            "ipa": "/tɕʰ/",
             "hint": "cymbals"
           },
           {
             "symbol": "ฮ",
-            "label": "hɔɔ nók-hûuk",
+            "label": "hɔː˧.nok̚˦˥.huːk̚˥˩",
             "ipa": "/h/",
             "hint": "owl"
           }
@@ -240,37 +240,37 @@
         "items": [
           {
             "symbol": "กะ",
-            "label": "gà",
+            "label": "kaʔ˨˩",
             "ipa": "/a/",
             "hint": "ก + ◌ะ"
           },
           {
             "symbol": "กา",
-            "label": "gaa",
+            "label": "kaː˧",
             "ipa": "/aː/",
             "hint": "ก + า"
           },
           {
             "symbol": "กิ",
-            "label": "gì",
+            "label": "kiʔ˨˩",
             "ipa": "/i/",
             "hint": "ก + ◌ิ"
           },
           {
             "symbol": "กี",
-            "label": "gii",
+            "label": "kiː˧",
             "ipa": "/iː/",
             "hint": "ก + ◌ี"
           },
           {
             "symbol": "กุ",
-            "label": "gù",
+            "label": "kuʔ˨˩",
             "ipa": "/u/",
             "hint": "ก + ◌ุ"
           },
           {
             "symbol": "กู",
-            "label": "guu",
+            "label": "kuː˧",
             "ipa": "/uː/",
             "hint": "ก + ◌ู"
           }
@@ -283,37 +283,37 @@
         "items": [
           {
             "symbol": "กึ",
-            "label": "gʉ̀",
+            "label": "kɯʔ˨˩",
             "ipa": "/ɯ/",
             "hint": "ก + ◌ึ"
           },
           {
-            "symbol": "กื",
-            "label": "gʉʉ",
+            "symbol": "กือ",
+            "label": "kɯː˧",
             "ipa": "/ɯː/",
-            "hint": "ก + ◌ื"
+            "hint": "ก + ◌ือ"
           },
           {
             "symbol": "เกะ",
-            "label": "gè",
+            "label": "keʔ˨˩",
             "ipa": "/e/",
             "hint": "เ + ก + ะ"
           },
           {
             "symbol": "เก",
-            "label": "gee",
+            "label": "keː˧",
             "ipa": "/eː/",
             "hint": "เ + ก"
           },
           {
             "symbol": "โกะ",
-            "label": "gò",
+            "label": "koʔ˨˩",
             "ipa": "/o/",
             "hint": "โ + ก + ะ"
           },
           {
             "symbol": "โก",
-            "label": "goo",
+            "label": "koː˧",
             "ipa": "/oː/",
             "hint": "โ + ก"
           }
@@ -326,37 +326,37 @@
         "items": [
           {
             "symbol": "แกะ",
-            "label": "gɛ̀",
+            "label": "kɛʔ˨˩",
             "ipa": "/ɛ/",
             "hint": "แ + ก + ะ"
           },
           {
             "symbol": "แก",
-            "label": "gɛɛ",
+            "label": "kɛː˧",
             "ipa": "/ɛː/",
             "hint": "แ + ก"
           },
           {
             "symbol": "เกาะ",
-            "label": "gɔ̀",
+            "label": "kɔʔ˨˩",
             "ipa": "/ɔ/",
             "hint": "เ + ก + าะ"
           },
           {
             "symbol": "กอ",
-            "label": "gɔɔ",
+            "label": "kɔː˧",
             "ipa": "/ɔː/",
             "hint": "ก + อ"
           },
           {
             "symbol": "เกอะ",
-            "label": "gə̀",
+            "label": "kɤʔ˨˩",
             "ipa": "/ɤ/",
             "hint": "เ + ก + อะ"
           },
           {
             "symbol": "เกอ",
-            "label": "gəə",
+            "label": "kɤː˧",
             "ipa": "/ɤː/",
             "hint": "เ + ก + อ"
           }
@@ -369,50 +369,50 @@
         "items": [
           {
             "symbol": "เกียะ",
-            "label": "gìa",
-            "ipa": "/ia/",
+            "label": "kia̯ʔ˨˩",
+            "ipa": "/ia̯/",
             "hint": "เ + ก + ียะ"
           },
           {
             "symbol": "เกีย",
-            "label": "gia",
-            "ipa": "/iaː/",
+            "label": "kia̯˧",
+            "ipa": "/ia̯/",
             "hint": "เ + ก + ีย"
           },
           {
             "symbol": "เกือะ",
-            "label": "gʉ̀a",
-            "ipa": "/ɯa/",
+            "label": "kɯa̯ʔ˨˩",
+            "ipa": "/ɯa̯/",
             "hint": "เ + ก + ือะ"
           },
           {
             "symbol": "เกือ",
-            "label": "gʉa",
-            "ipa": "/ɯaː/",
+            "label": "kɯa̯˧",
+            "ipa": "/ɯa̯/",
             "hint": "เ + ก + ือ"
           },
           {
             "symbol": "กัวะ",
-            "label": "gùa",
-            "ipa": "/ua/",
+            "label": "kua̯ʔ˨˩",
+            "ipa": "/ua̯/",
             "hint": "ก + ัวะ"
           },
           {
             "symbol": "กัว",
-            "label": "gua",
-            "ipa": "/uaː/",
+            "label": "kua̯˧",
+            "ipa": "/ua̯/",
             "hint": "ก + ัว"
           },
           {
             "symbol": "ไก",
-            "label": "gai",
-            "ipa": "/ai/",
+            "label": "kaj˧",
+            "ipa": "/aj/",
             "hint": "ไ + ก"
           },
           {
             "symbol": "เกา",
-            "label": "gao",
-            "ipa": "/ao/",
+            "label": "kaw˧",
+            "ipa": "/aw/",
             "hint": "เ + ก + า"
           }
         ]

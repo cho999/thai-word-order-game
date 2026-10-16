@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>フックタイカムサップ</title>
+  <title>ฝึกคำศัพท์ภาษาไทย</title>
   <link rel="stylesheet" href="vocab-practice.css">
+  <link rel="stylesheet" href="assets/css/ipa.css">
 </head>
 <body>
   <main class="trainer">
@@ -19,9 +20,9 @@
 
     <section class="hero-panel">
       <div>
-        <p class="eyebrow">Phuk Thai Kham Sap</p>
-        <h1>フックタイカムサップ</h1>
-        <p class="lead">授業ノートから増やしていく単語練習です。タイ文字・ローマ字表示を切り替えながら、英語との対応を6択で確認します。</p>
+        <p class="eyebrow">ฝึกคำศัพท์ภาษาไทย</p>
+        <h1>ฝึกคำศัพท์ภาษาไทย</h1>
+        <p class="lead">授業ノートから増やしていく単語練習です。タイ文字・IPA表示を切り替えながら、英語との対応を6択で確認します。</p>
       </div>
       <img src="thai-letter-memory/assets/chibi/chibi-thinking.png" alt="ナーリー">
     </section>
@@ -36,7 +37,7 @@
         <span>表示</span>
         <div class="segmented" role="group" aria-label="タイ語表示">
           <button class="display-button active" type="button" data-display="thai">タイ文字</button>
-          <button class="display-button" type="button" data-display="roman">ローマ字</button>
+          <button class="display-button" type="button" data-display="roman">IPA</button>
         </div>
       </div>
 
@@ -88,8 +89,8 @@
     <section class="import-panel">
       <details>
         <summary>OCRテキスト取り込みメモ</summary>
-        <p>今後の授業では、OCR結果を「タイ語, roman, English」の形式で整理して Lesson2 以降に追加できます。画像OCRそのものは次の段階で接続し、この欄は読み取り結果の確認用に使えます。</p>
-        <textarea id="ocrText" spellcheck="false" placeholder="例: หมา, maa, dog"></textarea>
+        <p>今後の授業では、OCR結果を「タイ語, IPA, English」の形式で整理して Lesson2 以降に追加できます。画像OCRそのものは次の段階で接続し、この欄は読み取り結果の確認用に使えます。</p>
+        <textarea id="ocrText" spellcheck="false" placeholder="例: หมา, maː˩˩˦, dog"></textarea>
         <button id="parseButton" class="ghost-button" type="button">読み取りプレビュー</button>
         <div id="parsePreview" class="parse-preview"></div>
       </details>
@@ -97,5 +98,6 @@
   </main>
 
   <script src="vocab-practice.js"></script>
+<details class="ipa-guide"><summary>IPA・声調記号の読み方</summary><p>中声 ˧ ／低声 ˨˩ ／下降声 ˥˩ ／高声 ˦˥ ／上昇声 ˩˩˦。声調記号は音節末に付きます。ː は長母音、ʰ は有気音、ʔ は声門閉鎖、. は音節の区切りです。</p><p>単独の子音・母音の音素には声調を付けず、単語・文字名・練習音節に声調を付けています。</p><a href="pronunciation.html">発音表記と単語ごとの出典</a></details>
 </body>
 </html>
