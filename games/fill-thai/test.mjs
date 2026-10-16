@@ -7,11 +7,13 @@ class Element {
   replaceChildren(...children) { this.children = children; }
   append(...children) { this.children.push(...children); }
   setAttribute() {} focus() {}
+  getContext() { return { measureText: () => ({ actualBoundingBoxAscent: 24, actualBoundingBoxDescent: 0 }) }; }
   get firstElementChild() { return this.children[0]; }
 }
 const elements = new Map();
 const get = id => { if (!elements.has(id)) elements.set(id, new Element()); return elements.get(id); };
-globalThis.document = { getElementById: get, createElement: () => new Element() };
+globalThis.document = { getElementById: get, createElement: () => new Element(), createElementNS: () => new Element() };
+globalThis.getComputedStyle = () => ({ fontFamily: 'sans-serif' });
 const load = path => JSON.parse(fs.readFileSync(new URL(path, import.meta.url)));
 globalThis.fetch = async path => ({ ok: true, json: async () => load(path) });
 let scheduled;

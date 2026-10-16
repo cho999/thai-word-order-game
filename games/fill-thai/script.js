@@ -61,8 +61,33 @@ function show() {
   $('choices').replaceChildren(...alphabets[mode].map(letter => {
     const button = document.createElement('button');
     button.type = 'button'; button.lang = 'th'; button.dataset.letter = letter;
-    button.textContent = /[่้๊๋ิีึืุู]/u.test(letter) ? '◌' + letter : letter;
-    button.setAttribute('aria-label', `${names[mode]} ${button.textContent}`);
+    if (/[่้๊๋ิีึืุู]/u.test(letter)) {
+      // Shape a complete Thai syllable, then mask out the base glyph only.
+      // Coloring separate spans can make the entire shaped cluster transparent.
+      const svg = (tag, attrs = {}, text) => {
+        const node = document.createElementNS('http://www.w3.org/2000/svg', tag);
+        for (const [name, value] of Object.entries(attrs)) node.setAttribute(name, value);
+        if (text) node.textContent = text;
+        return node;
+      };
+      const maskId = `carrier-mask-${letter.codePointAt(0)}`;
+      const sample = svg('svg', { viewBox: '0 0 64 90', class: 'mark-sample', 'aria-hidden': 'true', focusable: 'false' });
+      const defs = svg('defs');
+      const mask = svg('mask', { id: maskId, maskUnits: 'userSpaceOnUse', x: '0', y: '0', width: '64', height: '90' });
+      const context = document.createElement('canvas').getContext('2d');
+      context.font = `40px ${getComputedStyle($('word')).fontFamily}`;
+      const base = context.measureText('ก');
+      // Cover the base's whole height, including antialiasing at its edges.
+      // Measure the active Thai font so upper/lower marks stay outside the mask.
+      mask.append(svg('rect', { width: '64', height: '90', fill: 'white' }), svg('rect', {
+        x: '0', y: String(60 - base.actualBoundingBoxAscent - 1), width: '64',
+        height: String(base.actualBoundingBoxAscent + base.actualBoundingBoxDescent + 2), fill: 'black'
+      }));
+      defs.append(mask);
+      sample.append(defs, svg('text', { x: '12', y: '60', 'font-size': '40', fill: 'currentColor', mask: `url(#${maskId})` }, 'ก' + letter));
+      button.append(sample);
+    } else button.textContent = letter;
+    button.setAttribute('aria-label', `${names[mode]} ${letter}`);
     button.addEventListener('click', () => answer(letter));
     return button;
   }));
