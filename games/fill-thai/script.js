@@ -1,4 +1,5 @@
 import { shuffle } from '../../shared/random.js';
+import { maskedWord } from './word-display.js';
 
 // Positions are explicit: Thai vowels and tone marks are not separate graphemes.
 // Only these short, previously taught words are used across all four levels.
@@ -15,7 +16,7 @@ export const targets = [
   ['ร้อง',0,null,1,null]
 ];
 export const alphabets = [
-  [...'กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ'],
+  [...'กขคงชดตนบปพมรลวสหอ'],
   [...'เแโใไ'], [...'่้๊๋'], [...'ะาำิีึืุูๅ']
 ];
 const meanings = {
@@ -34,7 +35,7 @@ export function makePool(words, level) {
     const entry = words.find(word => word.th === row[0]);
     if (!entry) throw new Error(`Missing vocabulary: ${row[0]}`);
     const position = row[level + 1];
-    return { ...entry, english: meanings[entry.th], answer: entry.th[position], masked: entry.th.slice(0, position) + '＿' + entry.th.slice(position + 1) };
+    return { ...entry, position, english: meanings[entry.th], answer: entry.th[position], masked: entry.th.slice(0, position) + '＿' + entry.th.slice(position + 1) };
   });
 }
 
@@ -54,7 +55,8 @@ function show() {
   $('progress').textContent = `Question ${index + 1} / 8 · Correct: ${correct}`;
   $('meter').value = index;
   $('meaning').textContent = question.english;
-  $('word').textContent = question.masked;
+  $('word').dataset.masked = question.masked;
+  $('word').replaceChildren(maskedWord(question, mode, getComputedStyle($('word')).fontFamily));
   $('instruction').textContent = `Choose the missing ${names[mode]}.`;
   $('feedback').replaceChildren(); $('next').hidden = true;
   $('choicesTitle').textContent = `Choose a ${names[mode]}`;
@@ -132,6 +134,8 @@ function advance() {
 async function init() {
   $('start').disabled = true;
   try {
+    // Use the bundled Thai font before measuring glyphs for the masks.
+    await document.fonts.load('64px "Fill Thai Sarabun"');
     const responses = await Promise.all([fetch('../../data/vocabulary.json'), fetch('../../data/vocab-lessons.json')]);
     if (responses.some(response => !response.ok)) throw new Error('Vocabulary request failed');
     const [words, lessons] = await Promise.all(responses.map(response => response.json()));

@@ -1,18 +1,18 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 class Element {
-  children = []; dataset = {}; handlers = {}; value = '0';
+  children = []; dataset = {}; handlers = {}; value = '0'; style = {};
   classList = { add() {} };
   addEventListener(event, handler) { this.handlers[event] = handler; }
   replaceChildren(...children) { this.children = children; }
   append(...children) { this.children.push(...children); }
   setAttribute() {} focus() {}
-  getContext() { return { measureText: () => ({ actualBoundingBoxAscent: 24, actualBoundingBoxDescent: 0 }) }; }
+  getContext() { return { measureText: text => ({ width: text.length * 30, actualBoundingBoxAscent: 24, actualBoundingBoxDescent: 0, actualBoundingBoxLeft: 0, actualBoundingBoxRight: 30 }) }; }
   get firstElementChild() { return this.children[0]; }
 }
 const elements = new Map();
 const get = id => { if (!elements.has(id)) elements.set(id, new Element()); return elements.get(id); };
-globalThis.document = { getElementById: get, createElement: () => new Element(), createElementNS: () => new Element() };
+globalThis.document = { getElementById: get, createElement: () => new Element(), createElementNS: () => new Element(), fonts: {load: async () => []} };
 globalThis.getComputedStyle = () => ({ fontFamily: 'sans-serif' });
 const load = path => JSON.parse(fs.readFileSync(new URL(path, import.meta.url)));
 globalThis.fetch = async path => ({ ok: true, json: async () => load(path) });
@@ -20,6 +20,7 @@ let scheduled;
 globalThis.setTimeout = handler => { scheduled = handler; return 1; };
 globalThis.clearTimeout = () => { scheduled = null; };
 const { makePool, alphabets } = await import('./script.js');
+assert.equal(alphabets[0].length, 18);
 await new Promise(resolve => setImmediate(resolve));
 assert.equal(get('start').disabled, false);
 const mother = load('../../data/vocab-lessons.json').flatMap(l => l.words).find(w => w.thai === 'แม่');
@@ -36,7 +37,7 @@ for (let level = 0; level < 4; level++) {
   get('level').value = String(level); get('start').handlers.click();
   const seen = new Set();
   for (let index = 0; index < 8; index++) {
-    const q = pool.find(q => q.masked === get('word').textContent && q.english === get('meaning').textContent);
+    const q = pool.find(q => q.masked === get('word').dataset.masked && q.english === get('meaning').textContent);
     assert.ok(q); seen.add(q.th);
     assert.equal(get('feedback').children.length, 0);
     const wrong = index === 0;

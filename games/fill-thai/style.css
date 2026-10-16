@@ -2,3 +2,7 @@ body{font-family:system-ui,"Sarabun","Noto Sans Thai",sans-serif;line-height:1.6
 
 /* Shape marks on a real consonant, masking only the consonant's outline. */
 .mark-sample{display:block;width:100%;max-width:1.5em;height:2.1em;margin:auto;overflow:visible;font-family:var(--thai-font)}
+@font-face{font-family:"Fill Thai Sarabun";src:url("../../assets/fonts/sarabun/Sarabun-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+body{--thai-font:"Fill Thai Sarabun",Tahoma,sans-serif}
+.masked-word{display:inline-block;max-width:100%;height:2.0625em;vertical-align:middle;overflow:visible;font-family:var(--thai-font);font-weight:400}
+.missing-slot{fill:none;stroke:var(--nari-teal-dark);stroke-width:1.6;stroke-dasharray:4 3}
