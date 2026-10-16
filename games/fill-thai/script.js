@@ -25,7 +25,7 @@ const meanings = {
   'สี': 'color', 'ดู': 'watch / look', 'นี่': 'this', 'แม่': 'mother',
   'ดื่ม': 'drink', 'อ่าน': 'read', 'ร้อง': 'sing'
 };
-const names = ['子音','語頭の母音','声調記号','語末の母音'];
+const names = ['consonant','leading vowel','tone mark','final vowel'];
 const $ = id => document.getElementById(id);
 let vocabulary, round = [], index = 0, correct = 0, locked = true, timer, mode = 0, mistakes = [];
 
@@ -44,20 +44,20 @@ function start() {
   round = shuffle(makePool(vocabulary, mode)).slice(0, 8);
   index = 0; correct = 0; mistakes = [];
   $('result').hidden = true; $('game').hidden = false;
-  $('status').textContent = '正解すると自動で次へ進みます。間違えたら答えを確認して「次へ」を押してください。';
+  $('status').textContent = 'Correct answers advance automatically. After a mistake, review the answer and pronunciation, then select “Next question”.';
   show();
 }
 
 function show() {
   locked = false;
   const question = round[index];
-  $('progress').textContent = `第${index + 1}問 / 8 ・ 正解 ${correct}`;
+  $('progress').textContent = `Question ${index + 1} / 8 · Correct: ${correct}`;
   $('meter').value = index;
   $('meaning').textContent = question.english;
   $('word').textContent = question.masked;
-  $('instruction').textContent = `空欄に入る${names[mode]}を選んでください。`;
+  $('instruction').textContent = `Choose the missing ${names[mode]}.`;
   $('feedback').replaceChildren(); $('next').hidden = true;
-  $('choicesTitle').textContent = `${names[mode]}の一覧`;
+  $('choicesTitle').textContent = `Choose a ${names[mode]}`;
   $('choices').replaceChildren(...alphabets[mode].map(letter => {
     const button = document.createElement('button');
     button.type = 'button'; button.lang = 'th'; button.dataset.letter = letter;
@@ -75,9 +75,9 @@ function answer(letter) {
   if (success) correct++; else mistakes.push(question);
   $('word').textContent = question.th;
   const message = document.createElement('strong');
-  message.textContent = success ? '正解！' : `正解は「${question.answer}」です。`;
+  message.textContent = success ? 'Correct!' : `The correct answer is “${question.answer}”.`;
   const reading = document.createElement('span'); reading.className = 'reading';
-  reading.textContent = `発音：${question.thaiReading}`;
+  reading.textContent = `Pronunciation: ${question.thaiReading}`;
   $('feedback').replaceChildren(message, reading);
   for (const button of $('choices').children) {
     button.disabled = true;
@@ -93,8 +93,8 @@ function advance() {
   index++;
   if (index < 8) { show(); $('choices').firstElementChild.focus(); return; }
   $('game').hidden = true; $('result').hidden = false;
-  $('score').textContent = `8問中 ${correct}問正解`;
-  $('status').textContent = '練習が終わりました。';
+  $('score').textContent = `${correct} / 8 correct`;
+  $('status').textContent = 'Practice complete.';
   $('review').replaceChildren(...mistakes.map(question => {
     const row = document.createElement('p'); row.className = 'review-row';
     const word = document.createElement('span'); word.lang = 'th'; word.textContent = question.th;
@@ -123,7 +123,7 @@ async function init() {
     $('next').addEventListener('click', advance);
     $('levelUp').addEventListener('click', () => { $('level').value = String(mode + 1); start(); });
   } catch (error) {
-    $('status').textContent = '語彙を読み込めませんでした。ページを再読み込みしてください。';
+    $('status').textContent = 'Could not load the vocabulary. Please reload the page.';
     console.error(error);
   }
 }

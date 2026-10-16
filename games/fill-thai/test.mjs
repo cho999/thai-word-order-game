@@ -40,7 +40,7 @@ for (let level = 0; level < 4; level++) {
     const wrong = index === 0;
     const button = get('choices').children.find(b => wrong ? b.dataset.letter !== q.answer : b.dataset.letter === q.answer);
     button.handlers.click();
-    assert.equal(get('feedback').children[1].textContent, `発音：${q.thaiReading}`);
+    assert.equal(get('feedback').children[1].textContent, `Pronunciation: ${q.thaiReading}`);
     assert.ok(get('choices').children.every(b => b.disabled));
     // Repeated clicks cannot change a locked answer.
     button.handlers.click();
@@ -50,7 +50,7 @@ for (let level = 0; level < 4; level++) {
     } else { assert.equal(typeof scheduled, 'function'); scheduled(); }
   }
   assert.equal(seen.size, 8);
-  assert.equal(get('score').textContent, '8問中 7問正解');
+  assert.equal(get('score').textContent, '7 / 8 correct');
   assert.equal(get('result').hidden, false);
   assert.equal(get('review').children.length, 1);
   console.log(`Level ${level + 1}: pool, eight unique questions, hidden pronunciation, answer locking, progression and result passed`);

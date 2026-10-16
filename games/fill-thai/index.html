@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>เติมตัวอักษรไทย - タイ文字の穴うめ練習 | Nari's Thai Adventure</title>
-  <meta name="description" content="既習の短いタイ語で子音・母音・声調記号を練習。ランダムな8問に挑戦しましょう。">
+  <title>เติมตัวอักษรไทย - Thai Letter Fill-in Practice | Nari's Thai Adventure</title>
+  <meta name="description" content="Practice Thai consonants, vowels, and tone marks with eight random fill-in questions using short, familiar words. Pronunciation appears only after answering.">
   <link rel="canonical" href="https://cho999.github.io/thai-word-order-game/games/fill-thai/">
   <meta property="og:title" content="เติมตัวอักษรไทย | Thai Letter Fill-in Practice">
   <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -12,25 +12,25 @@
 </head>
 <body class="nari-theme">
   <main>
-    <a href="../../index.html">← 教材一覧</a>
-    <header><p class="eyebrow">Thai Letter Practice</p><h1>เติมตัวอักษรไทย</h1><p>タイ文字の穴うめ練習</p><p>意味を見て、空欄に入る文字を選びましょう。1回8問。発音は回答後に表示します。</p></header>
-    <section class="panel settings" aria-label="練習の設定">
-      <label for="level">レベル</label>
-      <select id="level"><option value="0">Lv.1 子音</option><option value="1">Lv.2 語頭の母音</option><option value="2">Lv.3 声調記号</option><option value="3">Lv.4 語末の母音</option></select>
-      <button id="start" type="button">8問を始める</button>
+    <a href="../../index.html">← All games</a>
+    <header><p class="eyebrow">Thai Letter Practice</p><h1 lang="th">เติมตัวอักษรไทย</h1><p>Thai Letter Fill-in Practice</p><p>Use the English meaning to choose the missing Thai letter. Each round has eight random questions using short, familiar words. Pronunciation appears only after you answer.</p></header>
+    <section class="panel settings" aria-label="Practice settings">
+      <label for="level">Level</label>
+      <select id="level"><option value="0">Lv.1 Consonants</option><option value="1">Lv.2 Leading vowels</option><option value="2">Lv.3 Tone marks</option><option value="3">Lv.4 Final vowels</option></select>
+      <button id="start" type="button">Start 8 questions</button>
     </section>
-    <p id="status" role="status">レベルを選んで始めましょう。</p>
+    <p id="status" role="status">Choose a level, then start a round.</p>
     <section id="game" hidden>
       <div class="panel question">
-        <p id="progress"></p><progress id="meter" max="8" value="0" aria-label="練習の進み具合"></progress>
-        <h2 id="meaning" lang="en"></h2><p id="word" lang="th" aria-label="穴うめ問題"></p>
+        <p id="progress"></p><progress id="meter" max="8" value="0" aria-label="Round progress"></progress>
+        <h2 id="meaning" lang="en"></h2><p id="word" lang="th" aria-label="Word with a missing letter"></p>
         <p id="instruction"></p>
         <div id="feedback" aria-live="polite" aria-atomic="true"></div>
-        <button id="next" type="button" hidden>確認しました・次へ</button>
+        <button id="next" type="button" hidden>Next question</button>
       </div>
-      <section class="panel"><h2 id="choicesTitle">文字の一覧</h2><div id="choices" aria-labelledby="choicesTitle"></div></section>
+      <section class="panel"><h2 id="choicesTitle">Letter choices</h2><div id="choices" aria-labelledby="choicesTitle"></div></section>
     </section>
-    <section id="result" class="panel" hidden aria-live="polite"><h2>8問おつかれさまでした！</h2><p id="score"></p><div id="review"></div><button id="again" type="button">同じレベルでもう一度</button><button id="levelUp" type="button">次のレベルへ</button></section>
+    <section id="result" class="panel" hidden aria-live="polite"><h2>Round complete!</h2><p id="score"></p><div id="review"></div><button id="again" type="button">Practice this level again</button><button id="levelUp" type="button">Try the next level</button></section>
   </main>
   <script type="module" src="script.js"></script>
 </body>
